@@ -1,0 +1,1501 @@
+codigo_orden,fecha_ingreso,placa,tipo_vehiculo,taller,servicio_principal,mecanico_responsable,fecha_entrega,costo_total,estado
+OT-00001,05/01/2026,AKD-196,Sedán,Taller Surco,Mantenimiento preventivo 10 000 km,Pedro Ramírez,06/01/2026,402.30,Finalizada
+OT-00002,05/01/2026,YVU-321,Camioneta pick-up,Taller San Miguel,Frenos,Luis Pérez,09/01/2026,348.60,Finalizada
+OT-00003,05/01/2026,NCB-953,Hatchback,Taller Lima Centro,Diagnóstico electrónico,María Huamán,06/01/2026,158.57,Finalizada
+OT-00004,05/01/2026,UBR-988,Motocicleta,Taller Lima Centro,Frenos,José Rojas,11/01/2026,286.95,Finalizada
+OT-00005,05/01/2026,MFJ-575,Sedán,Taller San Miguel,Suspensión,Ana Torres,11/01/2026,728.64,Finalizada
+OT-00006,05/01/2026,KMU-848,Hatchback,Taller San Miguel,Mantenimiento preventivo 10 000 km,Ana Torres,10/01/2026,449.51,Finalizada
+OT-00007,06/01/2026,YAE-761,Motocicleta,Taller Lima Centro,Frenos,Carlos Quispe,08/01/2026,422.17,Finalizada
+OT-00008,06/01/2026,DLT-624,Motocicleta,Taller San Miguel,Cambio de aceite,Jorge Mendoza,12/01/2026,100.03,Finalizada
+OT-00009,06/01/2026,UXJ-339,Minivan,Taller San Miguel,Cambio de aceite,Ana Torres,11/01/2026,92.62,Finalizada
+OT-00010,07/01/2026,TJP-677,Minivan,Taller San Miguel,Diagnóstico electrónico,Jorge Mendoza,13/01/2026,199.18,Finalizada
+OT-00011,07/01/2026,VUS-869,Motocicleta,Taller Surco,Frenos,Pedro Ramírez,07/01/2026,203.93,Finalizada
+OT-00012,07/01/2026,MFJ-575,Sedán,Taller San Miguel,Aire acondicionado,Jorge Mendoza,09/01/2026,622.45,Finalizada
+OT-00013,07/01/2026,LBY-960,Camioneta pick-up,Taller San Miguel,Planchado y pintura,Luis Pérez,12/01/2026,1197.03,Finalizada
+OT-00014,07/01/2026,TWS-507,SUV,Taller Surco,Cambio de aceite,Pedro Ramírez,08/01/2026,94.47,Finalizada
+OT-00015,07/01/2026,UTH-948,Camioneta pick-up,Taller Surco,Cambio de aceite,Pedro Ramírez,13/01/2026,144.93,Finalizada
+OT-00016,08/01/2026,GMM-570,Minivan,Taller Surco,Alineamiento y balanceo,Rosa Flores,13/01/2026,129.92,Finalizada
+OT-00017,08/01/2026,STT-924,Motocicleta,Taller Surco,Frenos,Pedro Ramírez,09/01/2026,448.59,Finalizada
+OT-00018,08/01/2026,MLR-721,Camioneta pick-up,Taller Surco,Afinamiento,Rosa Flores,14/01/2026,379.15,Finalizada
+OT-00019,08/01/2026,DWZ-387,Motocicleta,Taller San Miguel,Frenos,Luis Pérez,10/01/2026,483.92,Finalizada
+OT-00020,08/01/2026,XRU-930,SUV,Taller San Miguel,Afinamiento,Ana Torres,12/01/2026,252.31,Finalizada
+OT-00021,09/01/2026,YUV-978,Motocicleta,Taller Surco,Cambio de aceite,Pedro Ramírez,13/01/2026,123.24,Finalizada
+OT-00022,09/01/2026,YBK-424,Motocicleta,Taller San Miguel,Mantenimiento preventivo 10 000 km,Jorge Mendoza,10/01/2026,614.29,Finalizada
+OT-00023,09/01/2026,ESA-462,Motocicleta,Taller San Miguel,Cambio de aceite,Ana Torres,12/01/2026,162.34,Finalizada
+OT-00024,10/01/2026,TYJ-498,SUV,Taller San Miguel,Diagnóstico electrónico,Luis Pérez,12/01/2026,130.58,Finalizada
+OT-00025,10/01/2026,YPL-197,Hatchback,Taller San Miguel,Frenos,Luis Pérez,13/01/2026,277.45,Finalizada
+OT-00026,10/01/2026,JAB-253,Sedán,Taller Surco,Alineamiento y balanceo,Pedro Ramírez,15/01/2026,131.72,Finalizada
+OT-00027,10/01/2026,AVH-884,SUV,Taller Lima Centro,Suspensión,María Huamán,11/01/2026,1138.22,Finalizada
+OT-00028,10/01/2026,EMP-493,Sedán,Taller San Miguel,Alineamiento y balanceo,Ana Torres,15/01/2026,110.87,Finalizada
+OT-00029,10/01/2026,LFG-925,Camioneta pick-up,Taller Surco,Diagnóstico electrónico,Pedro Ramírez,14/01/2026,193.71,Finalizada
+OT-00030,10/01/2026,ESA-462,Motocicleta,Taller Surco,Afinamiento,Pedro Ramírez,10/01/2026,336.21,Finalizada
+OT-00031,10/01/2026,UNB-300,Minivan,Taller Lima Centro,Planchado y pintura,José Rojas,16/01/2026,591.77,Finalizada
+OT-00032,11/01/2026,LYK-560,Minivan,Taller Surco,Frenos,Miguel Castillo,13/01/2026,215.60,Finalizada
+OT-00033,11/01/2026,FJJ-164,Camioneta pick-up,Taller Surco,Mantenimiento preventivo 10 000 km,Pedro Ramírez,16/01/2026,682.94,Finalizada
+OT-00034,11/01/2026,NHP-778,Camioneta pick-up,Taller Lima Centro,Cambio de aceite,José Rojas,13/01/2026,173.27,Finalizada
+OT-00035,11/01/2026,ZTJ-563,SUV,Taller Surco,Aire acondicionado,Rosa Flores,13/01/2026,632.61,Finalizada
+OT-00036,12/01/2026,ZTJ-563,SUV,Taller San Miguel,Cambio de aceite,Ana Torres,12/01/2026,179.41,Finalizada
+OT-00037,12/01/2026,VYE-541,Minivan,Taller San Miguel,Frenos,Jorge Mendoza,18/01/2026,514.65,Finalizada
+OT-00038,12/01/2026,UTH-948,Camioneta pick-up,Taller Lima Centro,Frenos,José Rojas,16/01/2026,338.39,Finalizada
+OT-00039,13/01/2026,LBY-960,Camioneta pick-up,Taller San Miguel,Cambio de aceite,Jorge Mendoza,17/01/2026,124.09,Finalizada
+OT-00040,13/01/2026,KMB-853,Camioneta pick-up,Taller San Miguel,Alineamiento y balanceo,Jorge Mendoza,13/01/2026,141.86,Finalizada
+OT-00041,13/01/2026,PTU-439,SUV,Taller San Miguel,Embrague,Jorge Mendoza,16/01/2026,910.49,Finalizada
+OT-00042,13/01/2026,FJJ-164,Camioneta pick-up,Taller San Miguel,Mantenimiento preventivo 10 000 km,Luis Pérez,15/01/2026,687.68,Finalizada
+OT-00043,14/01/2026,YPL-197,Hatchback,Taller Lima Centro,Embrague,José Rojas,19/01/2026,1210.61,Finalizada
+OT-00044,14/01/2026,DAU-322,Minivan,Taller Surco,Alineamiento y balanceo,Miguel Castillo,17/01/2026,123.70,Finalizada
+OT-00045,14/01/2026,LYV-688,Minivan,Taller Lima Centro,Frenos,Carlos Quispe,16/01/2026,268.85,Finalizada
+OT-00046,14/01/2026,UBR-988,Motocicleta,Taller San Miguel,Alineamiento y balanceo,Luis Pérez,15/01/2026,121.66,Finalizada
+OT-00047,14/01/2026,YBK-424,Motocicleta,Taller San Miguel,Mantenimiento preventivo 10 000 km,Luis Pérez,18/01/2026,354.58,Finalizada
+OT-00048,15/01/2026,EVK-619,Sedán,Taller Lima Centro,Suspensión,Carlos Quispe,18/01/2026,1013.56,Finalizada
+OT-00049,15/01/2026,AXH-581,Minivan,Taller San Miguel,Cambio de aceite,Jorge Mendoza,21/01/2026,132.02,Finalizada
+OT-00050,15/01/2026,YDZ-737,SUV,Taller San Miguel,Alineamiento y balanceo,Ana Torres,21/01/2026,82.35,Finalizada
+OT-00051,15/01/2026,GNA-208,SUV,Taller Surco,Aire acondicionado,Rosa Flores,19/01/2026,532.86,Finalizada
+OT-00052,15/01/2026,JPU-524,Hatchback,Taller San Miguel,Aire acondicionado,Luis Pérez,,341.46,Cancelada
+OT-00053,15/01/2026,JAB-253,Sedán,Taller San Miguel,Afinamiento,Luis Pérez,19/01/2026,273.72,Finalizada
+OT-00054,15/01/2026,KMB-853,Camioneta pick-up,Taller Surco,Frenos,Pedro Ramírez,21/01/2026,317.56,Finalizada
+OT-00055,15/01/2026,GHA-195,Minivan,Taller Surco,Alineamiento y balanceo,Miguel Castillo,16/01/2026,157.78,Finalizada
+OT-00056,16/01/2026,TGT-241,Minivan,Taller Lima Centro,Planchado y pintura,Carlos Quispe,22/01/2026,1240.67,Finalizada
+OT-00057,16/01/2026,DWB-869,Motocicleta,Taller San Miguel,Cambio de aceite,Ana Torres,18/01/2026,155.55,Finalizada
+OT-00058,16/01/2026,CLC-670,Motocicleta,Taller Lima Centro,Afinamiento,María Huamán,19/01/2026,364.27,Finalizada
+OT-00059,16/01/2026,EVK-619,Sedán,Taller Surco,Afinamiento,Rosa Flores,18/01/2026,416.00,Finalizada
+OT-00060,17/01/2026,SYV-419,Camioneta pick-up,Taller Lima Centro,Alineamiento y balanceo,María Huamán,18/01/2026,152.04,Finalizada
+OT-00061,17/01/2026,DCN-368,Hatchback,Taller Lima Centro,Afinamiento,José Rojas,23/01/2026,443.04,Finalizada
+OT-00062,17/01/2026,DWZ-387,Motocicleta,Taller San Miguel,Mantenimiento preventivo 10 000 km,Luis Pérez,20/01/2026,679.89,Finalizada
+OT-00063,17/01/2026,TSP-671,Sedán,Taller Surco,Cambio de aceite,Miguel Castillo,18/01/2026,122.71,Finalizada
+OT-00064,18/01/2026,RDR-805,SUV,Taller Surco,Afinamiento,Pedro Ramírez,18/01/2026,329.09,Finalizada
+OT-00065,18/01/2026,BNL-722,Sedán,Taller Surco,Mantenimiento preventivo 10 000 km,Pedro Ramírez,24/01/2026,412.97,Finalizada
+OT-00066,18/01/2026,EDL-596,Minivan,Taller San Miguel,Afinamiento,Jorge Mendoza,19/01/2026,434.10,Finalizada
+OT-00067,18/01/2026,FJJ-164,Camioneta pick-up,Taller Lima Centro,Planchado y pintura,Carlos Quispe,24/01/2026,792.41,Finalizada
+OT-00068,18/01/2026,DFW-225,Camioneta pick-up,Taller San Miguel,Suspensión,Jorge Mendoza,20/01/2026,415.73,Finalizada
+OT-00069,19/01/2026,VRH-102,Motocicleta,Taller Surco,Afinamiento,Pedro Ramírez,24/01/2026,445.69,Finalizada
+OT-00070,19/01/2026,DWZ-387,Motocicleta,Taller Lima Centro,Mantenimiento preventivo 10 000 km,María Huamán,21/01/2026,653.90,Finalizada
+OT-00071,19/01/2026,YAE-761,Motocicleta,Taller Lima Centro,Cambio de aceite,José Rojas,,136.94,Cancelada
+OT-00072,19/01/2026,JDP-275,SUV,Taller Lima Centro,Cambio de aceite,Carlos Quispe,25/01/2026,113.03,Finalizada
+OT-00073,19/01/2026,VWF-257,Hatchback,Taller Surco,Cambio de aceite,Pedro Ramírez,21/01/2026,135.23,Finalizada
+OT-00074,19/01/2026,DLT-624,Motocicleta,Taller San Miguel,Diagnóstico electrónico,Jorge Mendoza,19/01/2026,210.17,Finalizada
+OT-00075,19/01/2026,ABD-340,SUV,Taller Lima Centro,Mantenimiento preventivo 10 000 km,Carlos Quispe,25/01/2026,463.77,Finalizada
+OT-00076,20/01/2026,CNK-291,Sedán,Taller Surco,Mantenimiento preventivo 10 000 km,Rosa Flores,22/01/2026,524.36,Finalizada
+OT-00077,20/01/2026,KBV-778,Motocicleta,Taller Lima Centro,Aire acondicionado,José Rojas,26/01/2026,343.79,Finalizada
+OT-00078,20/01/2026,EWW-354,Hatchback,Taller San Miguel,Suspensión,Jorge Mendoza,24/01/2026,1083.50,Finalizada
+OT-00079,20/01/2026,HSV-234,Hatchback,Taller Surco,Alineamiento y balanceo,Rosa Flores,20/01/2026,136.90,Finalizada
+OT-00080,20/01/2026,WUP-902,Motocicleta,Taller Surco,Frenos,Pedro Ramírez,23/01/2026,402.58,Finalizada
+OT-00081,20/01/2026,BHY-620,Sedán,Taller San Miguel,Cambio de aceite,Jorge Mendoza,23/01/2026,136.96,Finalizada
+OT-00082,21/01/2026,PTU-439,SUV,Taller Surco,Planchado y pintura,Rosa Flores,27/01/2026,1609.07,Finalizada
+OT-00083,21/01/2026,ZTJ-563,SUV,Taller Surco,Frenos,Miguel Castillo,25/01/2026,296.14,Finalizada
+OT-00084,21/01/2026,VCF-666,Motocicleta,Taller Surco,Mantenimiento preventivo 10 000 km,Rosa Flores,22/01/2026,464.10,Finalizada
+OT-00085,22/01/2026,DRA-934,Minivan,Taller Surco,Alineamiento y balanceo,Pedro Ramírez,26/01/2026,120.06,Finalizada
+OT-00086,22/01/2026,AAT-587,Hatchback,Taller San Miguel,Frenos,Luis Pérez,24/01/2026,224.77,Finalizada
+OT-00087,22/01/2026,AAT-587,Hatchback,Taller San Miguel,Alineamiento y balanceo,Luis Pérez,26/01/2026,113.70,Finalizada
+OT-00088,22/01/2026,SPK-578,SUV,Taller San Miguel,Cambio de aceite,Luis Pérez,22/01/2026,152.42,Finalizada
+OT-00089,22/01/2026,UXJ-339,Minivan,Taller San Miguel,Afinamiento,Luis Pérez,,277.24,Cancelada
+OT-00090,22/01/2026,STT-924,Motocicleta,Taller Lima Centro,Cambio de aceite,María Huamán,27/01/2026,125.65,Finalizada
+OT-00091,22/01/2026,VCK-422,SUV,Taller San Miguel,Mantenimiento preventivo 10 000 km,Ana Torres,28/01/2026,581.35,Finalizada
+OT-00092,23/01/2026,JRJ-248,Hatchback,Taller San Miguel,Frenos,Luis Pérez,23/01/2026,491.44,Finalizada
+OT-00093,23/01/2026,NGX-109,Hatchback,Taller Surco,Frenos,Pedro Ramírez,27/01/2026,442.06,Finalizada
+OT-00094,23/01/2026,YSY-421,Hatchback,Taller Lima Centro,Suspensión,José Rojas,26/01/2026,1176.92,Finalizada
+OT-00095,23/01/2026,YDZ-737,SUV,Taller Surco,Afinamiento,Rosa Flores,26/01/2026,339.66,Finalizada
+OT-00096,23/01/2026,DTY-821,Camioneta pick-up,Taller San Miguel,Cambio de aceite,Luis Pérez,,124.05,Cancelada
+OT-00097,23/01/2026,DTY-821,Camioneta pick-up,Taller San Miguel,Aire acondicionado,Ana Torres,27/01/2026,403.88,Finalizada
+OT-00098,23/01/2026,JAB-253,Sedán,Taller San Miguel,Suspensión,Jorge Mendoza,26/01/2026,772.98,Finalizada
+OT-00099,24/01/2026,SPK-578,SUV,Taller Surco,Cambio de aceite,Rosa Flores,25/01/2026,169.40,Finalizada
+OT-00100,24/01/2026,YPL-197,Hatchback,Taller Surco,Frenos,Pedro Ramírez,25/01/2026,308.80,Finalizada
+OT-00101,24/01/2026,KVJ-786,SUV,Taller Surco,Aire acondicionado,Rosa Flores,27/01/2026,320.01,Finalizada
+OT-00102,24/01/2026,GER-860,Motocicleta,Taller San Miguel,Alineamiento y balanceo,Ana Torres,29/01/2026,95.01,Finalizada
+OT-00103,24/01/2026,GUB-838,Motocicleta,Taller San Miguel,Mantenimiento preventivo 10 000 km,Jorge Mendoza,27/01/2026,684.00,Finalizada
+OT-00104,25/01/2026,GHA-195,Minivan,Taller Lima Centro,Planchado y pintura,Carlos Quispe,25/01/2026,1013.90,Finalizada
+OT-00105,25/01/2026,VWF-257,Hatchback,Taller Lima Centro,Mantenimiento preventivo 10 000 km,Carlos Quispe,28/01/2026,423.88,Finalizada
+OT-00106,25/01/2026,GER-860,Motocicleta,Taller Lima Centro,Afinamiento,María Huamán,30/01/2026,398.73,Finalizada
+OT-00107,26/01/2026,UJU-511,Camioneta pick-up,Taller Lima Centro,Afinamiento,María Huamán,30/01/2026,333.02,Finalizada
+OT-00108,26/01/2026,MFJ-575,Sedán,Taller San Miguel,Diagnóstico electrónico,Jorge Mendoza,31/01/2026,154.08,Finalizada
+OT-00109,26/01/2026,LDS-577,Motocicleta,Taller Surco,Cambio de aceite,Pedro Ramírez,29/01/2026,127.78,Finalizada
+OT-00110,26/01/2026,AKD-196,Sedán,Taller Lima Centro,Diagnóstico electrónico,María Huamán,28/01/2026,165.48,Finalizada
+OT-00111,26/01/2026,KAP-692,Minivan,Taller Surco,Frenos,Miguel Castillo,29/01/2026,285.41,Finalizada
+OT-00112,26/01/2026,EBZ-635,Hatchback,Taller San Miguel,Cambio de aceite,Luis Pérez,31/01/2026,102.55,Finalizada
+OT-00113,26/01/2026,EMP-493,Sedán,Taller San Miguel,Aire acondicionado,Ana Torres,27/01/2026,468.62,Finalizada
+OT-00114,26/01/2026,DFW-225,Camioneta pick-up,Taller Surco,Frenos,Miguel Castillo,,387.70,Cancelada
+OT-00115,27/01/2026,WZT-397,Minivan,Taller Surco,Alineamiento y balanceo,Pedro Ramírez,29/01/2026,85.63,Finalizada
+OT-00116,27/01/2026,JPU-524,Hatchback,Taller Lima Centro,Alineamiento y balanceo,José Rojas,27/01/2026,159.46,Finalizada
+OT-00117,27/01/2026,JLE-741,Minivan,Taller Surco,Mantenimiento preventivo 10 000 km,Rosa Flores,02/02/2026,548.11,Finalizada
+OT-00118,27/01/2026,TSP-671,Sedán,Taller Surco,Embrague,Miguel Castillo,01/02/2026,873.52,Finalizada
+OT-00119,27/01/2026,NPG-401,SUV,Taller Lima Centro,Afinamiento,Carlos Quispe,31/01/2026,442.53,Finalizada
+OT-00120,27/01/2026,BNN-651,SUV,Taller Surco,Cambio de aceite,Pedro Ramírez,,104.45,Cancelada
+OT-00121,28/01/2026,TJD-968,Hatchback,Taller San Miguel,Planchado y pintura,Ana Torres,03/02/2026,931.72,Finalizada
+OT-00122,28/01/2026,FPS-165,Sedán,Taller San Miguel,Cambio de aceite,Ana Torres,28/01/2026,121.50,Finalizada
+OT-00123,28/01/2026,WLR-712,SUV,Taller Lima Centro,Frenos,María Huamán,31/01/2026,361.88,Finalizada
+OT-00124,29/01/2026,UKK-568,SUV,Taller San Miguel,Diagnóstico electrónico,Luis Pérez,29/01/2026,157.61,Finalizada
+OT-00125,29/01/2026,VWF-257,Hatchback,Taller San Miguel,Mantenimiento preventivo 10 000 km,Ana Torres,29/01/2026,518.28,Finalizada
+OT-00126,29/01/2026,RXN-509,Hatchback,Taller Surco,Alineamiento y balanceo,Pedro Ramírez,29/01/2026,146.71,Finalizada
+OT-00127,29/01/2026,YPL-197,Hatchback,Taller Surco,Planchado y pintura,Rosa Flores,02/02/2026,860.67,Finalizada
+OT-00128,29/01/2026,DRA-934,Minivan,Taller Surco,Mantenimiento preventivo 10 000 km,Miguel Castillo,02/02/2026,508.19,Finalizada
+OT-00129,29/01/2026,UKM-237,Minivan,Taller San Miguel,Mantenimiento preventivo 10 000 km,Ana Torres,30/01/2026,585.80,Finalizada
+OT-00130,30/01/2026,XGS-828,Minivan,Taller Surco,Mantenimiento preventivo 10 000 km,Pedro Ramírez,31/01/2026,593.20,Finalizada
+OT-00131,30/01/2026,UTH-948,Camioneta pick-up,Taller Surco,Aire acondicionado,Miguel Castillo,31/01/2026,315.64,Finalizada
+OT-00132,30/01/2026,UKK-568,SUV,Taller Lima Centro,Frenos,José Rojas,01/02/2026,272.16,Finalizada
+OT-00133,31/01/2026,EBZ-635,Hatchback,Taller Lima Centro,Cambio de aceite,María Huamán,04/02/2026,126.49,Finalizada
+OT-00134,31/01/2026,RYS-831,Minivan,Taller Surco,Frenos,Miguel Castillo,,435.48,Cancelada
+OT-00135,31/01/2026,XTZ-590,Camioneta pick-up,Taller Lima Centro,Afinamiento,Carlos Quispe,02/02/2026,261.19,Finalizada
+OT-00136,31/01/2026,APJ-524,SUV,Taller San Miguel,Alineamiento y balanceo,Ana Torres,31/01/2026,96.17,Finalizada
+OT-00137,31/01/2026,UTH-948,Camioneta pick-up,Taller Lima Centro,Suspensión,José Rojas,05/02/2026,1185.25,Finalizada
+OT-00138,31/01/2026,KMU-848,Hatchback,Taller San Miguel,Afinamiento,Ana Torres,31/01/2026,346.86,Finalizada
+OT-00139,31/01/2026,UKK-568,SUV,Taller Lima Centro,Alineamiento y balanceo,Carlos Quispe,01/02/2026,90.76,Finalizada
+OT-00140,31/01/2026,DBE-635,SUV,Taller Surco,Afinamiento,Pedro Ramírez,,324.94,Cancelada
+OT-00141,01/02/2026,VWF-257,Hatchback,Taller San Miguel,Cambio de aceite,Ana Torres,04/02/2026,134.71,Finalizada
+OT-00142,01/02/2026,PTU-439,SUV,Taller Surco,Alineamiento y balanceo,Pedro Ramírez,02/02/2026,154.05,Finalizada
+OT-00143,01/02/2026,HYZ-171,Sedán,Taller San Miguel,Mantenimiento preventivo 10 000 km,Ana Torres,01/02/2026,420.53,Finalizada
+OT-00144,01/02/2026,RXL-517,Motocicleta,Taller Surco,Cambio de aceite,Pedro Ramírez,02/02/2026,168.48,Finalizada
+OT-00145,01/02/2026,RAC-100,Minivan,Taller Lima Centro,Planchado y pintura,Carlos Quispe,06/02/2026,665.15,Finalizada
+OT-00146,01/02/2026,NPG-401,SUV,Taller San Miguel,Embrague,Ana Torres,01/02/2026,732.67,Finalizada
+OT-00147,02/02/2026,LDS-577,Motocicleta,Taller San Miguel,Suspensión,Jorge Mendoza,06/02/2026,964.77,Finalizada
+OT-00148,02/02/2026,EXZ-833,Sedán,Taller Lima Centro,Diagnóstico electrónico,María Huamán,05/02/2026,131.64,Finalizada
+OT-00149,02/02/2026,GUB-838,Motocicleta,Taller San Miguel,Cambio de aceite,Luis Pérez,03/02/2026,121.99,Finalizada
+OT-00150,03/02/2026,TXY-261,Minivan,Taller Lima Centro,Diagnóstico electrónico,Carlos Quispe,05/02/2026,132.98,Finalizada
+OT-00151,03/02/2026,DWB-869,Motocicleta,Taller Surco,Diagnóstico electrónico,Miguel Castillo,04/02/2026,125.73,Finalizada
+OT-00152,03/02/2026,DAU-322,Minivan,Taller San Miguel,Planchado y pintura,Jorge Mendoza,04/02/2026,988.43,Finalizada
+OT-00153,04/02/2026,EVK-619,Sedán,Taller San Miguel,Mantenimiento preventivo 10 000 km,Jorge Mendoza,05/02/2026,649.29,Finalizada
+OT-00154,04/02/2026,CWG-353,Minivan,Taller Lima Centro,Planchado y pintura,Carlos Quispe,09/02/2026,1638.01,Finalizada
+OT-00155,05/02/2026,XWR-922,Sedán,Taller San Miguel,Cambio de aceite,Ana Torres,06/02/2026,168.89,Finalizada
+OT-00156,05/02/2026,JLE-741,Minivan,Taller Lima Centro,Aire acondicionado,María Huamán,,268.83,Cancelada
+OT-00157,05/02/2026,KVJ-786,SUV,Taller Surco,Embrague,Rosa Flores,11/02/2026,1005.39,Finalizada
+OT-00158,05/02/2026,YDY-483,SUV,Taller Surco,Aire acondicionado,Pedro Ramírez,09/02/2026,254.73,Finalizada
+OT-00159,05/02/2026,UED-900,SUV,Taller San Miguel,Cambio de aceite,Luis Pérez,05/02/2026,122.53,Finalizada
+OT-00160,06/02/2026,ZLK-844,SUV,Taller Lima Centro,Mantenimiento preventivo 10 000 km,Carlos Quispe,11/02/2026,528.41,Finalizada
+OT-00161,06/02/2026,YKU-918,Camioneta pick-up,Taller Surco,Afinamiento,Miguel Castillo,09/02/2026,391.18,Finalizada
+OT-00162,06/02/2026,XTZ-590,Camioneta pick-up,Taller Lima Centro,Mantenimiento preventivo 10 000 km,María Huamán,07/02/2026,375.63,Finalizada
+OT-00163,07/02/2026,GWR-536,Camioneta pick-up,Taller Surco,Embrague,Rosa Flores,09/02/2026,1095.36,Finalizada
+OT-00164,07/02/2026,XFB-763,Camioneta pick-up,Taller Surco,Aire acondicionado,Pedro Ramírez,11/02/2026,485.17,Finalizada
+OT-00165,07/02/2026,FYF-499,Minivan,Taller Lima Centro,Mantenimiento preventivo 10 000 km,José Rojas,11/02/2026,638.08,Finalizada
+OT-00166,07/02/2026,TJD-968,Hatchback,Taller Surco,Embrague,Pedro Ramírez,11/02/2026,798.35,Finalizada
+OT-00167,07/02/2026,UJU-511,Camioneta pick-up,Taller Surco,Mantenimiento preventivo 10 000 km,Rosa Flores,10/02/2026,557.05,Finalizada
+OT-00168,08/02/2026,TAF-422,Hatchback,Taller San Miguel,Alineamiento y balanceo,Ana Torres,13/02/2026,143.91,Finalizada
+OT-00169,08/02/2026,CNK-291,Sedán,Taller San Miguel,Mantenimiento preventivo 10 000 km,Luis Pérez,12/02/2026,602.55,Finalizada
+OT-00170,08/02/2026,LDS-577,Motocicleta,Taller Surco,Frenos,Rosa Flores,13/02/2026,295.01,Finalizada
+OT-00171,08/02/2026,BNL-722,Sedán,Taller Surco,Mantenimiento preventivo 10 000 km,Rosa Flores,08/02/2026,460.40,Finalizada
+OT-00172,08/02/2026,FYF-499,Minivan,Taller Surco,Frenos,Miguel Castillo,09/02/2026,232.63,Finalizada
+OT-00173,08/02/2026,APJ-524,SUV,Taller San Miguel,Afinamiento,Ana Torres,12/02/2026,275.37,Finalizada
+OT-00174,09/02/2026,LDS-577,Motocicleta,Taller San Miguel,Frenos,Luis Pérez,12/02/2026,310.31,Finalizada
+OT-00175,09/02/2026,XTZ-590,Camioneta pick-up,Taller Surco,Cambio de aceite,Pedro Ramírez,09/02/2026,179.53,Finalizada
+OT-00176,09/02/2026,UKK-568,SUV,Taller San Miguel,Aire acondicionado,Ana Torres,09/02/2026,424.40,Finalizada
+OT-00177,09/02/2026,NPG-401,SUV,Taller Lima Centro,Planchado y pintura,José Rojas,10/02/2026,1189.06,Finalizada
+OT-00178,10/02/2026,TSP-671,Sedán,Taller Lima Centro,Cambio de aceite,Carlos Quispe,10/02/2026,170.85,Finalizada
+OT-00179,10/02/2026,MFM-675,Hatchback,Taller Lima Centro,Afinamiento,Carlos Quispe,16/02/2026,415.75,Finalizada
+OT-00180,10/02/2026,RDR-805,SUV,Taller Surco,Afinamiento,Rosa Flores,11/02/2026,363.68,Finalizada
+OT-00181,10/02/2026,YSY-421,Hatchback,Taller Lima Centro,Cambio de aceite,Carlos Quispe,15/02/2026,90.45,Finalizada
+OT-00182,10/02/2026,MNT-753,SUV,Taller San Miguel,Diagnóstico electrónico,Ana Torres,10/02/2026,202.05,Finalizada
+OT-00183,10/02/2026,GWR-536,Camioneta pick-up,Taller Surco,Suspensión,Miguel Castillo,13/02/2026,429.14,Finalizada
+OT-00184,11/02/2026,YAE-761,Motocicleta,Taller Lima Centro,Cambio de aceite,Carlos Quispe,17/02/2026,144.26,Finalizada
+OT-00185,11/02/2026,GER-860,Motocicleta,Taller San Miguel,Mantenimiento preventivo 10 000 km,Jorge Mendoza,14/02/2026,585.18,Finalizada
+OT-00186,11/02/2026,KBV-778,Motocicleta,Taller San Miguel,Cambio de aceite,Jorge Mendoza,13/02/2026,114.71,Finalizada
+OT-00187,11/02/2026,ENZ-468,Minivan,Taller Lima Centro,Diagnóstico electrónico,Carlos Quispe,12/02/2026,226.35,Finalizada
+OT-00188,12/02/2026,APJ-524,SUV,Taller San Miguel,Frenos,Ana Torres,12/02/2026,514.82,Finalizada
+OT-00189,12/02/2026,GNA-208,SUV,Taller Lima Centro,Afinamiento,José Rojas,14/02/2026,307.93,Finalizada
+OT-00190,12/02/2026,NHP-778,Camioneta pick-up,Taller San Miguel,Suspensión,Luis Pérez,12/02/2026,1194.44,Finalizada
+OT-00191,12/02/2026,TGT-241,Minivan,Taller San Miguel,Aire acondicionado,Luis Pérez,12/02/2026,323.77,Finalizada
+OT-00192,12/02/2026,UJU-511,Camioneta pick-up,Taller San Miguel,Afinamiento,Jorge Mendoza,15/02/2026,317.97,Finalizada
+OT-00193,13/02/2026,SZE-658,Motocicleta,Taller Surco,Cambio de aceite,Pedro Ramírez,18/02/2026,155.69,Finalizada
+OT-00194,13/02/2026,TXY-261,Minivan,Taller San Miguel,Cambio de aceite,Luis Pérez,17/02/2026,148.31,Finalizada
+OT-00195,13/02/2026,PCN-699,Hatchback,Taller San Miguel,Mantenimiento preventivo 10 000 km,Jorge Mendoza,16/02/2026,432.82,Finalizada
+OT-00196,13/02/2026,FPS-165,Sedán,Taller San Miguel,Afinamiento,Ana Torres,,384.26,Cancelada
+OT-00197,14/02/2026,YUN-361,Motocicleta,Taller San Miguel,Planchado y pintura,Jorge Mendoza,15/02/2026,755.81,Finalizada
+OT-00198,14/02/2026,PTU-439,SUV,Taller Lima Centro,Mantenimiento preventivo 10 000 km,María Huamán,17/02/2026,615.81,Finalizada
+OT-00199,14/02/2026,ZTJ-563,SUV,Taller San Miguel,Frenos,Luis Pérez,14/02/2026,318.69,Finalizada
+OT-00200,14/02/2026,MCC-897,Minivan,Taller Lima Centro,Afinamiento,Carlos Quispe,19/02/2026,335.25,Finalizada
+OT-00201,15/02/2026,YDY-483,SUV,Taller San Miguel,Cambio de aceite,Ana Torres,16/02/2026,118.02,Finalizada
+OT-00202,15/02/2026,ZVK-686,Hatchback,Taller San Miguel,Frenos,Jorge Mendoza,16/02/2026,431.56,Finalizada
+OT-00203,15/02/2026,FJJ-164,Camioneta pick-up,Taller Lima Centro,Frenos,María Huamán,21/02/2026,312.87,Finalizada
+OT-00204,15/02/2026,YPL-197,Hatchback,Taller San Miguel,Frenos,Jorge Mendoza,16/02/2026,192.56,Finalizada
+OT-00205,16/02/2026,EWW-354,Hatchback,Taller Lima Centro,Planchado y pintura,José Rojas,21/02/2026,1267.99,Finalizada
+OT-00206,16/02/2026,MCC-897,Minivan,Taller Lima Centro,Alineamiento y balanceo,María Huamán,16/02/2026,118.87,Finalizada
+OT-00207,16/02/2026,ZVK-686,Hatchback,Taller Lima Centro,Suspensión,María Huamán,19/02/2026,810.81,Finalizada
+OT-00208,17/02/2026,JLD-427,Hatchback,Taller San Miguel,Cambio de aceite,Jorge Mendoza,23/02/2026,156.75,Finalizada
+OT-00209,17/02/2026,SYV-419,Camioneta pick-up,Taller Lima Centro,Frenos,José Rojas,,512.50,Cancelada
+OT-00210,17/02/2026,MSS-223,Motocicleta,Taller Lima Centro,Embrague,Carlos Quispe,17/02/2026,1275.62,Finalizada
+OT-00211,17/02/2026,EMP-493,Sedán,Taller San Miguel,Diagnóstico electrónico,Luis Pérez,17/02/2026,195.70,Finalizada
+OT-00212,18/02/2026,RDR-805,SUV,Taller San Miguel,Mantenimiento preventivo 10 000 km,Ana Torres,,379.07,Cancelada
+OT-00213,18/02/2026,VAU-450,Minivan,Taller Lima Centro,Embrague,María Huamán,20/02/2026,687.91,Finalizada
+OT-00214,18/02/2026,LEU-890,Minivan,Taller Lima Centro,Mantenimiento preventivo 10 000 km,José Rojas,22/02/2026,634.99,Finalizada
+OT-00215,18/02/2026,MFM-675,Hatchback,Taller Surco,Mantenimiento preventivo 10 000 km,Pedro Ramírez,21/02/2026,597.29,Finalizada
+OT-00216,19/02/2026,GNJ-456,Camioneta pick-up,Taller San Miguel,Frenos,Jorge Mendoza,21/02/2026,302.38,Finalizada
+OT-00217,19/02/2026,CSK-371,Motocicleta,Taller San Miguel,Frenos,Jorge Mendoza,20/02/2026,228.95,Finalizada
+OT-00218,19/02/2026,JLD-427,Hatchback,Taller Surco,Cambio de aceite,Miguel Castillo,21/02/2026,163.03,Finalizada
+OT-00219,19/02/2026,RDT-915,Sedán,Taller San Miguel,Frenos,Jorge Mendoza,24/02/2026,427.72,Finalizada
+OT-00220,19/02/2026,STT-924,Motocicleta,Taller Lima Centro,Aire acondicionado,María Huamán,20/02/2026,292.17,Finalizada
+OT-00221,19/02/2026,BNL-722,Sedán,Taller San Miguel,Mantenimiento preventivo 10 000 km,Jorge Mendoza,22/02/2026,629.00,Finalizada
+OT-00222,19/02/2026,ZVK-686,Hatchback,Taller Surco,Frenos,Pedro Ramírez,19/02/2026,473.03,Finalizada
+OT-00223,20/02/2026,DTL-383,Camioneta pick-up,Taller Lima Centro,Afinamiento,María Huamán,22/02/2026,363.23,Finalizada
+OT-00224,20/02/2026,BXF-186,SUV,Taller Lima Centro,Mantenimiento preventivo 10 000 km,María Huamán,24/02/2026,392.59,Finalizada
+OT-00225,20/02/2026,DFW-225,Camioneta pick-up,Taller Lima Centro,Cambio de aceite,Carlos Quispe,20/02/2026,149.54,Finalizada
+OT-00226,20/02/2026,DWZ-387,Motocicleta,Taller Lima Centro,Cambio de aceite,Carlos Quispe,26/02/2026,152.28,Finalizada
+OT-00227,20/02/2026,XWR-922,Sedán,Taller Lima Centro,Alineamiento y balanceo,Carlos Quispe,21/02/2026,100.92,Finalizada
+OT-00228,20/02/2026,CNK-291,Sedán,Taller Lima Centro,Alineamiento y balanceo,José Rojas,24/02/2026,87.08,Finalizada
+OT-00229,20/02/2026,CNK-291,Sedán,Taller Lima Centro,Alineamiento y balanceo,María Huamán,,103.62,Cancelada
+OT-00230,20/02/2026,AVH-884,SUV,Taller San Miguel,Alineamiento y balanceo,Luis Pérez,23/02/2026,158.04,Finalizada
+OT-00231,20/02/2026,YKU-918,Camioneta pick-up,Taller San Miguel,Mantenimiento preventivo 10 000 km,Jorge Mendoza,22/02/2026,532.77,Finalizada
+OT-00232,20/02/2026,HDX-817,Motocicleta,Taller Surco,Diagnóstico electrónico,Pedro Ramírez,,155.25,Cancelada
+OT-00233,21/02/2026,AVH-884,SUV,Taller Lima Centro,Afinamiento,María Huamán,21/02/2026,375.69,Finalizada
+OT-00234,21/02/2026,VUS-869,Motocicleta,Taller San Miguel,Mantenimiento preventivo 10 000 km,Jorge Mendoza,23/02/2026,479.28,Finalizada
+OT-00235,21/02/2026,CNK-291,Sedán,Taller Surco,Mantenimiento preventivo 10 000 km,Rosa Flores,21/02/2026,408.28,Finalizada
+OT-00236,21/02/2026,MYR-699,Hatchback,Taller Surco,Planchado y pintura,Miguel Castillo,26/02/2026,529.24,Finalizada
+OT-00237,21/02/2026,UED-900,SUV,Taller San Miguel,Diagnóstico electrónico,Luis Pérez,27/02/2026,182.11,Finalizada
+OT-00238,21/02/2026,NGX-109,Hatchback,Taller San Miguel,Diagnóstico electrónico,Jorge Mendoza,25/02/2026,207.99,Finalizada
+OT-00239,21/02/2026,TYJ-498,SUV,Taller San Miguel,Cambio de aceite,Luis Pérez,25/02/2026,132.69,Finalizada
+OT-00240,22/02/2026,YDZ-737,SUV,Taller San Miguel,Afinamiento,Jorge Mendoza,,377.91,Cancelada
+OT-00241,22/02/2026,DRA-934,Minivan,Taller San Miguel,Frenos,Jorge Mendoza,25/02/2026,257.43,Finalizada
+OT-00242,22/02/2026,AXH-581,Minivan,Taller Surco,Cambio de aceite,Pedro Ramírez,22/02/2026,142.72,Finalizada
+OT-00243,22/02/2026,DWZ-387,Motocicleta,Taller Surco,Afinamiento,Miguel Castillo,26/02/2026,370.24,Finalizada
+OT-00244,22/02/2026,JLD-427,Hatchback,Taller San Miguel,Afinamiento,Jorge Mendoza,22/02/2026,388.94,Finalizada
+OT-00245,23/02/2026,ESA-462,Motocicleta,Taller San Miguel,Mantenimiento preventivo 10 000 km,Luis Pérez,24/02/2026,386.99,Finalizada
+OT-00246,23/02/2026,RVU-956,SUV,Taller San Miguel,Alineamiento y balanceo,Luis Pérez,24/02/2026,129.14,Finalizada
+OT-00247,23/02/2026,XXZ-729,Hatchback,Taller San Miguel,Suspensión,Jorge Mendoza,23/02/2026,416.21,Finalizada
+OT-00248,23/02/2026,SYV-419,Camioneta pick-up,Taller Lima Centro,Aire acondicionado,María Huamán,,384.93,Cancelada
+OT-00249,23/02/2026,USD-535,Sedán,Taller Lima Centro,Mantenimiento preventivo 10 000 km,María Huamán,26/02/2026,477.44,Finalizada
+OT-00250,24/02/2026,GNJ-456,Camioneta pick-up,Taller Surco,Diagnóstico electrónico,Pedro Ramírez,02/03/2026,147.64,Finalizada
+OT-00251,24/02/2026,LYK-560,Minivan,Taller Lima Centro,Suspensión,María Huamán,24/02/2026,612.59,Finalizada
+OT-00252,24/02/2026,DWB-869,Motocicleta,Taller Lima Centro,Embrague,José Rojas,24/02/2026,1049.09,Finalizada
+OT-00253,24/02/2026,UBR-988,Motocicleta,Taller San Miguel,Aire acondicionado,Luis Pérez,02/03/2026,552.15,Finalizada
+OT-00254,24/02/2026,GWR-536,Camioneta pick-up,Taller Surco,Diagnóstico electrónico,Pedro Ramírez,01/03/2026,226.67,Finalizada
+OT-00255,24/02/2026,LFG-925,Camioneta pick-up,Taller San Miguel,Cambio de aceite,Ana Torres,26/02/2026,161.30,Finalizada
+OT-00256,25/02/2026,UYF-127,Minivan,Taller San Miguel,Frenos,Luis Pérez,25/02/2026,290.27,Finalizada
+OT-00257,25/02/2026,DLT-624,Motocicleta,Taller Surco,Planchado y pintura,Pedro Ramírez,01/03/2026,1491.83,Finalizada
+OT-00258,25/02/2026,XWR-922,Sedán,Taller Surco,Afinamiento,Rosa Flores,25/02/2026,273.17,Finalizada
+OT-00259,26/02/2026,VCK-422,SUV,Taller Lima Centro,Cambio de aceite,José Rojas,28/02/2026,133.61,Finalizada
+OT-00260,26/02/2026,MPV-490,Minivan,Taller San Miguel,Alineamiento y balanceo,Luis Pérez,27/02/2026,113.38,Finalizada
+OT-00261,26/02/2026,DYB-877,SUV,Taller Surco,Diagnóstico electrónico,Pedro Ramírez,04/03/2026,120.50,Finalizada
+OT-00262,26/02/2026,DRA-934,Minivan,Taller Surco,Embrague,Rosa Flores,28/02/2026,856.40,Finalizada
+OT-00263,26/02/2026,AAT-587,Hatchback,Taller Surco,Diagnóstico electrónico,Miguel Castillo,27/02/2026,166.69,Finalizada
+OT-00264,27/02/2026,AVH-884,SUV,Taller Surco,Frenos,Miguel Castillo,05/03/2026,237.55,Finalizada
+OT-00265,27/02/2026,GUB-838,Motocicleta,Taller Surco,Suspensión,Miguel Castillo,27/02/2026,540.17,Finalizada
+OT-00266,27/02/2026,FYF-499,Minivan,Taller San Miguel,Diagnóstico electrónico,Ana Torres,05/03/2026,152.84,Finalizada
+OT-00267,27/02/2026,DGP-249,Camioneta pick-up,Taller Lima Centro,Cambio de aceite,José Rojas,02/03/2026,123.73,Finalizada
+OT-00268,27/02/2026,BNL-722,Sedán,Taller Surco,Alineamiento y balanceo,Rosa Flores,03/03/2026,94.05,Finalizada
+OT-00269,28/02/2026,YVU-321,Camioneta pick-up,Taller Lima Centro,Mantenimiento preventivo 10 000 km,María Huamán,05/03/2026,440.71,Finalizada
+OT-00270,28/02/2026,LYS-512,Motocicleta,Taller Lima Centro,Alineamiento y balanceo,José Rojas,06/03/2026,156.80,Finalizada
+OT-00271,28/02/2026,PTU-439,SUV,Taller Lima Centro,Cambio de aceite,José Rojas,,104.54,Cancelada
+OT-00272,28/02/2026,DWZ-387,Motocicleta,Taller San Miguel,Embrague,Ana Torres,02/03/2026,1493.39,Finalizada
+OT-00273,28/02/2026,YVU-321,Camioneta pick-up,Taller Surco,Afinamiento,Miguel Castillo,,299.96,Cancelada
+OT-00274,01/03/2026,YPL-197,Hatchback,Taller Lima Centro,Planchado y pintura,Carlos Quispe,01/03/2026,1102.99,Finalizada
+OT-00275,01/03/2026,PSE-593,Minivan,Taller San Miguel,Cambio de aceite,Luis Pérez,03/03/2026,159.12,Finalizada
+OT-00276,01/03/2026,LFG-925,Camioneta pick-up,Taller San Miguel,Cambio de aceite,Ana Torres,06/03/2026,106.91,Finalizada
+OT-00277,01/03/2026,RAC-100,Minivan,Taller Lima Centro,Suspensión,Carlos Quispe,02/03/2026,812.18,Finalizada
+OT-00278,01/03/2026,EBZ-635,Hatchback,Taller San Miguel,Frenos,Jorge Mendoza,05/03/2026,239.42,Finalizada
+OT-00279,01/03/2026,TXY-261,Minivan,Taller Lima Centro,Afinamiento,José Rojas,07/03/2026,260.72,Finalizada
+OT-00280,01/03/2026,LYS-512,Motocicleta,Taller Lima Centro,Embrague,María Huamán,02/03/2026,891.06,Finalizada
+OT-00281,01/03/2026,ZVK-686,Hatchback,Taller Lima Centro,Alineamiento y balanceo,María Huamán,06/03/2026,107.29,Finalizada
+OT-00282,01/03/2026,GHA-195,Minivan,Taller Surco,Mantenimiento preventivo 10 000 km,Rosa Flores,02/03/2026,474.81,Finalizada
+OT-00283,02/03/2026,YSY-421,Hatchback,Taller Surco,Suspensión,Rosa Flores,04/03/2026,806.32,Finalizada
+OT-00284,02/03/2026,RXL-517,Motocicleta,Taller San Miguel,Embrague,Ana Torres,,663.31,Cancelada
+OT-00285,02/03/2026,CSK-371,Motocicleta,Taller Lima Centro,Frenos,María Huamán,04/03/2026,264.33,Finalizada
+OT-00286,03/03/2026,AUZ-437,Motocicleta,Taller San Miguel,Alineamiento y balanceo,Jorge Mendoza,09/03/2026,113.02,Finalizada
+OT-00287,03/03/2026,YAE-761,Motocicleta,Taller Surco,Cambio de aceite,Miguel Castillo,,170.70,Cancelada
+OT-00288,03/03/2026,ABD-340,SUV,Taller San Miguel,Aire acondicionado,Luis Pérez,06/03/2026,324.94,Finalizada
+OT-00289,04/03/2026,VTG-544,Motocicleta,Taller Surco,Cambio de aceite,Miguel Castillo,07/03/2026,99.61,Finalizada
+OT-00290,04/03/2026,JAB-253,Sedán,Taller San Miguel,Alineamiento y balanceo,Ana Torres,10/03/2026,154.81,Finalizada
+OT-00291,04/03/2026,EBZ-635,Hatchback,Taller Surco,Cambio de aceite,Miguel Castillo,05/03/2026,169.67,Finalizada
+OT-00292,05/03/2026,MSS-223,Motocicleta,Taller Lima Centro,Frenos,María Huamán,11/03/2026,463.76,Finalizada
+OT-00293,05/03/2026,RYS-831,Minivan,Taller Surco,Diagnóstico electrónico,Pedro Ramírez,08/03/2026,190.06,Finalizada
+OT-00294,05/03/2026,TXY-261,Minivan,Taller Lima Centro,Cambio de aceite,Carlos Quispe,07/03/2026,125.72,Finalizada
+OT-00295,05/03/2026,UBR-988,Motocicleta,Taller Surco,Alineamiento y balanceo,Pedro Ramírez,07/03/2026,100.31,Finalizada
+OT-00296,05/03/2026,WUP-902,Motocicleta,Taller Lima Centro,Cambio de aceite,María Huamán,11/03/2026,90.75,Finalizada
+OT-00297,05/03/2026,YKU-918,Camioneta pick-up,Taller Lima Centro,Afinamiento,Carlos Quispe,06/03/2026,312.06,Finalizada
+OT-00298,05/03/2026,ZMM-572,Motocicleta,Taller Lima Centro,Frenos,José Rojas,,204.09,Cancelada
+OT-00299,05/03/2026,XXZ-729,Hatchback,Taller Lima Centro,Cambio de aceite,José Rojas,,147.98,Cancelada
+OT-00300,05/03/2026,AYZ-654,Motocicleta,Taller Surco,Frenos,Pedro Ramírez,08/03/2026,494.20,Finalizada
+OT-00301,06/03/2026,TYJ-498,SUV,Taller Surco,Alineamiento y balanceo,Rosa Flores,11/03/2026,138.23,Finalizada
+OT-00302,06/03/2026,KAP-692,Minivan,Taller San Miguel,Cambio de aceite,Luis Pérez,,173.24,Cancelada
+OT-00303,06/03/2026,MFX-745,Minivan,Taller San Miguel,Diagnóstico electrónico,Luis Pérez,07/03/2026,161.67,Finalizada
+OT-00304,06/03/2026,JRJ-248,Hatchback,Taller San Miguel,Frenos,Ana Torres,09/03/2026,328.45,Finalizada
+OT-00305,07/03/2026,XGS-828,Minivan,Taller Lima Centro,Aire acondicionado,María Huamán,07/03/2026,427.80,Finalizada
+OT-00306,07/03/2026,MXM-888,Camioneta pick-up,Taller Surco,Alineamiento y balanceo,Rosa Flores,12/03/2026,107.92,Finalizada
+OT-00307,07/03/2026,VAU-450,Minivan,Taller Surco,Diagnóstico electrónico,Pedro Ramírez,09/03/2026,150.17,Finalizada
+OT-00308,07/03/2026,WZT-397,Minivan,Taller San Miguel,Afinamiento,Ana Torres,08/03/2026,290.55,Finalizada
+OT-00309,07/03/2026,WLR-712,SUV,Taller Surco,Diagnóstico electrónico,Rosa Flores,11/03/2026,126.73,Finalizada
+OT-00310,07/03/2026,BHY-620,Sedán,Taller San Miguel,Mantenimiento preventivo 10 000 km,Luis Pérez,13/03/2026,434.89,Finalizada
+OT-00311,07/03/2026,VUS-869,Motocicleta,Taller San Miguel,Diagnóstico electrónico,Jorge Mendoza,07/03/2026,241.28,Finalizada
+OT-00312,07/03/2026,CWG-353,Minivan,Taller Surco,Frenos,Rosa Flores,13/03/2026,346.15,Finalizada
+OT-00313,07/03/2026,MLR-721,Camioneta pick-up,Taller Lima Centro,Aire acondicionado,José Rojas,13/03/2026,542.95,Finalizada
+OT-00314,08/03/2026,MKG-644,Minivan,Taller Surco,Frenos,Pedro Ramírez,10/03/2026,284.96,Finalizada
+OT-00315,08/03/2026,ZLK-844,SUV,Taller Lima Centro,Diagnóstico electrónico,José Rojas,14/03/2026,223.26,Finalizada
+OT-00316,08/03/2026,MWX-771,Hatchback,Taller San Miguel,Suspensión,Ana Torres,12/03/2026,638.64,Finalizada
+OT-00317,08/03/2026,MPV-490,Minivan,Taller San Miguel,Mantenimiento preventivo 10 000 km,Luis Pérez,14/03/2026,670.79,Finalizada
+OT-00318,08/03/2026,YBK-424,Motocicleta,Taller San Miguel,Cambio de aceite,Jorge Mendoza,13/03/2026,147.53,Finalizada
+OT-00319,08/03/2026,NPG-401,SUV,Taller San Miguel,Cambio de aceite,Luis Pérez,09/03/2026,93.09,Finalizada
+OT-00320,08/03/2026,JEZ-857,Sedán,Taller Surco,Planchado y pintura,Miguel Castillo,12/03/2026,2423.89,Finalizada
+OT-00321,09/03/2026,JEZ-857,Sedán,Taller San Miguel,Cambio de aceite,Luis Pérez,10/03/2026,102.13,Finalizada
+OT-00322,09/03/2026,JRJ-248,Hatchback,Taller San Miguel,Planchado y pintura,Jorge Mendoza,10/03/2026,1587.39,Finalizada
+OT-00323,09/03/2026,TJD-968,Hatchback,Taller San Miguel,Alineamiento y balanceo,Ana Torres,11/03/2026,112.98,Finalizada
+OT-00324,09/03/2026,VWF-257,Hatchback,Taller Surco,Cambio de aceite,Rosa Flores,10/03/2026,164.39,Finalizada
+OT-00325,10/03/2026,VCF-666,Motocicleta,Taller Surco,Mantenimiento preventivo 10 000 km,Miguel Castillo,15/03/2026,625.52,Finalizada
+OT-00326,10/03/2026,UEF-129,Hatchback,Taller Surco,Cambio de aceite,Miguel Castillo,16/03/2026,95.93,Finalizada
+OT-00327,10/03/2026,NLU-367,Camioneta pick-up,Taller Surco,Cambio de aceite,Pedro Ramírez,,95.88,Cancelada
+OT-00328,11/03/2026,AXH-581,Minivan,Taller Surco,Afinamiento,Miguel Castillo,14/03/2026,443.32,Finalizada
+OT-00329,11/03/2026,RHZ-456,Minivan,Taller San Miguel,Suspensión,Luis Pérez,12/03/2026,1056.30,Finalizada
+OT-00330,11/03/2026,APJ-524,SUV,Taller San Miguel,Afinamiento,Jorge Mendoza,13/03/2026,447.89,Finalizada
+OT-00331,11/03/2026,EHA-116,Motocicleta,Taller San Miguel,Cambio de aceite,Luis Pérez,,174.35,Cancelada
+OT-00332,11/03/2026,EDL-596,Minivan,Taller Lima Centro,Afinamiento,María Huamán,14/03/2026,277.21,Finalizada
+OT-00333,11/03/2026,UED-900,SUV,Taller Surco,Mantenimiento preventivo 10 000 km,Rosa Flores,15/03/2026,543.64,Finalizada
+OT-00334,11/03/2026,KMU-848,Hatchback,Taller Lima Centro,Afinamiento,María Huamán,15/03/2026,380.39,Finalizada
+OT-00335,11/03/2026,RVU-956,SUV,Taller Surco,Afinamiento,Miguel Castillo,15/03/2026,433.30,Finalizada
+OT-00336,11/03/2026,JEZ-857,Sedán,Taller San Miguel,Alineamiento y balanceo,Luis Pérez,16/03/2026,152.38,Finalizada
+OT-00337,11/03/2026,DBE-635,SUV,Taller Lima Centro,Alineamiento y balanceo,Carlos Quispe,17/03/2026,113.85,Finalizada
+OT-00338,11/03/2026,CWG-353,Minivan,Taller Lima Centro,Cambio de aceite,Carlos Quispe,11/03/2026,177.40,Finalizada
+OT-00339,12/03/2026,TDC-245,Minivan,Taller Lima Centro,Suspensión,José Rojas,14/03/2026,1148.65,Finalizada
+OT-00340,12/03/2026,FLT-593,Camioneta pick-up,Taller Surco,Cambio de aceite,Miguel Castillo,18/03/2026,104.97,Finalizada
+OT-00341,12/03/2026,APJ-524,SUV,Taller Lima Centro,Alineamiento y balanceo,María Huamán,15/03/2026,126.92,Finalizada
+OT-00342,13/03/2026,EHA-116,Motocicleta,Taller Surco,Diagnóstico electrónico,Rosa Flores,13/03/2026,128.44,Finalizada
+OT-00343,13/03/2026,HEF-655,Sedán,Taller Lima Centro,Cambio de aceite,José Rojas,15/03/2026,101.13,Finalizada
+OT-00344,13/03/2026,ZPA-388,Hatchback,Taller San Miguel,Embrague,Jorge Mendoza,14/03/2026,1065.11,Finalizada
+OT-00345,13/03/2026,JLD-427,Hatchback,Taller Surco,Afinamiento,Rosa Flores,17/03/2026,331.99,Finalizada
+OT-00346,13/03/2026,VAU-450,Minivan,Taller San Miguel,Afinamiento,Luis Pérez,16/03/2026,390.87,Finalizada
+OT-00347,13/03/2026,ZVK-686,Hatchback,Taller Lima Centro,Alineamiento y balanceo,Carlos Quispe,14/03/2026,100.91,Finalizada
+OT-00348,14/03/2026,AVH-884,SUV,Taller Lima Centro,Alineamiento y balanceo,María Huamán,14/03/2026,95.48,Finalizada
+OT-00349,14/03/2026,ZTJ-563,SUV,Taller Lima Centro,Afinamiento,Carlos Quispe,,308.97,Cancelada
+OT-00350,14/03/2026,DRA-934,Minivan,Taller Lima Centro,Suspensión,María Huamán,18/03/2026,551.60,Finalizada
+OT-00351,14/03/2026,MXM-888,Camioneta pick-up,Taller Surco,Frenos,Miguel Castillo,17/03/2026,246.03,Finalizada
+OT-00352,14/03/2026,WXS-532,Sedán,Taller San Miguel,Alineamiento y balanceo,Ana Torres,15/03/2026,117.92,Finalizada
+OT-00353,15/03/2026,YDZ-737,SUV,Taller Surco,Cambio de aceite,Pedro Ramírez,,108.54,Cancelada
+OT-00354,15/03/2026,RDT-915,Sedán,Taller Surco,Mantenimiento preventivo 10 000 km,Rosa Flores,20/03/2026,682.98,Finalizada
+OT-00355,15/03/2026,JZS-577,Motocicleta,Taller Lima Centro,Aire acondicionado,María Huamán,17/03/2026,338.60,Finalizada
+OT-00356,16/03/2026,EMP-493,Sedán,Taller San Miguel,Embrague,Jorge Mendoza,17/03/2026,1054.13,Finalizada
+OT-00357,16/03/2026,EMP-493,Sedán,Taller San Miguel,Frenos,Luis Pérez,,249.89,Cancelada
+OT-00358,16/03/2026,YBK-424,Motocicleta,Taller San Miguel,Diagnóstico electrónico,Luis Pérez,22/03/2026,159.30,Finalizada
+OT-00359,16/03/2026,ZMM-572,Motocicleta,Taller San Miguel,Afinamiento,Jorge Mendoza,21/03/2026,390.78,Finalizada
+OT-00360,16/03/2026,LBY-960,Camioneta pick-up,Taller Lima Centro,Cambio de aceite,Carlos Quispe,16/03/2026,174.57,Finalizada
+OT-00361,16/03/2026,VUS-869,Motocicleta,Taller Lima Centro,Afinamiento,José Rojas,21/03/2026,274.28,Finalizada
+OT-00362,17/03/2026,KVJ-786,SUV,Taller Lima Centro,Frenos,José Rojas,22/03/2026,512.97,Finalizada
+OT-00363,17/03/2026,UBR-988,Motocicleta,Taller Surco,Mantenimiento preventivo 10 000 km,Rosa Flores,19/03/2026,440.84,Finalizada
+OT-00364,17/03/2026,MPV-490,Minivan,Taller San Miguel,Diagnóstico electrónico,Luis Pérez,21/03/2026,221.24,Finalizada
+OT-00365,17/03/2026,NCB-953,Hatchback,Taller Lima Centro,Alineamiento y balanceo,María Huamán,17/03/2026,139.84,Finalizada
+OT-00366,17/03/2026,MWX-771,Hatchback,Taller Surco,Suspensión,Rosa Flores,22/03/2026,640.35,Finalizada
+OT-00367,18/03/2026,YPL-197,Hatchback,Taller Surco,Alineamiento y balanceo,Rosa Flores,24/03/2026,154.22,Finalizada
+OT-00368,19/03/2026,DYB-877,SUV,Taller Lima Centro,Suspensión,José Rojas,21/03/2026,1126.89,Finalizada
+OT-00369,19/03/2026,DGP-249,Camioneta pick-up,Taller San Miguel,Cambio de aceite,Jorge Mendoza,22/03/2026,174.77,Finalizada
+OT-00370,19/03/2026,KVJ-786,SUV,Taller Lima Centro,Cambio de aceite,José Rojas,21/03/2026,148.39,Finalizada
+OT-00371,20/03/2026,MKG-644,Minivan,Taller San Miguel,Afinamiento,Luis Pérez,26/03/2026,325.88,Finalizada
+OT-00372,20/03/2026,DYB-877,SUV,Taller Surco,Planchado y pintura,Miguel Castillo,20/03/2026,741.67,Finalizada
+OT-00373,20/03/2026,JLE-741,Minivan,Taller Surco,Diagnóstico electrónico,Miguel Castillo,23/03/2026,248.93,Finalizada
+OT-00374,20/03/2026,GFK-402,Sedán,Taller San Miguel,Mantenimiento preventivo 10 000 km,Jorge Mendoza,21/03/2026,677.57,Finalizada
+OT-00375,20/03/2026,MFX-745,Minivan,Taller Surco,Suspensión,Miguel Castillo,25/03/2026,493.67,Finalizada
+OT-00376,21/03/2026,GHA-195,Minivan,Taller Lima Centro,Cambio de aceite,María Huamán,27/03/2026,132.44,Finalizada
+OT-00377,21/03/2026,MPV-490,Minivan,Taller Lima Centro,Frenos,José Rojas,22/03/2026,421.78,Finalizada
+OT-00378,21/03/2026,RXL-517,Motocicleta,Taller San Miguel,Embrague,Ana Torres,22/03/2026,796.26,Finalizada
+OT-00379,22/03/2026,MSS-223,Motocicleta,Taller San Miguel,Diagnóstico electrónico,Ana Torres,23/03/2026,239.22,Finalizada
+OT-00380,22/03/2026,ENZ-468,Minivan,Taller Lima Centro,Planchado y pintura,José Rojas,25/03/2026,1836.02,Finalizada
+OT-00381,22/03/2026,ABD-340,SUV,Taller San Miguel,Frenos,Ana Torres,24/03/2026,422.60,Finalizada
+OT-00382,22/03/2026,DTL-383,Camioneta pick-up,Taller Lima Centro,Diagnóstico electrónico,Carlos Quispe,25/03/2026,176.31,Finalizada
+OT-00383,22/03/2026,ENZ-468,Minivan,Taller Surco,Alineamiento y balanceo,Miguel Castillo,22/03/2026,148.84,Finalizada
+OT-00384,23/03/2026,MUF-839,Camioneta pick-up,Taller San Miguel,Aire acondicionado,Luis Pérez,29/03/2026,465.09,Finalizada
+OT-00385,23/03/2026,JLX-632,SUV,Taller Lima Centro,Cambio de aceite,María Huamán,26/03/2026,124.11,Finalizada
+OT-00386,23/03/2026,MCC-897,Minivan,Taller Surco,Frenos,Miguel Castillo,23/03/2026,436.98,Finalizada
+OT-00387,23/03/2026,YUV-978,Motocicleta,Taller San Miguel,Suspensión,Luis Pérez,27/03/2026,887.06,Finalizada
+OT-00388,23/03/2026,EBZ-635,Hatchback,Taller Surco,Cambio de aceite,Pedro Ramírez,23/03/2026,146.80,Finalizada
+OT-00389,23/03/2026,PSE-593,Minivan,Taller San Miguel,Suspensión,Jorge Mendoza,24/03/2026,902.77,Finalizada
+OT-00390,24/03/2026,JUS-527,Motocicleta,Taller Lima Centro,Cambio de aceite,Carlos Quispe,28/03/2026,99.80,Finalizada
+OT-00391,24/03/2026,NPG-401,SUV,Taller Surco,Diagnóstico electrónico,Pedro Ramírez,27/03/2026,126.18,Finalizada
+OT-00392,24/03/2026,CNK-291,Sedán,Taller Surco,Afinamiento,Rosa Flores,24/03/2026,312.83,Finalizada
+OT-00393,24/03/2026,UKK-568,SUV,Taller Surco,Mantenimiento preventivo 10 000 km,Miguel Castillo,25/03/2026,417.17,Finalizada
+OT-00394,25/03/2026,HEF-655,Sedán,Taller San Miguel,Cambio de aceite,Ana Torres,25/03/2026,163.38,Finalizada
+OT-00395,25/03/2026,VCF-666,Motocicleta,Taller Lima Centro,Alineamiento y balanceo,María Huamán,26/03/2026,94.47,Finalizada
+OT-00396,25/03/2026,TAF-422,Hatchback,Taller San Miguel,Cambio de aceite,Ana Torres,26/03/2026,134.16,Finalizada
+OT-00397,25/03/2026,VRH-102,Motocicleta,Taller Lima Centro,Frenos,José Rojas,27/03/2026,205.92,Finalizada
+OT-00398,26/03/2026,DBE-635,SUV,Taller San Miguel,Frenos,Ana Torres,28/03/2026,355.65,Finalizada
+OT-00399,26/03/2026,JLX-632,SUV,Taller San Miguel,Suspensión,Luis Pérez,26/03/2026,751.24,Finalizada
+OT-00400,26/03/2026,XTZ-590,Camioneta pick-up,Taller San Miguel,Mantenimiento preventivo 10 000 km,Jorge Mendoza,26/03/2026,536.43,Finalizada
+OT-00401,26/03/2026,DBE-635,SUV,Taller Surco,Frenos,Pedro Ramírez,27/03/2026,436.65,Finalizada
+OT-00402,26/03/2026,NPG-401,SUV,Taller San Miguel,Suspensión,Jorge Mendoza,26/03/2026,1127.90,Finalizada
+OT-00403,27/03/2026,DWZ-387,Motocicleta,Taller San Miguel,Diagnóstico electrónico,Luis Pérez,27/03/2026,177.57,Finalizada
+OT-00404,27/03/2026,ZLK-844,SUV,Taller Lima Centro,Afinamiento,María Huamán,30/03/2026,436.67,Finalizada
+OT-00405,27/03/2026,GER-860,Motocicleta,Taller San Miguel,Alineamiento y balanceo,Luis Pérez,30/03/2026,124.30,Finalizada
+OT-00406,27/03/2026,CWG-353,Minivan,Taller Lima Centro,Afinamiento,Carlos Quispe,30/03/2026,353.45,Finalizada
+OT-00407,27/03/2026,XAM-165,Minivan,Taller Surco,Afinamiento,Rosa Flores,30/03/2026,381.97,Finalizada
+OT-00408,28/03/2026,MWX-771,Hatchback,Taller Surco,Cambio de aceite,Miguel Castillo,29/03/2026,175.85,Finalizada
+OT-00409,29/03/2026,UYF-127,Minivan,Taller Surco,Mantenimiento preventivo 10 000 km,Pedro Ramírez,,425.47,Cancelada
+OT-00410,29/03/2026,MUF-839,Camioneta pick-up,Taller San Miguel,Cambio de aceite,Ana Torres,30/03/2026,147.18,Finalizada
+OT-00411,29/03/2026,WUP-902,Motocicleta,Taller San Miguel,Afinamiento,Jorge Mendoza,31/03/2026,289.02,Finalizada
+OT-00412,30/03/2026,DTL-383,Camioneta pick-up,Taller Surco,Afinamiento,Rosa Flores,03/04/2026,320.88,Finalizada
+OT-00413,30/03/2026,TJP-677,Minivan,Taller Lima Centro,Alineamiento y balanceo,Carlos Quispe,30/03/2026,130.49,Finalizada
+OT-00414,30/03/2026,CLC-670,Motocicleta,Taller Surco,Frenos,Rosa Flores,02/04/2026,471.78,Finalizada
+OT-00415,30/03/2026,NLU-367,Camioneta pick-up,Taller Lima Centro,Cambio de aceite,José Rojas,30/03/2026,101.54,Finalizada
+OT-00416,31/03/2026,HDX-817,Motocicleta,Taller San Miguel,Cambio de aceite,Ana Torres,,177.32,Cancelada
+OT-00417,31/03/2026,UYF-127,Minivan,Taller Lima Centro,Diagnóstico electrónico,José Rojas,05/04/2026,227.45,Finalizada
+OT-00418,31/03/2026,MUF-839,Camioneta pick-up,Taller Lima Centro,Cambio de aceite,José Rojas,,173.78,Cancelada
+OT-00419,31/03/2026,YBK-424,Motocicleta,Taller San Miguel,Alineamiento y balanceo,Luis Pérez,31/03/2026,82.95,Finalizada
+OT-00420,31/03/2026,XME-105,Sedán,Taller San Miguel,Diagnóstico electrónico,Ana Torres,05/04/2026,223.15,Finalizada
+OT-00421,31/03/2026,RHZ-456,Minivan,Taller Lima Centro,Cambio de aceite,María Huamán,05/04/2026,126.03,Finalizada
+OT-00422,31/03/2026,YUV-978,Motocicleta,Taller San Miguel,Alineamiento y balanceo,Ana Torres,05/04/2026,149.58,Finalizada
+OT-00423,31/03/2026,RYS-831,Minivan,Taller Lima Centro,Frenos,María Huamán,05/04/2026,230.45,Finalizada
+OT-00424,01/04/2026,UVG-683,Motocicleta,Taller Surco,Afinamiento,Pedro Ramírez,02/04/2026,402.22,Finalizada
+OT-00425,01/04/2026,JZS-577,Motocicleta,Taller San Miguel,Aire acondicionado,Jorge Mendoza,07/04/2026,256.60,Finalizada
+OT-00426,01/04/2026,JLE-741,Minivan,Taller San Miguel,Alineamiento y balanceo,Ana Torres,05/04/2026,153.26,Finalizada
+OT-00427,01/04/2026,MNT-753,SUV,Taller Lima Centro,Frenos,Carlos Quispe,03/04/2026,294.45,Finalizada
+OT-00428,01/04/2026,STT-924,Motocicleta,Taller San Miguel,Cambio de aceite,Ana Torres,01/04/2026,101.06,Finalizada
+OT-00429,01/04/2026,YUV-978,Motocicleta,Taller Surco,Afinamiento,Miguel Castillo,06/04/2026,251.49,Finalizada
+OT-00430,01/04/2026,YDZ-737,SUV,Taller San Miguel,Mantenimiento preventivo 10 000 km,Ana Torres,05/04/2026,401.26,Finalizada
+OT-00431,01/04/2026,VWF-257,Hatchback,Taller Surco,Afinamiento,Rosa Flores,02/04/2026,442.35,Finalizada
+OT-00432,01/04/2026,PTU-439,SUV,Taller San Miguel,Cambio de aceite,Ana Torres,07/04/2026,114.97,Finalizada
+OT-00433,01/04/2026,DAU-322,Minivan,Taller Lima Centro,Alineamiento y balanceo,Carlos Quispe,05/04/2026,157.41,Finalizada
+OT-00434,01/04/2026,FYF-499,Minivan,Taller Lima Centro,Suspensión,José Rojas,06/04/2026,439.25,Finalizada
+OT-00435,02/04/2026,LYK-560,Minivan,Taller Surco,Diagnóstico electrónico,Rosa Flores,,215.46,Cancelada
+OT-00436,02/04/2026,MWX-771,Hatchback,Taller Surco,Diagnóstico electrónico,Pedro Ramírez,03/04/2026,179.65,Finalizada
+OT-00437,02/04/2026,TWS-507,SUV,Taller San Miguel,Planchado y pintura,Luis Pérez,06/04/2026,1283.14,Finalizada
+OT-00438,02/04/2026,JLE-741,Minivan,Taller Surco,Cambio de aceite,Pedro Ramírez,02/04/2026,145.89,Finalizada
+OT-00439,02/04/2026,HEF-655,Sedán,Taller Lima Centro,Frenos,María Huamán,04/04/2026,185.35,Finalizada
+OT-00440,02/04/2026,JAB-253,Sedán,Taller San Miguel,Afinamiento,Jorge Mendoza,07/04/2026,391.26,Finalizada
+OT-00441,02/04/2026,TWS-507,SUV,Taller Lima Centro,Frenos,José Rojas,07/04/2026,481.73,Finalizada
+OT-00442,02/04/2026,GNJ-456,Camioneta pick-up,Taller San Miguel,Aire acondicionado,Luis Pérez,07/04/2026,281.41,Finalizada
+OT-00443,03/04/2026,XWR-922,Sedán,Taller Lima Centro,Aire acondicionado,Carlos Quispe,06/04/2026,569.14,Finalizada
+OT-00444,03/04/2026,DFW-225,Camioneta pick-up,Taller Surco,Alineamiento y balanceo,Miguel Castillo,04/04/2026,114.65,Finalizada
+OT-00445,03/04/2026,JEZ-857,Sedán,Taller Surco,Frenos,Rosa Flores,05/04/2026,494.33,Finalizada
+OT-00446,03/04/2026,LYK-560,Minivan,Taller Lima Centro,Alineamiento y balanceo,José Rojas,08/04/2026,90.61,Finalizada
+OT-00447,03/04/2026,GFX-520,SUV,Taller Lima Centro,Embrague,María Huamán,09/04/2026,681.12,Finalizada
+OT-00448,04/04/2026,MSS-223,Motocicleta,Taller Surco,Afinamiento,Pedro Ramírez,10/04/2026,309.00,Finalizada
+OT-00449,04/04/2026,KAP-692,Minivan,Taller Surco,Frenos,Miguel Castillo,06/04/2026,309.93,Finalizada
+OT-00450,04/04/2026,RHZ-456,Minivan,Taller Surco,Cambio de aceite,Miguel Castillo,09/04/2026,108.80,Finalizada
+OT-00451,04/04/2026,VYE-541,Minivan,Taller San Miguel,Aire acondicionado,Jorge Mendoza,04/04/2026,247.15,Finalizada
+OT-00452,04/04/2026,MUF-839,Camioneta pick-up,Taller Surco,Aire acondicionado,Pedro Ramírez,08/04/2026,343.20,Finalizada
+OT-00453,04/04/2026,APJ-524,SUV,Taller Lima Centro,Frenos,Carlos Quispe,04/04/2026,423.10,Finalizada
+OT-00454,04/04/2026,MCC-897,Minivan,Taller Lima Centro,Cambio de aceite,María Huamán,10/04/2026,93.87,Finalizada
+OT-00455,04/04/2026,MPV-490,Minivan,Taller Lima Centro,Frenos,Carlos Quispe,06/04/2026,425.43,Finalizada
+OT-00456,05/04/2026,XTZ-590,Camioneta pick-up,Taller San Miguel,Mantenimiento preventivo 10 000 km,Ana Torres,09/04/2026,454.80,Finalizada
+OT-00457,05/04/2026,NCB-953,Hatchback,Taller San Miguel,Planchado y pintura,Ana Torres,06/04/2026,608.84,Finalizada
+OT-00458,05/04/2026,DGP-249,Camioneta pick-up,Taller Surco,Diagnóstico electrónico,Rosa Flores,06/04/2026,237.45,Finalizada
+OT-00459,05/04/2026,DCN-368,Hatchback,Taller Surco,Frenos,Pedro Ramírez,07/04/2026,332.34,Finalizada
+OT-00460,06/04/2026,XAM-165,Minivan,Taller San Miguel,Afinamiento,Jorge Mendoza,06/04/2026,389.75,Finalizada
+OT-00461,06/04/2026,LBY-960,Camioneta pick-up,Taller Surco,Cambio de aceite,Miguel Castillo,12/04/2026,93.47,Finalizada
+OT-00462,06/04/2026,CSK-371,Motocicleta,Taller San Miguel,Afinamiento,Jorge Mendoza,10/04/2026,366.15,Finalizada
+OT-00463,06/04/2026,GWR-536,Camioneta pick-up,Taller San Miguel,Alineamiento y balanceo,Jorge Mendoza,,128.67,Cancelada
+OT-00464,06/04/2026,UED-900,SUV,Taller Surco,Alineamiento y balanceo,Rosa Flores,10/04/2026,114.97,Finalizada
+OT-00465,06/04/2026,JPU-524,Hatchback,Taller Lima Centro,Diagnóstico electrónico,María Huamán,06/04/2026,123.99,Finalizada
+OT-00466,06/04/2026,BNN-651,SUV,Taller Lima Centro,Cambio de aceite,Carlos Quispe,07/04/2026,160.64,Finalizada
+OT-00467,06/04/2026,MNT-753,SUV,Taller Lima Centro,Diagnóstico electrónico,María Huamán,12/04/2026,159.83,Finalizada
+OT-00468,06/04/2026,XWR-922,Sedán,Taller Surco,Suspensión,Pedro Ramírez,09/04/2026,918.25,Finalizada
+OT-00469,07/04/2026,AVH-884,SUV,Taller San Miguel,Diagnóstico electrónico,Ana Torres,08/04/2026,164.49,Finalizada
+OT-00470,07/04/2026,BXT-939,Minivan,Taller Lima Centro,Alineamiento y balanceo,María Huamán,09/04/2026,101.39,Finalizada
+OT-00471,07/04/2026,MUF-839,Camioneta pick-up,Taller San Miguel,Cambio de aceite,Jorge Mendoza,13/04/2026,112.91,Finalizada
+OT-00472,07/04/2026,GFX-520,SUV,Taller Surco,Cambio de aceite,Miguel Castillo,09/04/2026,169.04,Finalizada
+OT-00473,09/04/2026,TJP-677,Minivan,Taller Surco,Planchado y pintura,Pedro Ramírez,15/04/2026,1237.62,Finalizada
+OT-00474,09/04/2026,CNK-291,Sedán,Taller Lima Centro,Cambio de aceite,María Huamán,12/04/2026,148.48,Finalizada
+OT-00475,10/04/2026,EHA-116,Motocicleta,Taller San Miguel,Cambio de aceite,Ana Torres,14/04/2026,148.21,Finalizada
+OT-00476,10/04/2026,VCK-422,SUV,Taller Surco,Mantenimiento preventivo 10 000 km,Rosa Flores,15/04/2026,554.17,Finalizada
+OT-00477,10/04/2026,VKA-968,Camioneta pick-up,Taller Surco,Aire acondicionado,Pedro Ramírez,,518.79,Cancelada
+OT-00478,10/04/2026,WLR-712,SUV,Taller San Miguel,Embrague,Jorge Mendoza,14/04/2026,870.16,Finalizada
+OT-00479,10/04/2026,UED-900,SUV,Taller Surco,Cambio de aceite,Pedro Ramírez,11/04/2026,165.79,Finalizada
+OT-00480,11/04/2026,AUZ-437,Motocicleta,Taller San Miguel,Alineamiento y balanceo,Jorge Mendoza,16/04/2026,137.59,Finalizada
+OT-00481,11/04/2026,TWS-507,SUV,Taller Surco,Mantenimiento preventivo 10 000 km,Rosa Flores,16/04/2026,550.48,Finalizada
+OT-00482,11/04/2026,YHF-432,SUV,Taller San Miguel,Diagnóstico electrónico,Jorge Mendoza,17/04/2026,149.97,Finalizada
+OT-00483,11/04/2026,MFJ-575,Sedán,Taller San Miguel,Frenos,Ana Torres,13/04/2026,456.23,Finalizada
+OT-00484,12/04/2026,XRU-930,SUV,Taller Lima Centro,Afinamiento,María Huamán,13/04/2026,333.04,Finalizada
+OT-00485,12/04/2026,LDS-577,Motocicleta,Taller Lima Centro,Frenos,María Huamán,14/04/2026,235.90,Finalizada
+OT-00486,12/04/2026,VWF-257,Hatchback,Taller San Miguel,Planchado y pintura,Jorge Mendoza,12/04/2026,699.29,Finalizada
+OT-00487,12/04/2026,XRU-930,SUV,Taller Surco,Suspensión,Pedro Ramírez,13/04/2026,745.64,Finalizada
+OT-00488,12/04/2026,DFW-225,Camioneta pick-up,Taller Lima Centro,Suspensión,José Rojas,16/04/2026,497.18,Finalizada
+OT-00489,12/04/2026,DJK-688,Motocicleta,Taller Surco,Alineamiento y balanceo,Pedro Ramírez,18/04/2026,141.60,Finalizada
+OT-00490,12/04/2026,UXJ-339,Minivan,Taller Lima Centro,Frenos,José Rojas,18/04/2026,507.80,Finalizada
+OT-00491,12/04/2026,DKP-426,SUV,Taller San Miguel,Mantenimiento preventivo 10 000 km,Luis Pérez,14/04/2026,572.83,Finalizada
+OT-00492,13/04/2026,USD-535,Sedán,Taller Lima Centro,Aire acondicionado,Carlos Quispe,15/04/2026,389.64,Finalizada
+OT-00493,13/04/2026,DLT-624,Motocicleta,Taller Surco,Frenos,Rosa Flores,18/04/2026,457.94,Finalizada
+OT-00494,14/04/2026,JZS-577,Motocicleta,Taller Lima Centro,Alineamiento y balanceo,María Huamán,20/04/2026,105.47,Finalizada
+OT-00495,14/04/2026,LEU-890,Minivan,Taller San Miguel,Planchado y pintura,Ana Torres,16/04/2026,1144.20,Finalizada
+OT-00496,14/04/2026,DTL-383,Camioneta pick-up,Taller San Miguel,Afinamiento,Luis Pérez,20/04/2026,356.38,Finalizada
+OT-00497,14/04/2026,YHF-432,SUV,Taller Lima Centro,Embrague,María Huamán,,1324.70,Cancelada
+OT-00498,14/04/2026,AAT-587,Hatchback,Taller San Miguel,Afinamiento,Ana Torres,15/04/2026,390.06,Finalizada
+OT-00499,14/04/2026,UBR-988,Motocicleta,Taller San Miguel,Mantenimiento preventivo 10 000 km,Luis Pérez,14/04/2026,589.32,Finalizada
+OT-00500,15/04/2026,EHA-116,Motocicleta,Taller San Miguel,Alineamiento y balanceo,Luis Pérez,,132.68,Cancelada
+OT-00501,15/04/2026,UJU-511,Camioneta pick-up,Taller Surco,Alineamiento y balanceo,Miguel Castillo,20/04/2026,137.16,Finalizada
+OT-00502,15/04/2026,CLC-670,Motocicleta,Taller San Miguel,Planchado y pintura,Ana Torres,16/04/2026,1689.25,Finalizada
+OT-00503,15/04/2026,UTH-948,Camioneta pick-up,Taller Lima Centro,Cambio de aceite,José Rojas,17/04/2026,100.58,Finalizada
+OT-00504,15/04/2026,YBK-424,Motocicleta,Taller Surco,Cambio de aceite,Miguel Castillo,15/04/2026,139.65,Finalizada
+OT-00505,15/04/2026,RDT-915,Sedán,Taller Surco,Alineamiento y balanceo,Rosa Flores,17/04/2026,147.89,Finalizada
+OT-00506,16/04/2026,FYF-499,Minivan,Taller Lima Centro,Diagnóstico electrónico,María Huamán,21/04/2026,124.76,Finalizada
+OT-00507,16/04/2026,GNA-208,SUV,Taller Lima Centro,Mantenimiento preventivo 10 000 km,Carlos Quispe,20/04/2026,669.85,Finalizada
+OT-00508,16/04/2026,ZVK-686,Hatchback,Taller Surco,Alineamiento y balanceo,Rosa Flores,18/04/2026,129.91,Finalizada
+OT-00509,17/04/2026,DGP-249,Camioneta pick-up,Taller Lima Centro,Diagnóstico electrónico,Carlos Quispe,17/04/2026,207.96,Finalizada
+OT-00510,17/04/2026,GFK-402,Sedán,Taller Surco,Suspensión,Pedro Ramírez,20/04/2026,1192.76,Finalizada
+OT-00511,17/04/2026,YSY-421,Hatchback,Taller Surco,Diagnóstico electrónico,Pedro Ramírez,18/04/2026,166.27,Finalizada
+OT-00512,17/04/2026,DLT-624,Motocicleta,Taller San Miguel,Cambio de aceite,Ana Torres,19/04/2026,109.49,Finalizada
+OT-00513,17/04/2026,YKU-918,Camioneta pick-up,Taller Surco,Aire acondicionado,Miguel Castillo,17/04/2026,576.08,Finalizada
+OT-00514,18/04/2026,JLD-427,Hatchback,Taller San Miguel,Cambio de aceite,Luis Pérez,24/04/2026,161.93,Finalizada
+OT-00515,18/04/2026,YDZ-737,SUV,Taller Lima Centro,Frenos,José Rojas,19/04/2026,390.56,Finalizada
+OT-00516,18/04/2026,RVU-956,SUV,Taller Lima Centro,Afinamiento,José Rojas,,377.42,Cancelada
+OT-00517,18/04/2026,XWR-922,Sedán,Taller San Miguel,Frenos,Luis Pérez,22/04/2026,344.63,Finalizada
+OT-00518,18/04/2026,DJK-688,Motocicleta,Taller Lima Centro,Frenos,José Rojas,22/04/2026,198.61,Finalizada
+OT-00519,19/04/2026,WXS-532,Sedán,Taller San Miguel,Aire acondicionado,Ana Torres,21/04/2026,581.62,Finalizada
+OT-00520,19/04/2026,BXF-186,SUV,Taller Lima Centro,Alineamiento y balanceo,Carlos Quispe,19/04/2026,144.16,Finalizada
+OT-00521,19/04/2026,RDR-805,SUV,Taller San Miguel,Mantenimiento preventivo 10 000 km,Luis Pérez,21/04/2026,490.79,Finalizada
+OT-00522,19/04/2026,VWF-257,Hatchback,Taller San Miguel,Mantenimiento preventivo 10 000 km,Jorge Mendoza,23/04/2026,589.94,Finalizada
+OT-00523,19/04/2026,DCN-368,Hatchback,Taller San Miguel,Frenos,Ana Torres,20/04/2026,437.06,Finalizada
+OT-00524,19/04/2026,XWR-922,Sedán,Taller Surco,Suspensión,Pedro Ramírez,21/04/2026,606.85,Finalizada
+OT-00525,19/04/2026,DLT-624,Motocicleta,Taller Lima Centro,Afinamiento,José Rojas,25/04/2026,370.79,Finalizada
+OT-00526,20/04/2026,RXN-509,Hatchback,Taller Lima Centro,Cambio de aceite,María Huamán,20/04/2026,176.48,Finalizada
+OT-00527,20/04/2026,TAF-422,Hatchback,Taller Surco,Frenos,Rosa Flores,,313.78,Cancelada
+OT-00528,20/04/2026,TAF-422,Hatchback,Taller Surco,Frenos,Rosa Flores,22/04/2026,433.02,Finalizada
+OT-00529,21/04/2026,EMP-493,Sedán,Taller Surco,Cambio de aceite,Miguel Castillo,23/04/2026,91.19,Finalizada
+OT-00530,21/04/2026,EWW-354,Hatchback,Taller Surco,Suspensión,Miguel Castillo,,830.67,Cancelada
+OT-00531,21/04/2026,FJJ-164,Camioneta pick-up,Taller Lima Centro,Cambio de aceite,María Huamán,,106.24,Cancelada
+OT-00532,21/04/2026,MSS-223,Motocicleta,Taller San Miguel,Afinamiento,Ana Torres,23/04/2026,320.15,Finalizada
+OT-00533,21/04/2026,JRJ-248,Hatchback,Taller San Miguel,Cambio de aceite,Luis Pérez,22/04/2026,121.79,Finalizada
+OT-00534,22/04/2026,YPL-197,Hatchback,Taller Surco,Aire acondicionado,Rosa Flores,23/04/2026,319.53,Finalizada
+OT-00535,22/04/2026,VCK-422,SUV,Taller Lima Centro,Cambio de aceite,José Rojas,26/04/2026,141.22,Finalizada
+OT-00536,22/04/2026,GNA-208,SUV,Taller Lima Centro,Afinamiento,José Rojas,25/04/2026,374.46,Finalizada
+OT-00537,23/04/2026,JEZ-857,Sedán,Taller Lima Centro,Suspensión,Carlos Quispe,26/04/2026,589.79,Finalizada
+OT-00538,23/04/2026,TYJ-498,SUV,Taller Lima Centro,Diagnóstico electrónico,Carlos Quispe,26/04/2026,139.06,Finalizada
+OT-00539,23/04/2026,KAP-692,Minivan,Taller Surco,Mantenimiento preventivo 10 000 km,Rosa Flores,29/04/2026,612.85,Finalizada
+OT-00540,24/04/2026,VWF-257,Hatchback,Taller San Miguel,Diagnóstico electrónico,Jorge Mendoza,29/04/2026,229.13,Finalizada
+OT-00541,24/04/2026,GFX-520,SUV,Taller San Miguel,Cambio de aceite,Luis Pérez,27/04/2026,172.28,Finalizada
+OT-00542,24/04/2026,YKU-918,Camioneta pick-up,Taller Surco,Cambio de aceite,Rosa Flores,30/04/2026,126.88,Finalizada
+OT-00543,24/04/2026,AKD-196,Sedán,Taller Surco,Cambio de aceite,Rosa Flores,25/04/2026,165.14,Finalizada
+OT-00544,25/04/2026,DKP-426,SUV,Taller Lima Centro,Frenos,Carlos Quispe,25/04/2026,302.87,Finalizada
+OT-00545,25/04/2026,NLU-367,Camioneta pick-up,Taller Surco,Aire acondicionado,Rosa Flores,27/04/2026,538.00,Finalizada
+OT-00546,25/04/2026,APJ-524,SUV,Taller Lima Centro,Alineamiento y balanceo,María Huamán,25/04/2026,81.28,Finalizada
+OT-00547,25/04/2026,SPK-578,SUV,Taller San Miguel,Mantenimiento preventivo 10 000 km,Jorge Mendoza,01/05/2026,546.44,Finalizada
+OT-00548,25/04/2026,DFW-225,Camioneta pick-up,Taller Surco,Mantenimiento preventivo 10 000 km,Rosa Flores,01/05/2026,402.11,Finalizada
+OT-00549,26/04/2026,YAE-761,Motocicleta,Taller Lima Centro,Mantenimiento preventivo 10 000 km,María Huamán,29/04/2026,401.33,Finalizada
+OT-00550,26/04/2026,AVH-884,SUV,Taller Lima Centro,Embrague,Carlos Quispe,28/04/2026,617.53,Finalizada
+OT-00551,26/04/2026,UTH-948,Camioneta pick-up,Taller Surco,Diagnóstico electrónico,Pedro Ramírez,30/04/2026,211.85,Finalizada
+OT-00552,26/04/2026,JLX-632,SUV,Taller Lima Centro,Aire acondicionado,José Rojas,,238.93,Cancelada
+OT-00553,26/04/2026,DYB-877,SUV,Taller Lima Centro,Cambio de aceite,Carlos Quispe,30/04/2026,108.90,Finalizada
+OT-00554,26/04/2026,LFG-925,Camioneta pick-up,Taller Lima Centro,Cambio de aceite,Carlos Quispe,02/05/2026,168.86,Finalizada
+OT-00555,26/04/2026,LDS-577,Motocicleta,Taller San Miguel,Alineamiento y balanceo,Luis Pérez,02/05/2026,97.37,Finalizada
+OT-00556,27/04/2026,MSS-223,Motocicleta,Taller Lima Centro,Afinamiento,José Rojas,29/04/2026,387.86,Finalizada
+OT-00557,27/04/2026,EDL-596,Minivan,Taller Lima Centro,Diagnóstico electrónico,José Rojas,01/05/2026,168.19,Finalizada
+OT-00558,27/04/2026,TDC-245,Minivan,Taller San Miguel,Afinamiento,Luis Pérez,27/04/2026,327.31,Finalizada
+OT-00559,27/04/2026,ABD-340,SUV,Taller San Miguel,Frenos,Ana Torres,02/05/2026,478.98,Finalizada
+OT-00560,27/04/2026,YDZ-737,SUV,Taller Surco,Frenos,Miguel Castillo,30/04/2026,223.21,Finalizada
+OT-00561,27/04/2026,ESA-462,Motocicleta,Taller Surco,Frenos,Rosa Flores,29/04/2026,425.93,Finalizada
+OT-00562,27/04/2026,TJP-677,Minivan,Taller Lima Centro,Frenos,María Huamán,03/05/2026,510.44,Finalizada
+OT-00563,28/04/2026,CWG-353,Minivan,Taller San Miguel,Cambio de aceite,Jorge Mendoza,01/05/2026,159.47,Finalizada
+OT-00564,28/04/2026,VYE-541,Minivan,Taller Surco,Planchado y pintura,Miguel Castillo,28/04/2026,879.01,Finalizada
+OT-00565,28/04/2026,WLR-712,SUV,Taller Surco,Cambio de aceite,Miguel Castillo,02/05/2026,156.82,Finalizada
+OT-00566,29/04/2026,KVJ-786,SUV,Taller Lima Centro,Cambio de aceite,Carlos Quispe,05/05/2026,95.34,Finalizada
+OT-00567,29/04/2026,EHA-116,Motocicleta,Taller Lima Centro,Mantenimiento preventivo 10 000 km,José Rojas,02/05/2026,419.88,Finalizada
+OT-00568,29/04/2026,DGP-249,Camioneta pick-up,Taller Lima Centro,Suspensión,María Huamán,03/05/2026,956.51,Finalizada
+OT-00569,30/04/2026,DFW-225,Camioneta pick-up,Taller Lima Centro,Afinamiento,María Huamán,01/05/2026,281.86,Finalizada
+OT-00570,30/04/2026,JLD-427,Hatchback,Taller Surco,Cambio de aceite,Pedro Ramírez,03/05/2026,164.49,Finalizada
+OT-00571,30/04/2026,VWF-257,Hatchback,Taller San Miguel,Cambio de aceite,Jorge Mendoza,30/04/2026,154.55,Finalizada
+OT-00572,30/04/2026,EMP-493,Sedán,Taller Lima Centro,Suspensión,María Huamán,03/05/2026,652.94,Finalizada
+OT-00573,30/04/2026,JPU-524,Hatchback,Taller Surco,Frenos,Pedro Ramírez,03/05/2026,180.81,Finalizada
+OT-00574,30/04/2026,TZP-914,SUV,Taller San Miguel,Mantenimiento preventivo 10 000 km,Luis Pérez,01/05/2026,514.65,Finalizada
+OT-00575,30/04/2026,KMB-853,Camioneta pick-up,Taller San Miguel,Cambio de aceite,Luis Pérez,04/05/2026,114.47,Finalizada
+OT-00576,30/04/2026,VRH-102,Motocicleta,Taller Surco,Cambio de aceite,Rosa Flores,02/05/2026,137.10,Finalizada
+OT-00577,30/04/2026,LFG-925,Camioneta pick-up,Taller Surco,Cambio de aceite,Miguel Castillo,06/05/2026,178.94,Finalizada
+OT-00578,30/04/2026,DFW-225,Camioneta pick-up,Taller Lima Centro,Alineamiento y balanceo,José Rojas,30/04/2026,145.69,Finalizada
+OT-00579,01/05/2026,TXY-261,Minivan,Taller San Miguel,Cambio de aceite,Luis Pérez,04/05/2026,171.69,Finalizada
+OT-00580,01/05/2026,TSP-671,Sedán,Taller San Miguel,Frenos,Ana Torres,04/05/2026,195.09,Finalizada
+OT-00581,01/05/2026,FYF-499,Minivan,Taller Lima Centro,Frenos,José Rojas,03/05/2026,476.68,Finalizada
+OT-00582,01/05/2026,DWZ-387,Motocicleta,Taller Surco,Mantenimiento preventivo 10 000 km,Pedro Ramírez,02/05/2026,593.05,Finalizada
+OT-00583,01/05/2026,TSM-304,Hatchback,Taller Surco,Mantenimiento preventivo 10 000 km,Pedro Ramírez,04/05/2026,392.19,Finalizada
+OT-00584,02/05/2026,NGX-109,Hatchback,Taller Lima Centro,Mantenimiento preventivo 10 000 km,José Rojas,05/05/2026,532.93,Finalizada
+OT-00585,02/05/2026,DFW-225,Camioneta pick-up,Taller San Miguel,Aire acondicionado,Jorge Mendoza,08/05/2026,557.15,Finalizada
+OT-00586,02/05/2026,DWZ-387,Motocicleta,Taller San Miguel,Aire acondicionado,Jorge Mendoza,03/05/2026,349.82,Finalizada
+OT-00587,02/05/2026,YDZ-737,SUV,Taller Lima Centro,Cambio de aceite,José Rojas,04/05/2026,95.47,Finalizada
+OT-00588,03/05/2026,EWW-354,Hatchback,Taller San Miguel,Cambio de aceite,Ana Torres,05/05/2026,159.33,Finalizada
+OT-00589,04/05/2026,ZTJ-563,SUV,Taller Lima Centro,Aire acondicionado,Carlos Quispe,06/05/2026,399.50,Finalizada
+OT-00590,04/05/2026,YDY-483,SUV,Taller San Miguel,Cambio de aceite,Ana Torres,08/05/2026,111.99,Finalizada
+OT-00591,05/05/2026,MSS-223,Motocicleta,Taller Surco,Suspensión,Pedro Ramírez,11/05/2026,452.98,Finalizada
+OT-00592,05/05/2026,DGP-249,Camioneta pick-up,Taller Lima Centro,Planchado y pintura,María Huamán,06/05/2026,1910.86,Finalizada
+OT-00593,05/05/2026,TAF-422,Hatchback,Taller San Miguel,Planchado y pintura,Ana Torres,08/05/2026,1687.95,Finalizada
+OT-00594,06/05/2026,GNJ-456,Camioneta pick-up,Taller Lima Centro,Frenos,Carlos Quispe,12/05/2026,499.22,Finalizada
+OT-00595,06/05/2026,DBE-635,SUV,Taller Lima Centro,Cambio de aceite,Carlos Quispe,,115.90,Cancelada
+OT-00596,06/05/2026,USD-535,Sedán,Taller Surco,Afinamiento,Pedro Ramírez,12/05/2026,316.20,Finalizada
+OT-00597,06/05/2026,FLT-593,Camioneta pick-up,Taller Lima Centro,Afinamiento,José Rojas,09/05/2026,437.16,Finalizada
+OT-00598,07/05/2026,GHA-195,Minivan,Taller San Miguel,Diagnóstico electrónico,Luis Pérez,13/05/2026,143.36,Finalizada
+OT-00599,07/05/2026,MNT-753,SUV,Taller Lima Centro,Mantenimiento preventivo 10 000 km,José Rojas,11/05/2026,475.36,Finalizada
+OT-00600,07/05/2026,YUV-978,Motocicleta,Taller Lima Centro,Mantenimiento preventivo 10 000 km,José Rojas,10/05/2026,630.80,Finalizada
+OT-00601,08/05/2026,YAE-761,Motocicleta,Taller Lima Centro,Mantenimiento preventivo 10 000 km,María Huamán,,620.71,Cancelada
+OT-00602,08/05/2026,MNT-753,SUV,Taller Surco,Cambio de aceite,Pedro Ramírez,11/05/2026,117.13,Finalizada
+OT-00603,08/05/2026,DRA-934,Minivan,Taller Lima Centro,Afinamiento,José Rojas,13/05/2026,353.26,Finalizada
+OT-00604,08/05/2026,MYR-699,Hatchback,Taller Surco,Suspensión,Miguel Castillo,09/05/2026,440.56,Finalizada
+OT-00605,09/05/2026,CWG-353,Minivan,Taller Surco,Diagnóstico electrónico,Miguel Castillo,12/05/2026,218.99,Finalizada
+OT-00606,09/05/2026,GNJ-456,Camioneta pick-up,Taller Surco,Mantenimiento preventivo 10 000 km,Miguel Castillo,14/05/2026,682.24,Finalizada
+OT-00607,09/05/2026,AKD-196,Sedán,Taller Surco,Frenos,Pedro Ramírez,,196.40,Cancelada
+OT-00608,09/05/2026,CPY-263,Sedán,Taller San Miguel,Suspensión,Jorge Mendoza,11/05/2026,1001.47,Finalizada
+OT-00609,09/05/2026,UEF-129,Hatchback,Taller San Miguel,Afinamiento,Jorge Mendoza,10/05/2026,316.11,Finalizada
+OT-00610,09/05/2026,BXF-186,SUV,Taller San Miguel,Cambio de aceite,Luis Pérez,14/05/2026,176.55,Finalizada
+OT-00611,09/05/2026,DTY-821,Camioneta pick-up,Taller Lima Centro,Diagnóstico electrónico,María Huamán,11/05/2026,179.97,Finalizada
+OT-00612,09/05/2026,FLT-593,Camioneta pick-up,Taller Lima Centro,Cambio de aceite,Carlos Quispe,11/05/2026,161.04,Finalizada
+OT-00613,10/05/2026,WZT-397,Minivan,Taller San Miguel,Cambio de aceite,Luis Pérez,12/05/2026,92.76,Finalizada
+OT-00614,10/05/2026,VUS-869,Motocicleta,Taller Lima Centro,Frenos,María Huamán,11/05/2026,511.46,Finalizada
+OT-00615,10/05/2026,JAB-253,Sedán,Taller San Miguel,Mantenimiento preventivo 10 000 km,Ana Torres,13/05/2026,613.87,Finalizada
+OT-00616,10/05/2026,TZP-914,SUV,Taller San Miguel,Afinamiento,Luis Pérez,16/05/2026,429.57,Finalizada
+OT-00617,10/05/2026,VUS-869,Motocicleta,Taller Lima Centro,Diagnóstico electrónico,José Rojas,10/05/2026,141.13,Finalizada
+OT-00618,11/05/2026,EXZ-833,Sedán,Taller Surco,Embrague,Miguel Castillo,,683.09,Cancelada
+OT-00619,11/05/2026,WXS-532,Sedán,Taller San Miguel,Cambio de aceite,Jorge Mendoza,11/05/2026,140.67,Finalizada
+OT-00620,12/05/2026,MFM-675,Hatchback,Taller San Miguel,Frenos,Luis Pérez,17/05/2026,321.13,Finalizada
+OT-00621,12/05/2026,TJP-677,Minivan,Taller San Miguel,Planchado y pintura,Jorge Mendoza,18/05/2026,1756.52,Finalizada
+OT-00622,12/05/2026,BXF-186,SUV,Taller San Miguel,Mantenimiento preventivo 10 000 km,Luis Pérez,18/05/2026,412.75,Finalizada
+OT-00623,12/05/2026,LFG-925,Camioneta pick-up,Taller Surco,Suspensión,Pedro Ramírez,13/05/2026,733.96,Finalizada
+OT-00624,13/05/2026,MYR-699,Hatchback,Taller Lima Centro,Aire acondicionado,María Huamán,19/05/2026,256.71,Finalizada
+OT-00625,13/05/2026,ABD-340,SUV,Taller Lima Centro,Aire acondicionado,José Rojas,16/05/2026,216.38,Finalizada
+OT-00626,13/05/2026,MCC-897,Minivan,Taller San Miguel,Cambio de aceite,Ana Torres,14/05/2026,174.17,Finalizada
+OT-00627,13/05/2026,TSP-671,Sedán,Taller San Miguel,Frenos,Luis Pérez,18/05/2026,269.08,Finalizada
+OT-00628,13/05/2026,JDP-275,SUV,Taller Surco,Suspensión,Miguel Castillo,16/05/2026,667.36,Finalizada
+OT-00629,14/05/2026,TJP-677,Minivan,Taller Lima Centro,Mantenimiento preventivo 10 000 km,Carlos Quispe,14/05/2026,678.98,Finalizada
+OT-00630,14/05/2026,YAE-761,Motocicleta,Taller Surco,Mantenimiento preventivo 10 000 km,Miguel Castillo,15/05/2026,407.56,Finalizada
+OT-00631,14/05/2026,AAT-587,Hatchback,Taller Surco,Aire acondicionado,Pedro Ramírez,20/05/2026,491.22,Finalizada
+OT-00632,14/05/2026,ESA-462,Motocicleta,Taller San Miguel,Frenos,Luis Pérez,19/05/2026,419.18,Finalizada
+OT-00633,14/05/2026,HYZ-171,Sedán,Taller Lima Centro,Frenos,Carlos Quispe,18/05/2026,267.51,Finalizada
+OT-00634,14/05/2026,YAE-761,Motocicleta,Taller Surco,Diagnóstico electrónico,Pedro Ramírez,17/05/2026,208.25,Finalizada
+OT-00635,15/05/2026,GMM-570,Minivan,Taller Lima Centro,Suspensión,María Huamán,18/05/2026,833.63,Finalizada
+OT-00636,15/05/2026,ABD-340,SUV,Taller San Miguel,Diagnóstico electrónico,Luis Pérez,15/05/2026,228.84,Finalizada
+OT-00637,15/05/2026,AUZ-437,Motocicleta,Taller Surco,Diagnóstico electrónico,Pedro Ramírez,20/05/2026,155.11,Finalizada
+OT-00638,15/05/2026,MXM-888,Camioneta pick-up,Taller San Miguel,Mantenimiento preventivo 10 000 km,Luis Pérez,17/05/2026,530.06,Finalizada
+OT-00639,15/05/2026,VAU-450,Minivan,Taller Lima Centro,Diagnóstico electrónico,Carlos Quispe,19/05/2026,244.58,Finalizada
+OT-00640,15/05/2026,ENZ-468,Minivan,Taller San Miguel,Cambio de aceite,Luis Pérez,18/05/2026,117.94,Finalizada
+OT-00641,15/05/2026,DLT-624,Motocicleta,Taller Lima Centro,Frenos,José Rojas,20/05/2026,306.88,Finalizada
+OT-00642,15/05/2026,VAU-450,Minivan,Taller Surco,Alineamiento y balanceo,Miguel Castillo,15/05/2026,100.91,Finalizada
+OT-00643,16/05/2026,USD-535,Sedán,Taller Lima Centro,Planchado y pintura,Carlos Quispe,18/05/2026,2246.63,Finalizada
+OT-00644,16/05/2026,TWS-507,SUV,Taller Surco,Cambio de aceite,Pedro Ramírez,19/05/2026,107.95,Finalizada
+OT-00645,16/05/2026,NGX-109,Hatchback,Taller Surco,Afinamiento,Pedro Ramírez,21/05/2026,290.76,Finalizada
+OT-00646,16/05/2026,UXJ-339,Minivan,Taller Surco,Aire acondicionado,Rosa Flores,,426.20,Cancelada
+OT-00647,17/05/2026,BNN-651,SUV,Taller San Miguel,Cambio de aceite,Jorge Mendoza,18/05/2026,127.78,Finalizada
+OT-00648,17/05/2026,ABD-340,SUV,Taller Lima Centro,Mantenimiento preventivo 10 000 km,Carlos Quispe,19/05/2026,677.27,Finalizada
+OT-00649,17/05/2026,SPK-578,SUV,Taller San Miguel,Aire acondicionado,Ana Torres,21/05/2026,209.51,Finalizada
+OT-00650,18/05/2026,RXN-509,Hatchback,Taller Lima Centro,Diagnóstico electrónico,Carlos Quispe,,225.79,Cancelada
+OT-00651,18/05/2026,DGP-249,Camioneta pick-up,Taller Lima Centro,Embrague,Carlos Quispe,19/05/2026,753.23,Finalizada
+OT-00652,18/05/2026,MWX-771,Hatchback,Taller Lima Centro,Alineamiento y balanceo,Carlos Quispe,19/05/2026,85.63,Finalizada
+OT-00653,18/05/2026,DWB-869,Motocicleta,Taller Surco,Mantenimiento preventivo 10 000 km,Pedro Ramírez,22/05/2026,499.30,Finalizada
+OT-00654,18/05/2026,UED-900,SUV,Taller San Miguel,Cambio de aceite,Luis Pérez,22/05/2026,166.09,Finalizada
+OT-00655,19/05/2026,TGT-241,Minivan,Taller Lima Centro,Cambio de aceite,Carlos Quispe,23/05/2026,177.50,Finalizada
+OT-00656,19/05/2026,JLX-632,SUV,Taller Lima Centro,Suspensión,María Huamán,21/05/2026,1062.45,Finalizada
+OT-00657,19/05/2026,SZE-658,Motocicleta,Taller San Miguel,Cambio de aceite,Jorge Mendoza,22/05/2026,109.53,Finalizada
+OT-00658,20/05/2026,ZLK-844,SUV,Taller Lima Centro,Aire acondicionado,María Huamán,20/05/2026,550.07,Finalizada
+OT-00659,20/05/2026,BHY-620,Sedán,Taller San Miguel,Suspensión,Ana Torres,21/05/2026,813.67,Finalizada
+OT-00660,20/05/2026,JZS-577,Motocicleta,Taller Surco,Planchado y pintura,Rosa Flores,,2033.20,Cancelada
+OT-00661,20/05/2026,XRU-930,SUV,Taller Surco,Cambio de aceite,Pedro Ramírez,24/05/2026,133.68,Finalizada
+OT-00662,20/05/2026,XAM-165,Minivan,Taller San Miguel,Cambio de aceite,Luis Pérez,,136.84,Cancelada
+OT-00663,20/05/2026,PSE-593,Minivan,Taller Surco,Afinamiento,Pedro Ramírez,22/05/2026,361.54,Finalizada
+OT-00664,21/05/2026,XJS-479,Hatchback,Taller San Miguel,Afinamiento,Jorge Mendoza,27/05/2026,340.00,Finalizada
+OT-00665,21/05/2026,ZMM-572,Motocicleta,Taller San Miguel,Diagnóstico electrónico,Ana Torres,21/05/2026,172.08,Finalizada
+OT-00666,21/05/2026,DYB-877,SUV,Taller San Miguel,Diagnóstico electrónico,Jorge Mendoza,23/05/2026,218.87,Finalizada
+OT-00667,21/05/2026,AKD-196,Sedán,Taller Lima Centro,Frenos,Carlos Quispe,25/05/2026,366.49,Finalizada
+OT-00668,21/05/2026,FLT-593,Camioneta pick-up,Taller Surco,Alineamiento y balanceo,Pedro Ramírez,23/05/2026,107.94,Finalizada
+OT-00669,21/05/2026,WLR-712,SUV,Taller Surco,Embrague,Rosa Flores,27/05/2026,1360.36,Finalizada
+OT-00670,21/05/2026,EMP-493,Sedán,Taller Surco,Mantenimiento preventivo 10 000 km,Pedro Ramírez,27/05/2026,606.30,Finalizada
+OT-00671,21/05/2026,JRJ-248,Hatchback,Taller Lima Centro,Afinamiento,María Huamán,23/05/2026,376.36,Finalizada
+OT-00672,22/05/2026,XXZ-729,Hatchback,Taller Lima Centro,Alineamiento y balanceo,José Rojas,23/05/2026,87.00,Finalizada
+OT-00673,22/05/2026,XWR-922,Sedán,Taller San Miguel,Cambio de aceite,Ana Torres,27/05/2026,161.80,Finalizada
+OT-00674,22/05/2026,VTG-544,Motocicleta,Taller Lima Centro,Afinamiento,María Huamán,24/05/2026,403.25,Finalizada
+OT-00675,22/05/2026,JUS-527,Motocicleta,Taller Lima Centro,Diagnóstico electrónico,José Rojas,22/05/2026,197.69,Finalizada
+OT-00676,23/05/2026,LFG-925,Camioneta pick-up,Taller San Miguel,Diagnóstico electrónico,Ana Torres,23/05/2026,241.56,Finalizada
+OT-00677,23/05/2026,JDP-275,SUV,Taller Surco,Suspensión,Miguel Castillo,25/05/2026,520.97,Finalizada
+OT-00678,23/05/2026,GUB-838,Motocicleta,Taller San Miguel,Alineamiento y balanceo,Ana Torres,25/05/2026,123.05,Finalizada
+OT-00679,23/05/2026,UEF-129,Hatchback,Taller Lima Centro,Planchado y pintura,José Rojas,23/05/2026,2482.23,Finalizada
+OT-00680,24/05/2026,XWR-922,Sedán,Taller Surco,Embrague,Rosa Flores,26/05/2026,808.90,Finalizada
+OT-00681,24/05/2026,EMP-493,Sedán,Taller Lima Centro,Mantenimiento preventivo 10 000 km,Carlos Quispe,25/05/2026,515.07,Finalizada
+OT-00682,24/05/2026,JLD-427,Hatchback,Taller Surco,Mantenimiento preventivo 10 000 km,Rosa Flores,24/05/2026,606.59,Finalizada
+OT-00683,24/05/2026,DWB-869,Motocicleta,Taller Lima Centro,Mantenimiento preventivo 10 000 km,José Rojas,27/05/2026,557.43,Finalizada
+OT-00684,25/05/2026,PSE-593,Minivan,Taller Lima Centro,Suspensión,María Huamán,27/05/2026,868.27,Finalizada
+OT-00685,25/05/2026,YAE-761,Motocicleta,Taller Surco,Cambio de aceite,Pedro Ramírez,28/05/2026,110.15,Finalizada
+OT-00686,25/05/2026,CNK-291,Sedán,Taller San Miguel,Alineamiento y balanceo,Jorge Mendoza,31/05/2026,155.09,Finalizada
+OT-00687,26/05/2026,DCN-368,Hatchback,Taller Surco,Suspensión,Rosa Flores,30/05/2026,454.78,Finalizada
+OT-00688,26/05/2026,JLX-632,SUV,Taller Lima Centro,Cambio de aceite,Carlos Quispe,27/05/2026,152.76,Finalizada
+OT-00689,26/05/2026,AUZ-437,Motocicleta,Taller San Miguel,Cambio de aceite,Luis Pérez,27/05/2026,115.96,Finalizada
+OT-00690,26/05/2026,TZP-914,SUV,Taller Lima Centro,Frenos,María Huamán,29/05/2026,295.97,Finalizada
+OT-00691,26/05/2026,GUB-838,Motocicleta,Taller Lima Centro,Mantenimiento preventivo 10 000 km,María Huamán,01/06/2026,475.69,Finalizada
+OT-00692,26/05/2026,VYE-541,Minivan,Taller San Miguel,Cambio de aceite,Ana Torres,31/05/2026,114.73,Finalizada
+OT-00693,27/05/2026,RYS-831,Minivan,Taller Surco,Embrague,Pedro Ramírez,31/05/2026,687.15,Finalizada
+OT-00694,27/05/2026,RVU-956,SUV,Taller Surco,Cambio de aceite,Rosa Flores,28/05/2026,166.25,Finalizada
+OT-00695,27/05/2026,YAE-761,Motocicleta,Taller Surco,Diagnóstico electrónico,Miguel Castillo,29/05/2026,203.07,Finalizada
+OT-00696,27/05/2026,DKP-426,SUV,Taller Lima Centro,Afinamiento,José Rojas,29/05/2026,284.38,Finalizada
+OT-00697,28/05/2026,PCN-699,Hatchback,Taller San Miguel,Diagnóstico electrónico,Jorge Mendoza,30/05/2026,163.87,Finalizada
+OT-00698,28/05/2026,LYV-688,Minivan,Taller Lima Centro,Diagnóstico electrónico,Carlos Quispe,01/06/2026,178.05,Finalizada
+OT-00699,29/05/2026,MWX-771,Hatchback,Taller Lima Centro,Alineamiento y balanceo,José Rojas,03/06/2026,156.14,Finalizada
+OT-00700,30/05/2026,SPK-578,SUV,Taller Lima Centro,Alineamiento y balanceo,Carlos Quispe,01/06/2026,135.54,Finalizada
+OT-00701,30/05/2026,CSK-371,Motocicleta,Taller Lima Centro,Afinamiento,José Rojas,05/06/2026,268.86,Finalizada
+OT-00702,30/05/2026,DBE-635,SUV,Taller Surco,Afinamiento,Pedro Ramírez,05/06/2026,298.38,Finalizada
+OT-00703,31/05/2026,LYV-688,Minivan,Taller San Miguel,Afinamiento,Jorge Mendoza,01/06/2026,436.40,Finalizada
+OT-00704,31/05/2026,YUV-978,Motocicleta,Taller San Miguel,Planchado y pintura,Jorge Mendoza,31/05/2026,1121.98,Finalizada
+OT-00705,31/05/2026,TJP-677,Minivan,Taller San Miguel,Afinamiento,Ana Torres,02/06/2026,275.46,Finalizada
+OT-00706,31/05/2026,TYJ-498,SUV,Taller Surco,Suspensión,Miguel Castillo,04/06/2026,848.84,Finalizada
+OT-00707,31/05/2026,MCC-897,Minivan,Taller Lima Centro,Mantenimiento preventivo 10 000 km,Carlos Quispe,31/05/2026,496.42,Finalizada
+OT-00708,31/05/2026,CSK-371,Motocicleta,Taller Surco,Mantenimiento preventivo 10 000 km,Rosa Flores,04/06/2026,373.18,Finalizada
+OT-00709,31/05/2026,GUB-838,Motocicleta,Taller San Miguel,Alineamiento y balanceo,Ana Torres,31/05/2026,80.52,Finalizada
+OT-00710,31/05/2026,LYV-688,Minivan,Taller Lima Centro,Afinamiento,Carlos Quispe,02/06/2026,411.55,Finalizada
+OT-00711,31/05/2026,GUB-838,Motocicleta,Taller Lima Centro,Diagnóstico electrónico,Carlos Quispe,02/06/2026,219.61,Finalizada
+OT-00712,01/06/2026,EBZ-635,Hatchback,Taller Surco,Cambio de aceite,Rosa Flores,03/06/2026,150.86,Finalizada
+OT-00713,01/06/2026,DGP-249,Camioneta pick-up,Taller Surco,Frenos,Pedro Ramírez,02/06/2026,333.51,Finalizada
+OT-00714,01/06/2026,DGP-249,Camioneta pick-up,Taller Surco,Diagnóstico electrónico,Pedro Ramírez,06/06/2026,246.72,Finalizada
+OT-00715,02/06/2026,DCN-368,Hatchback,Taller San Miguel,Afinamiento,Jorge Mendoza,03/06/2026,389.66,Finalizada
+OT-00716,02/06/2026,XDH-715,Camioneta pick-up,Taller San Miguel,Cambio de aceite,Ana Torres,07/06/2026,166.85,Finalizada
+OT-00717,02/06/2026,TSM-304,Hatchback,Taller Lima Centro,Afinamiento,Carlos Quispe,04/06/2026,371.06,Finalizada
+OT-00718,02/06/2026,FLT-593,Camioneta pick-up,Taller Lima Centro,Suspensión,Carlos Quispe,07/06/2026,1080.03,Finalizada
+OT-00719,02/06/2026,NGX-109,Hatchback,Taller Lima Centro,Frenos,José Rojas,07/06/2026,289.27,Finalizada
+OT-00720,03/06/2026,VRH-102,Motocicleta,Taller Lima Centro,Aire acondicionado,María Huamán,04/06/2026,302.48,Finalizada
+OT-00721,03/06/2026,BXF-186,SUV,Taller Surco,Mantenimiento preventivo 10 000 km,Pedro Ramírez,07/06/2026,501.61,Finalizada
+OT-00722,03/06/2026,NLU-367,Camioneta pick-up,Taller Lima Centro,Frenos,Carlos Quispe,05/06/2026,235.65,Finalizada
+OT-00723,04/06/2026,AXH-581,Minivan,Taller Lima Centro,Aire acondicionado,María Huamán,05/06/2026,424.43,Finalizada
+OT-00724,04/06/2026,ZLK-844,SUV,Taller San Miguel,Mantenimiento preventivo 10 000 km,Ana Torres,09/06/2026,455.02,Finalizada
+OT-00725,04/06/2026,KMU-848,Hatchback,Taller San Miguel,Embrague,Luis Pérez,04/06/2026,1140.66,Finalizada
+OT-00726,04/06/2026,JPU-524,Hatchback,Taller San Miguel,Diagnóstico electrónico,Luis Pérez,05/06/2026,198.44,Finalizada
+OT-00727,05/06/2026,UXJ-339,Minivan,Taller Lima Centro,Mantenimiento preventivo 10 000 km,Carlos Quispe,08/06/2026,604.84,Finalizada
+OT-00728,05/06/2026,MYR-699,Hatchback,Taller Lima Centro,Alineamiento y balanceo,Carlos Quispe,09/06/2026,108.51,Finalizada
+OT-00729,05/06/2026,VKA-968,Camioneta pick-up,Taller San Miguel,Cambio de aceite,Ana Torres,07/06/2026,118.37,Finalizada
+OT-00730,05/06/2026,MSS-223,Motocicleta,Taller Lima Centro,Frenos,María Huamán,08/06/2026,439.82,Finalizada
+OT-00731,05/06/2026,XFB-763,Camioneta pick-up,Taller Surco,Frenos,Rosa Flores,07/06/2026,476.38,Finalizada
+OT-00732,06/06/2026,BNL-722,Sedán,Taller San Miguel,Frenos,Jorge Mendoza,09/06/2026,250.41,Finalizada
+OT-00733,06/06/2026,WUP-902,Motocicleta,Taller Surco,Cambio de aceite,Pedro Ramírez,08/06/2026,153.30,Finalizada
+OT-00734,06/06/2026,YKU-918,Camioneta pick-up,Taller Surco,Afinamiento,Rosa Flores,11/06/2026,419.24,Finalizada
+OT-00735,06/06/2026,UJU-511,Camioneta pick-up,Taller San Miguel,Cambio de aceite,Luis Pérez,07/06/2026,97.03,Finalizada
+OT-00736,07/06/2026,YSY-421,Hatchback,Taller San Miguel,Alineamiento y balanceo,Ana Torres,12/06/2026,156.48,Finalizada
+OT-00737,07/06/2026,YHF-432,SUV,Taller Lima Centro,Cambio de aceite,María Huamán,10/06/2026,158.18,Finalizada
+OT-00738,07/06/2026,AUZ-437,Motocicleta,Taller Lima Centro,Mantenimiento preventivo 10 000 km,Carlos Quispe,10/06/2026,656.50,Finalizada
+OT-00739,07/06/2026,HUJ-451,Minivan,Taller San Miguel,Frenos,Luis Pérez,12/06/2026,479.23,Finalizada
+OT-00740,07/06/2026,MFX-745,Minivan,Taller Lima Centro,Afinamiento,María Huamán,09/06/2026,437.80,Finalizada
+OT-00741,08/06/2026,JLD-427,Hatchback,Taller Surco,Mantenimiento preventivo 10 000 km,Rosa Flores,11/06/2026,425.28,Finalizada
+OT-00742,08/06/2026,RDR-805,SUV,Taller San Miguel,Cambio de aceite,Jorge Mendoza,09/06/2026,151.97,Finalizada
+OT-00743,08/06/2026,RVU-956,SUV,Taller San Miguel,Mantenimiento preventivo 10 000 km,Ana Torres,11/06/2026,558.72,Finalizada
+OT-00744,09/06/2026,JDP-275,SUV,Taller Surco,Frenos,Pedro Ramírez,10/06/2026,338.97,Finalizada
+OT-00745,09/06/2026,FJJ-164,Camioneta pick-up,Taller Lima Centro,Frenos,Carlos Quispe,11/06/2026,267.50,Finalizada
+OT-00746,09/06/2026,UVG-683,Motocicleta,Taller San Miguel,Aire acondicionado,Luis Pérez,12/06/2026,213.61,Finalizada
+OT-00747,10/06/2026,CLC-670,Motocicleta,Taller San Miguel,Diagnóstico electrónico,Ana Torres,15/06/2026,140.92,Finalizada
+OT-00748,10/06/2026,PSE-593,Minivan,Taller Surco,Mantenimiento preventivo 10 000 km,Miguel Castillo,15/06/2026,591.33,Finalizada
+OT-00749,10/06/2026,KBV-778,Motocicleta,Taller Surco,Afinamiento,Pedro Ramírez,11/06/2026,380.60,Finalizada
+OT-00750,10/06/2026,VCK-422,SUV,Taller Lima Centro,Alineamiento y balanceo,José Rojas,15/06/2026,148.28,Finalizada
+OT-00751,10/06/2026,BNN-651,SUV,Taller San Miguel,Aire acondicionado,Luis Pérez,,480.96,Cancelada
+OT-00752,11/06/2026,MUF-839,Camioneta pick-up,Taller Surco,Alineamiento y balanceo,Pedro Ramírez,16/06/2026,140.49,Finalizada
+OT-00753,11/06/2026,JEZ-857,Sedán,Taller Surco,Cambio de aceite,Pedro Ramírez,11/06/2026,125.81,Finalizada
+OT-00754,11/06/2026,DTY-821,Camioneta pick-up,Taller San Miguel,Alineamiento y balanceo,Jorge Mendoza,,131.72,Cancelada
+OT-00755,11/06/2026,DWB-869,Motocicleta,Taller San Miguel,Frenos,Luis Pérez,12/06/2026,510.09,Finalizada
+OT-00756,11/06/2026,VCF-666,Motocicleta,Taller Lima Centro,Alineamiento y balanceo,Carlos Quispe,17/06/2026,144.02,Finalizada
+OT-00757,11/06/2026,XAM-165,Minivan,Taller Surco,Cambio de aceite,Rosa Flores,16/06/2026,159.36,Finalizada
+OT-00758,12/06/2026,DWZ-387,Motocicleta,Taller Lima Centro,Aire acondicionado,Carlos Quispe,13/06/2026,634.84,Finalizada
+OT-00759,12/06/2026,RAC-100,Minivan,Taller Surco,Diagnóstico electrónico,Pedro Ramírez,,211.99,Cancelada
+OT-00760,12/06/2026,YHF-432,SUV,Taller San Miguel,Afinamiento,Jorge Mendoza,17/06/2026,381.06,Finalizada
+OT-00761,12/06/2026,PNE-632,Hatchback,Taller Surco,Aire acondicionado,Rosa Flores,18/06/2026,549.51,Finalizada
+OT-00762,12/06/2026,GMM-570,Minivan,Taller Surco,Afinamiento,Pedro Ramírez,15/06/2026,316.13,Finalizada
+OT-00763,12/06/2026,YBK-424,Motocicleta,Taller San Miguel,Mantenimiento preventivo 10 000 km,Jorge Mendoza,15/06/2026,403.13,Finalizada
+OT-00764,13/06/2026,DLT-624,Motocicleta,Taller Lima Centro,Frenos,Carlos Quispe,17/06/2026,361.10,Finalizada
+OT-00765,13/06/2026,LDS-577,Motocicleta,Taller San Miguel,Aire acondicionado,Ana Torres,16/06/2026,266.73,Finalizada
+OT-00766,13/06/2026,VKA-968,Camioneta pick-up,Taller Surco,Diagnóstico electrónico,Pedro Ramírez,15/06/2026,162.71,Finalizada
+OT-00767,13/06/2026,JDP-275,SUV,Taller Surco,Diagnóstico electrónico,Rosa Flores,15/06/2026,144.53,Finalizada
+OT-00768,13/06/2026,TSM-304,Hatchback,Taller San Miguel,Suspensión,Luis Pérez,13/06/2026,623.93,Finalizada
+OT-00769,13/06/2026,UKM-237,Minivan,Taller San Miguel,Afinamiento,Luis Pérez,16/06/2026,354.20,Finalizada
+OT-00770,13/06/2026,MUF-839,Camioneta pick-up,Taller San Miguel,Afinamiento,Luis Pérez,14/06/2026,340.86,Finalizada
+OT-00771,14/06/2026,RXN-509,Hatchback,Taller Lima Centro,Frenos,María Huamán,18/06/2026,327.21,Finalizada
+OT-00772,14/06/2026,BXT-939,Minivan,Taller San Miguel,Embrague,Jorge Mendoza,18/06/2026,1265.70,Finalizada
+OT-00773,14/06/2026,VUS-869,Motocicleta,Taller Lima Centro,Alineamiento y balanceo,José Rojas,20/06/2026,92.99,Finalizada
+OT-00774,14/06/2026,PNE-632,Hatchback,Taller Lima Centro,Diagnóstico electrónico,José Rojas,15/06/2026,234.08,Finalizada
+OT-00775,14/06/2026,XFB-763,Camioneta pick-up,Taller San Miguel,Diagnóstico electrónico,Jorge Mendoza,20/06/2026,200.77,Finalizada
+OT-00776,14/06/2026,BXT-939,Minivan,Taller San Miguel,Aire acondicionado,Ana Torres,19/06/2026,230.35,Finalizada
+OT-00777,14/06/2026,VWF-257,Hatchback,Taller San Miguel,Frenos,Jorge Mendoza,17/06/2026,449.55,Finalizada
+OT-00778,14/06/2026,JDP-275,SUV,Taller Surco,Suspensión,Miguel Castillo,15/06/2026,998.10,Finalizada
+OT-00779,14/06/2026,MKG-644,Minivan,Taller San Miguel,Frenos,Jorge Mendoza,16/06/2026,381.67,Finalizada
+OT-00780,15/06/2026,UJY-875,SUV,Taller Surco,Alineamiento y balanceo,Pedro Ramírez,16/06/2026,135.22,Finalizada
+OT-00781,15/06/2026,DWZ-387,Motocicleta,Taller Surco,Alineamiento y balanceo,Pedro Ramírez,17/06/2026,116.96,Finalizada
+OT-00782,16/06/2026,DAU-322,Minivan,Taller Surco,Mantenimiento preventivo 10 000 km,Miguel Castillo,17/06/2026,438.97,Finalizada
+OT-00783,16/06/2026,XTZ-590,Camioneta pick-up,Taller Lima Centro,Planchado y pintura,Carlos Quispe,20/06/2026,1718.78,Finalizada
+OT-00784,16/06/2026,FLT-593,Camioneta pick-up,Taller Lima Centro,Embrague,José Rojas,20/06/2026,1332.02,Finalizada
+OT-00785,16/06/2026,YKU-918,Camioneta pick-up,Taller Lima Centro,Cambio de aceite,Carlos Quispe,17/06/2026,163.91,Finalizada
+OT-00786,17/06/2026,NCB-953,Hatchback,Taller San Miguel,Alineamiento y balanceo,Ana Torres,20/06/2026,95.55,Finalizada
+OT-00787,17/06/2026,FJJ-164,Camioneta pick-up,Taller Lima Centro,Suspensión,María Huamán,23/06/2026,729.44,Finalizada
+OT-00788,17/06/2026,CSK-371,Motocicleta,Taller San Miguel,Mantenimiento preventivo 10 000 km,Luis Pérez,21/06/2026,426.43,Finalizada
+OT-00789,17/06/2026,PCN-699,Hatchback,Taller Lima Centro,Cambio de aceite,María Huamán,22/06/2026,156.71,Finalizada
+OT-00790,18/06/2026,XME-105,Sedán,Taller Lima Centro,Afinamiento,Carlos Quispe,20/06/2026,280.13,Finalizada
+OT-00791,18/06/2026,YKU-918,Camioneta pick-up,Taller Surco,Mantenimiento preventivo 10 000 km,Rosa Flores,21/06/2026,480.06,Finalizada
+OT-00792,18/06/2026,DTL-383,Camioneta pick-up,Taller Lima Centro,Planchado y pintura,María Huamán,19/06/2026,583.72,Finalizada
+OT-00793,18/06/2026,ESA-462,Motocicleta,Taller Surco,Mantenimiento preventivo 10 000 km,Miguel Castillo,23/06/2026,616.09,Finalizada
+OT-00794,19/06/2026,UED-900,SUV,Taller Surco,Aire acondicionado,Miguel Castillo,24/06/2026,371.36,Finalizada
+OT-00795,20/06/2026,PTU-439,SUV,Taller San Miguel,Embrague,Luis Pérez,24/06/2026,1387.54,Finalizada
+OT-00796,20/06/2026,PCN-699,Hatchback,Taller Lima Centro,Aire acondicionado,Carlos Quispe,22/06/2026,215.97,Finalizada
+OT-00797,20/06/2026,DYB-877,SUV,Taller Lima Centro,Afinamiento,José Rojas,24/06/2026,384.33,Finalizada
+OT-00798,20/06/2026,SZE-658,Motocicleta,Taller San Miguel,Suspensión,Jorge Mendoza,20/06/2026,1004.52,Finalizada
+OT-00799,20/06/2026,ZMM-572,Motocicleta,Taller San Miguel,Diagnóstico electrónico,Jorge Mendoza,20/06/2026,163.42,Finalizada
+OT-00800,20/06/2026,NPG-401,SUV,Taller San Miguel,Suspensión,Ana Torres,23/06/2026,947.34,Finalizada
+OT-00801,20/06/2026,YVU-321,Camioneta pick-up,Taller San Miguel,Frenos,Jorge Mendoza,20/06/2026,253.54,Finalizada
+OT-00802,21/06/2026,VRH-102,Motocicleta,Taller San Miguel,Cambio de aceite,Jorge Mendoza,22/06/2026,102.09,Finalizada
+OT-00803,22/06/2026,DLT-624,Motocicleta,Taller Surco,Afinamiento,Rosa Flores,27/06/2026,288.26,Finalizada
+OT-00804,22/06/2026,DYB-877,SUV,Taller San Miguel,Diagnóstico electrónico,Jorge Mendoza,22/06/2026,177.96,Finalizada
+OT-00805,23/06/2026,KMB-853,Camioneta pick-up,Taller San Miguel,Planchado y pintura,Ana Torres,26/06/2026,1031.92,Finalizada
+OT-00806,23/06/2026,NCB-953,Hatchback,Taller Lima Centro,Cambio de aceite,María Huamán,28/06/2026,154.96,Finalizada
+OT-00807,24/06/2026,UBR-988,Motocicleta,Taller San Miguel,Cambio de aceite,Jorge Mendoza,24/06/2026,114.64,Finalizada
+OT-00808,25/06/2026,RHZ-456,Minivan,Taller Lima Centro,Frenos,Carlos Quispe,25/06/2026,330.42,Finalizada
+OT-00809,25/06/2026,DWB-869,Motocicleta,Taller Lima Centro,Frenos,Carlos Quispe,27/06/2026,428.10,Finalizada
+OT-00810,25/06/2026,VAU-450,Minivan,Taller San Miguel,Frenos,Luis Pérez,28/06/2026,181.96,Finalizada
+OT-00811,25/06/2026,FPS-165,Sedán,Taller Lima Centro,Cambio de aceite,Carlos Quispe,27/06/2026,133.65,Finalizada
+OT-00812,26/06/2026,DAU-322,Minivan,Taller San Miguel,Mantenimiento preventivo 10 000 km,Ana Torres,,530.62,Cancelada
+OT-00813,26/06/2026,TXY-261,Minivan,Taller Surco,Alineamiento y balanceo,Miguel Castillo,30/06/2026,145.73,Finalizada
+OT-00814,26/06/2026,WCD-394,Minivan,Taller San Miguel,Diagnóstico electrónico,Luis Pérez,26/06/2026,249.81,Finalizada
+OT-00815,26/06/2026,LFG-925,Camioneta pick-up,Taller San Miguel,Alineamiento y balanceo,Jorge Mendoza,29/06/2026,81.13,Finalizada
+OT-00816,26/06/2026,PSE-593,Minivan,Taller San Miguel,Alineamiento y balanceo,Ana Torres,27/06/2026,93.33,Finalizada
+OT-00817,26/06/2026,PTU-439,SUV,Taller Surco,Diagnóstico electrónico,Miguel Castillo,28/06/2026,128.01,Finalizada
+OT-00818,26/06/2026,JRJ-248,Hatchback,Taller San Miguel,Aire acondicionado,Jorge Mendoza,29/06/2026,427.94,Finalizada
+OT-00819,27/06/2026,NGX-109,Hatchback,Taller San Miguel,Suspensión,Ana Torres,03/07/2026,627.11,Finalizada
+OT-00820,27/06/2026,LFG-925,Camioneta pick-up,Taller San Miguel,Cambio de aceite,Jorge Mendoza,28/06/2026,171.00,Finalizada
+OT-00821,27/06/2026,RAC-100,Minivan,Taller San Miguel,Mantenimiento preventivo 10 000 km,Ana Torres,02/07/2026,686.37,Finalizada
+OT-00822,27/06/2026,YBK-424,Motocicleta,Taller San Miguel,Alineamiento y balanceo,Jorge Mendoza,01/07/2026,99.32,Finalizada
+OT-00823,28/06/2026,CSK-371,Motocicleta,Taller Lima Centro,Cambio de aceite,María Huamán,29/06/2026,146.95,Finalizada
+OT-00824,28/06/2026,UKM-237,Minivan,Taller San Miguel,Cambio de aceite,Jorge Mendoza,29/06/2026,137.15,Finalizada
+OT-00825,28/06/2026,ZLK-844,SUV,Taller San Miguel,Frenos,Jorge Mendoza,28/06/2026,237.53,Finalizada
+OT-00826,28/06/2026,KMU-848,Hatchback,Taller San Miguel,Aire acondicionado,Ana Torres,04/07/2026,220.70,Finalizada
+OT-00827,28/06/2026,YBK-424,Motocicleta,Taller Surco,Mantenimiento preventivo 10 000 km,Pedro Ramírez,29/06/2026,547.34,Finalizada
+OT-00828,29/06/2026,LFG-925,Camioneta pick-up,Taller San Miguel,Cambio de aceite,Luis Pérez,05/07/2026,127.16,Finalizada
+OT-00829,29/06/2026,JPU-524,Hatchback,Taller Lima Centro,Mantenimiento preventivo 10 000 km,Carlos Quispe,30/06/2026,647.69,Finalizada
+OT-00830,29/06/2026,DAU-322,Minivan,Taller Surco,Suspensión,Pedro Ramírez,03/07/2026,628.65,Finalizada
+OT-00831,30/06/2026,WZT-397,Minivan,Taller Surco,Diagnóstico electrónico,Pedro Ramírez,02/07/2026,174.55,Finalizada
+OT-00832,30/06/2026,HEF-655,Sedán,Taller Surco,Frenos,Rosa Flores,04/07/2026,210.72,Finalizada
+OT-00833,30/06/2026,RAC-100,Minivan,Taller Lima Centro,Suspensión,José Rojas,04/07/2026,676.21,Finalizada
+OT-00834,30/06/2026,TDC-245,Minivan,Taller San Miguel,Cambio de aceite,Jorge Mendoza,04/07/2026,164.87,Finalizada
+OT-00835,01/07/2026,VUS-869,Motocicleta,Taller Surco,Alineamiento y balanceo,Pedro Ramírez,05/07/2026,95.85,Finalizada
+OT-00836,01/07/2026,BNN-651,SUV,Taller San Miguel,Aire acondicionado,Jorge Mendoza,,282.11,Cancelada
+OT-00837,01/07/2026,CNK-291,Sedán,Taller Surco,Cambio de aceite,Pedro Ramírez,01/07/2026,153.23,Finalizada
+OT-00838,01/07/2026,UKM-237,Minivan,Taller San Miguel,Suspensión,Jorge Mendoza,06/07/2026,744.46,Finalizada
+OT-00839,02/07/2026,YDY-483,SUV,Taller Lima Centro,Mantenimiento preventivo 10 000 km,José Rojas,08/07/2026,358.91,Finalizada
+OT-00840,03/07/2026,JRJ-248,Hatchback,Taller Surco,Diagnóstico electrónico,Rosa Flores,04/07/2026,134.62,Finalizada
+OT-00841,03/07/2026,EBZ-635,Hatchback,Taller Lima Centro,Suspensión,Carlos Quispe,03/07/2026,775.06,Finalizada
+OT-00842,03/07/2026,CWG-353,Minivan,Taller San Miguel,Afinamiento,Jorge Mendoza,05/07/2026,300.31,Finalizada
+OT-00843,03/07/2026,UVG-683,Motocicleta,Taller Surco,Mantenimiento preventivo 10 000 km,Miguel Castillo,09/07/2026,401.69,Finalizada
+OT-00844,03/07/2026,ENZ-468,Minivan,Taller San Miguel,Diagnóstico electrónico,Luis Pérez,06/07/2026,169.83,Finalizada
+OT-00845,03/07/2026,LEU-890,Minivan,Taller San Miguel,Diagnóstico electrónico,Ana Torres,04/07/2026,178.96,Finalizada
+OT-00846,03/07/2026,LYS-512,Motocicleta,Taller San Miguel,Mantenimiento preventivo 10 000 km,Ana Torres,05/07/2026,424.13,Finalizada
+OT-00847,03/07/2026,UXJ-339,Minivan,Taller Surco,Diagnóstico electrónico,Rosa Flores,03/07/2026,184.34,Finalizada
+OT-00848,03/07/2026,YSY-421,Hatchback,Taller Surco,Cambio de aceite,Pedro Ramírez,09/07/2026,144.92,Finalizada
+OT-00849,04/07/2026,JLD-427,Hatchback,Taller Surco,Cambio de aceite,Pedro Ramírez,08/07/2026,176.26,Finalizada
+OT-00850,04/07/2026,TJP-677,Minivan,Taller Lima Centro,Planchado y pintura,Carlos Quispe,10/07/2026,2140.01,Finalizada
+OT-00851,04/07/2026,AKD-196,Sedán,Taller Surco,Afinamiento,Rosa Flores,09/07/2026,319.45,Finalizada
+OT-00852,05/07/2026,NGX-109,Hatchback,Taller Lima Centro,Embrague,José Rojas,11/07/2026,1144.79,Finalizada
+OT-00853,05/07/2026,XWR-922,Sedán,Taller Surco,Diagnóstico electrónico,Pedro Ramírez,09/07/2026,132.82,Finalizada
+OT-00854,05/07/2026,TWS-507,SUV,Taller San Miguel,Mantenimiento preventivo 10 000 km,Jorge Mendoza,09/07/2026,485.04,Finalizada
+OT-00855,05/07/2026,RDT-915,Sedán,Taller Surco,Aire acondicionado,Pedro Ramírez,05/07/2026,405.12,Finalizada
+OT-00856,06/07/2026,ENZ-468,Minivan,Taller Lima Centro,Mantenimiento preventivo 10 000 km,Carlos Quispe,09/07/2026,564.11,Finalizada
+OT-00857,06/07/2026,NPG-401,SUV,Taller Lima Centro,Suspensión,María Huamán,08/07/2026,1029.17,Finalizada
+OT-00858,06/07/2026,MLR-721,Camioneta pick-up,Taller San Miguel,Cambio de aceite,Jorge Mendoza,09/07/2026,122.27,Finalizada
+OT-00859,06/07/2026,LDS-577,Motocicleta,Taller San Miguel,Afinamiento,Luis Pérez,10/07/2026,444.83,Finalizada
+OT-00860,06/07/2026,APJ-524,SUV,Taller Lima Centro,Cambio de aceite,Carlos Quispe,09/07/2026,115.70,Finalizada
+OT-00861,06/07/2026,YUN-361,Motocicleta,Taller Lima Centro,Diagnóstico electrónico,Carlos Quispe,09/07/2026,169.14,Finalizada
+OT-00862,06/07/2026,GNA-208,SUV,Taller Lima Centro,Diagnóstico electrónico,María Huamán,10/07/2026,205.63,Finalizada
+OT-00863,07/07/2026,ENZ-468,Minivan,Taller Lima Centro,Aire acondicionado,José Rojas,13/07/2026,552.44,Finalizada
+OT-00864,07/07/2026,YDZ-737,SUV,Taller Surco,Aire acondicionado,Rosa Flores,12/07/2026,355.96,Finalizada
+OT-00865,07/07/2026,KMB-853,Camioneta pick-up,Taller Lima Centro,Cambio de aceite,José Rojas,09/07/2026,160.52,Finalizada
+OT-00866,07/07/2026,UEF-129,Hatchback,Taller Lima Centro,Mantenimiento preventivo 10 000 km,María Huamán,09/07/2026,398.37,Finalizada
+OT-00867,08/07/2026,GNJ-456,Camioneta pick-up,Taller San Miguel,Frenos,Luis Pérez,14/07/2026,446.85,Finalizada
+OT-00868,08/07/2026,XWR-922,Sedán,Taller Lima Centro,Frenos,María Huamán,09/07/2026,259.33,Finalizada
+OT-00869,08/07/2026,TJP-677,Minivan,Taller Surco,Afinamiento,Pedro Ramírez,10/07/2026,439.48,Finalizada
+OT-00870,08/07/2026,TDC-245,Minivan,Taller Lima Centro,Suspensión,María Huamán,09/07/2026,807.86,Finalizada
+OT-00871,09/07/2026,JAB-253,Sedán,Taller San Miguel,Cambio de aceite,Jorge Mendoza,10/07/2026,103.46,Finalizada
+OT-00872,09/07/2026,VCK-422,SUV,Taller Surco,Mantenimiento preventivo 10 000 km,Pedro Ramírez,12/07/2026,493.33,Finalizada
+OT-00873,09/07/2026,XXZ-729,Hatchback,Taller Surco,Mantenimiento preventivo 10 000 km,Rosa Flores,15/07/2026,386.24,Finalizada
+OT-00874,09/07/2026,HYZ-171,Sedán,Taller San Miguel,Mantenimiento preventivo 10 000 km,Ana Torres,15/07/2026,650.98,Finalizada
+OT-00875,09/07/2026,TYJ-498,SUV,Taller San Miguel,Diagnóstico electrónico,Luis Pérez,13/07/2026,136.16,Finalizada
+OT-00876,10/07/2026,UYF-127,Minivan,Taller Surco,Embrague,Miguel Castillo,,1042.28,Cancelada
+OT-00877,10/07/2026,JRJ-248,Hatchback,Taller San Miguel,Afinamiento,Jorge Mendoza,12/07/2026,383.80,Finalizada
+OT-00878,10/07/2026,TSM-304,Hatchback,Taller Lima Centro,Diagnóstico electrónico,María Huamán,,218.36,Cancelada
+OT-00879,10/07/2026,GNJ-456,Camioneta pick-up,Taller San Miguel,Suspensión,Ana Torres,15/07/2026,1143.98,Finalizada
+OT-00880,10/07/2026,JUS-527,Motocicleta,Taller Surco,Cambio de aceite,Pedro Ramírez,11/07/2026,171.10,Finalizada
+OT-00881,10/07/2026,JDP-275,SUV,Taller Lima Centro,Cambio de aceite,Carlos Quispe,14/07/2026,104.73,Finalizada
+OT-00882,10/07/2026,JDP-275,SUV,Taller Surco,Cambio de aceite,Pedro Ramírez,15/07/2026,135.15,Finalizada
+OT-00883,11/07/2026,GFK-402,Sedán,Taller Lima Centro,Suspensión,María Huamán,14/07/2026,637.77,Finalizada
+OT-00884,11/07/2026,EWW-354,Hatchback,Taller San Miguel,Diagnóstico electrónico,Ana Torres,16/07/2026,244.12,Finalizada
+OT-00885,11/07/2026,EVK-619,Sedán,Taller San Miguel,Mantenimiento preventivo 10 000 km,Jorge Mendoza,13/07/2026,530.57,Finalizada
+OT-00886,11/07/2026,JRJ-248,Hatchback,Taller Lima Centro,Frenos,María Huamán,,503.46,Cancelada
+OT-00887,12/07/2026,TGT-241,Minivan,Taller Surco,Frenos,Rosa Flores,15/07/2026,290.42,Finalizada
+OT-00888,12/07/2026,UEF-129,Hatchback,Taller Lima Centro,Cambio de aceite,Carlos Quispe,17/07/2026,151.66,Finalizada
+OT-00889,12/07/2026,XJS-479,Hatchback,Taller San Miguel,Afinamiento,Luis Pérez,13/07/2026,390.14,Finalizada
+OT-00890,12/07/2026,TAF-422,Hatchback,Taller San Miguel,Frenos,Jorge Mendoza,12/07/2026,250.04,Finalizada
+OT-00891,13/07/2026,AUZ-437,Motocicleta,Taller Lima Centro,Embrague,María Huamán,19/07/2026,1434.73,Finalizada
+OT-00892,13/07/2026,BXF-186,SUV,Taller Lima Centro,Cambio de aceite,María Huamán,14/07/2026,127.88,Finalizada
+OT-00893,14/07/2026,ABD-340,SUV,Taller Surco,Mantenimiento preventivo 10 000 km,Pedro Ramírez,17/07/2026,380.10,Finalizada
+OT-00894,14/07/2026,GNA-208,SUV,Taller Lima Centro,Cambio de aceite,María Huamán,16/07/2026,160.93,Finalizada
+OT-00895,14/07/2026,BXF-186,SUV,Taller Lima Centro,Frenos,José Rojas,16/07/2026,204.19,Finalizada
+OT-00896,14/07/2026,YBK-424,Motocicleta,Taller San Miguel,Suspensión,Luis Pérez,14/07/2026,1048.12,Finalizada
+OT-00897,15/07/2026,JPU-524,Hatchback,Taller Surco,Afinamiento,Rosa Flores,19/07/2026,294.60,Finalizada
+OT-00898,15/07/2026,LEU-890,Minivan,Taller Lima Centro,Diagnóstico electrónico,José Rojas,19/07/2026,195.17,Finalizada
+OT-00899,15/07/2026,EHA-116,Motocicleta,Taller Surco,Planchado y pintura,Miguel Castillo,18/07/2026,1501.32,Finalizada
+OT-00900,15/07/2026,ZLK-844,SUV,Taller Surco,Mantenimiento preventivo 10 000 km,Miguel Castillo,16/07/2026,599.81,Finalizada
+OT-00901,16/07/2026,UJU-511,Camioneta pick-up,Taller San Miguel,Mantenimiento preventivo 10 000 km,Jorge Mendoza,21/07/2026,409.49,Finalizada
+OT-00902,16/07/2026,AXH-581,Minivan,Taller Lima Centro,Cambio de aceite,José Rojas,19/07/2026,114.52,Finalizada
+OT-00903,16/07/2026,DYB-877,SUV,Taller Lima Centro,Planchado y pintura,María Huamán,19/07/2026,886.37,Finalizada
+OT-00904,16/07/2026,DLT-624,Motocicleta,Taller Lima Centro,Frenos,María Huamán,17/07/2026,482.72,Finalizada
+OT-00905,17/07/2026,TJD-968,Hatchback,Taller San Miguel,Cambio de aceite,Ana Torres,18/07/2026,159.79,Finalizada
+OT-00906,17/07/2026,FLT-593,Camioneta pick-up,Taller Lima Centro,Suspensión,María Huamán,18/07/2026,755.99,Finalizada
+OT-00907,17/07/2026,FJJ-164,Camioneta pick-up,Taller Surco,Frenos,Rosa Flores,21/07/2026,493.37,Finalizada
+OT-00908,17/07/2026,FLT-593,Camioneta pick-up,Taller Lima Centro,Cambio de aceite,José Rojas,18/07/2026,158.84,Finalizada
+OT-00909,17/07/2026,TYJ-498,SUV,Taller Surco,Aire acondicionado,Miguel Castillo,23/07/2026,477.08,Finalizada
+OT-00910,17/07/2026,KMB-853,Camioneta pick-up,Taller Lima Centro,Frenos,María Huamán,19/07/2026,421.44,Finalizada
+OT-00911,18/07/2026,RAC-100,Minivan,Taller Surco,Suspensión,Pedro Ramírez,24/07/2026,779.59,Finalizada
+OT-00912,18/07/2026,LYV-688,Minivan,Taller Lima Centro,Afinamiento,José Rojas,21/07/2026,396.09,Finalizada
+OT-00913,19/07/2026,WXS-532,Sedán,Taller Surco,Diagnóstico electrónico,Miguel Castillo,22/07/2026,126.42,Finalizada
+OT-00914,19/07/2026,ABD-340,SUV,Taller Surco,Frenos,Pedro Ramírez,22/07/2026,207.84,Finalizada
+OT-00915,19/07/2026,BNL-722,Sedán,Taller Surco,Alineamiento y balanceo,Rosa Flores,22/07/2026,149.03,Finalizada
+OT-00916,19/07/2026,WUP-902,Motocicleta,Taller San Miguel,Mantenimiento preventivo 10 000 km,Jorge Mendoza,19/07/2026,672.42,Finalizada
+OT-00917,20/07/2026,DFW-225,Camioneta pick-up,Taller San Miguel,Frenos,Luis Pérez,23/07/2026,334.03,Finalizada
+OT-00918,20/07/2026,MLR-721,Camioneta pick-up,Taller Lima Centro,Aire acondicionado,María Huamán,23/07/2026,363.44,Finalizada
+OT-00919,20/07/2026,HEF-655,Sedán,Taller San Miguel,Diagnóstico electrónico,Ana Torres,26/07/2026,183.65,Finalizada
+OT-00920,21/07/2026,BXT-939,Minivan,Taller Lima Centro,Cambio de aceite,Carlos Quispe,24/07/2026,125.80,Finalizada
+OT-00921,21/07/2026,BXF-186,SUV,Taller Lima Centro,Suspensión,Carlos Quispe,26/07/2026,850.95,Finalizada
+OT-00922,21/07/2026,XFB-763,Camioneta pick-up,Taller San Miguel,Cambio de aceite,Jorge Mendoza,27/07/2026,142.39,Finalizada
+OT-00923,21/07/2026,LDS-577,Motocicleta,Taller San Miguel,Suspensión,Ana Torres,22/07/2026,1023.28,Finalizada
+OT-00924,21/07/2026,UYF-127,Minivan,Taller Lima Centro,Afinamiento,Carlos Quispe,26/07/2026,259.50,Finalizada
+OT-00925,21/07/2026,EXZ-833,Sedán,Taller Lima Centro,Planchado y pintura,María Huamán,26/07/2026,2496.40,Finalizada
+OT-00926,21/07/2026,XWR-922,Sedán,Taller Surco,Planchado y pintura,Pedro Ramírez,27/07/2026,2355.87,Finalizada
+OT-00927,22/07/2026,XME-105,Sedán,Taller Surco,Diagnóstico electrónico,Rosa Flores,25/07/2026,191.10,Finalizada
+OT-00928,22/07/2026,AKD-196,Sedán,Taller San Miguel,Mantenimiento preventivo 10 000 km,Luis Pérez,25/07/2026,419.33,Finalizada
+OT-00929,22/07/2026,TSM-304,Hatchback,Taller Lima Centro,Mantenimiento preventivo 10 000 km,José Rojas,28/07/2026,395.43,Finalizada
+OT-00930,22/07/2026,VCF-666,Motocicleta,Taller Lima Centro,Mantenimiento preventivo 10 000 km,Carlos Quispe,23/07/2026,434.17,Finalizada
+OT-00931,22/07/2026,YPL-197,Hatchback,Taller Surco,Diagnóstico electrónico,Pedro Ramírez,,234.31,Cancelada
+OT-00932,23/07/2026,UKK-568,SUV,Taller San Miguel,Diagnóstico electrónico,Ana Torres,26/07/2026,175.50,Finalizada
+OT-00933,23/07/2026,LYV-688,Minivan,Taller Surco,Cambio de aceite,Miguel Castillo,29/07/2026,112.33,Finalizada
+OT-00934,23/07/2026,AAT-587,Hatchback,Taller Surco,Mantenimiento preventivo 10 000 km,Rosa Flores,29/07/2026,669.19,Finalizada
+OT-00935,23/07/2026,CSK-371,Motocicleta,Taller Lima Centro,Frenos,José Rojas,29/07/2026,397.70,Finalizada
+OT-00936,23/07/2026,PSE-593,Minivan,Taller Surco,Frenos,Pedro Ramírez,27/07/2026,407.64,Finalizada
+OT-00937,23/07/2026,AUZ-437,Motocicleta,Taller Surco,Diagnóstico electrónico,Miguel Castillo,29/07/2026,190.06,Finalizada
+OT-00938,24/07/2026,RDR-805,SUV,Taller Lima Centro,Afinamiento,Carlos Quispe,30/07/2026,375.87,Finalizada
+OT-00939,24/07/2026,WCD-394,Minivan,Taller Surco,Aire acondicionado,Rosa Flores,26/07/2026,261.01,Finalizada
+OT-00940,24/07/2026,GUB-838,Motocicleta,Taller Lima Centro,Suspensión,José Rojas,25/07/2026,589.99,Finalizada
+OT-00941,24/07/2026,UTH-948,Camioneta pick-up,Taller Surco,Frenos,Rosa Flores,27/07/2026,443.05,Finalizada
+OT-00942,25/07/2026,DAU-322,Minivan,Taller San Miguel,Cambio de aceite,Luis Pérez,28/07/2026,94.87,Finalizada
+OT-00943,25/07/2026,WLR-712,SUV,Taller San Miguel,Afinamiento,Jorge Mendoza,26/07/2026,321.86,Finalizada
+OT-00944,25/07/2026,CNK-291,Sedán,Taller Lima Centro,Aire acondicionado,Carlos Quispe,27/07/2026,605.09,Finalizada
+OT-00945,25/07/2026,UXJ-339,Minivan,Taller Lima Centro,Diagnóstico electrónico,Carlos Quispe,27/07/2026,166.29,Finalizada
+OT-00946,25/07/2026,MNT-753,SUV,Taller Surco,Alineamiento y balanceo,Miguel Castillo,28/07/2026,99.12,Finalizada
+OT-00947,25/07/2026,WCD-394,Minivan,Taller San Miguel,Afinamiento,Luis Pérez,29/07/2026,367.38,Finalizada
+OT-00948,25/07/2026,UED-900,SUV,Taller San Miguel,Frenos,Ana Torres,31/07/2026,266.65,Finalizada
+OT-00949,26/07/2026,HSV-234,Hatchback,Taller Surco,Diagnóstico electrónico,Rosa Flores,,125.08,Cancelada
+OT-00950,26/07/2026,FYF-499,Minivan,Taller Surco,Alineamiento y balanceo,Miguel Castillo,27/07/2026,107.61,Finalizada
+OT-00951,26/07/2026,WZT-397,Minivan,Taller Surco,Mantenimiento preventivo 10 000 km,Miguel Castillo,31/07/2026,525.17,Finalizada
+OT-00952,26/07/2026,LFG-925,Camioneta pick-up,Taller Surco,Alineamiento y balanceo,Rosa Flores,31/07/2026,152.81,Finalizada
+OT-00953,26/07/2026,EXZ-833,Sedán,Taller San Miguel,Mantenimiento preventivo 10 000 km,Luis Pérez,28/07/2026,453.69,Finalizada
+OT-00954,26/07/2026,DWZ-387,Motocicleta,Taller Lima Centro,Diagnóstico electrónico,María Huamán,29/07/2026,209.88,Finalizada
+OT-00955,26/07/2026,VAU-450,Minivan,Taller Lima Centro,Diagnóstico electrónico,María Huamán,26/07/2026,138.50,Finalizada
+OT-00956,26/07/2026,MKG-644,Minivan,Taller Surco,Alineamiento y balanceo,Pedro Ramírez,28/07/2026,86.60,Finalizada
+OT-00957,27/07/2026,CWG-353,Minivan,Taller San Miguel,Suspensión,Luis Pérez,30/07/2026,492.50,Finalizada
+OT-00958,27/07/2026,EMP-493,Sedán,Taller Lima Centro,Afinamiento,María Huamán,29/07/2026,387.54,Finalizada
+OT-00959,27/07/2026,JDP-275,SUV,Taller Surco,Cambio de aceite,Pedro Ramírez,27/07/2026,153.10,Finalizada
+OT-00960,27/07/2026,TJP-677,Minivan,Taller Surco,Cambio de aceite,Pedro Ramírez,27/07/2026,143.17,Finalizada
+OT-00961,27/07/2026,MFX-745,Minivan,Taller Surco,Frenos,Pedro Ramírez,27/07/2026,289.57,Finalizada
+OT-00962,28/07/2026,YPL-197,Hatchback,Taller Lima Centro,Suspensión,Carlos Quispe,02/08/2026,430.31,Finalizada
+OT-00963,28/07/2026,VTG-544,Motocicleta,Taller Lima Centro,Afinamiento,María Huamán,31/07/2026,320.64,Finalizada
+OT-00964,28/07/2026,VWF-257,Hatchback,Taller Surco,Mantenimiento preventivo 10 000 km,Pedro Ramírez,31/07/2026,367.16,Finalizada
+OT-00965,28/07/2026,MWX-771,Hatchback,Taller Surco,Frenos,Miguel Castillo,30/07/2026,287.88,Finalizada
+OT-00966,29/07/2026,BXF-186,SUV,Taller San Miguel,Cambio de aceite,Jorge Mendoza,01/08/2026,123.33,Finalizada
+OT-00967,29/07/2026,MYR-699,Hatchback,Taller San Miguel,Frenos,Luis Pérez,29/07/2026,309.70,Finalizada
+OT-00968,29/07/2026,UKK-568,SUV,Taller Surco,Frenos,Rosa Flores,02/08/2026,326.44,Finalizada
+OT-00969,29/07/2026,MSS-223,Motocicleta,Taller San Miguel,Cambio de aceite,Jorge Mendoza,03/08/2026,144.85,Finalizada
+OT-00970,29/07/2026,AYZ-654,Motocicleta,Taller Surco,Alineamiento y balanceo,Miguel Castillo,03/08/2026,80.69,Finalizada
+OT-00971,30/07/2026,VAU-450,Minivan,Taller San Miguel,Mantenimiento preventivo 10 000 km,Luis Pérez,30/07/2026,588.14,Finalizada
+OT-00972,30/07/2026,UNB-300,Minivan,Taller Surco,Suspensión,Rosa Flores,03/08/2026,1052.70,Finalizada
+OT-00973,30/07/2026,ZMM-572,Motocicleta,Taller San Miguel,Alineamiento y balanceo,Luis Pérez,04/08/2026,83.09,Finalizada
+OT-00974,30/07/2026,RYS-831,Minivan,Taller San Miguel,Suspensión,Ana Torres,02/08/2026,605.25,Finalizada
+OT-00975,30/07/2026,XTZ-590,Camioneta pick-up,Taller Surco,Mantenimiento preventivo 10 000 km,Rosa Flores,05/08/2026,476.03,Finalizada
+OT-00976,30/07/2026,WLR-712,SUV,Taller Lima Centro,Cambio de aceite,María Huamán,02/08/2026,99.45,Finalizada
+OT-00977,30/07/2026,TDC-245,Minivan,Taller Surco,Aire acondicionado,Miguel Castillo,01/08/2026,375.04,Finalizada
+OT-00978,30/07/2026,APJ-524,SUV,Taller Lima Centro,Embrague,María Huamán,02/08/2026,876.81,Finalizada
+OT-00979,30/07/2026,ENZ-468,Minivan,Taller Lima Centro,Mantenimiento preventivo 10 000 km,Carlos Quispe,02/08/2026,654.00,Finalizada
+OT-00980,31/07/2026,ABD-340,SUV,Taller Lima Centro,Frenos,María Huamán,01/08/2026,408.67,Finalizada
+OT-00981,31/07/2026,LYV-688,Minivan,Taller Surco,Frenos,Pedro Ramírez,01/08/2026,302.16,Finalizada
+OT-00982,31/07/2026,RYS-831,Minivan,Taller Surco,Alineamiento y balanceo,Pedro Ramírez,02/08/2026,88.14,Finalizada
+OT-00983,01/08/2026,USD-535,Sedán,Taller Surco,Cambio de aceite,Pedro Ramírez,,95.37,Cancelada
+OT-00984,01/08/2026,RDT-915,Sedán,Taller Surco,Cambio de aceite,Rosa Flores,06/08/2026,137.13,Finalizada
+OT-00985,01/08/2026,CSK-371,Motocicleta,Taller Surco,Mantenimiento preventivo 10 000 km,Rosa Flores,01/08/2026,559.43,Finalizada
+OT-00986,01/08/2026,VWF-257,Hatchback,Taller Surco,Frenos,Pedro Ramírez,03/08/2026,448.84,Finalizada
+OT-00987,01/08/2026,RAC-100,Minivan,Taller San Miguel,Cambio de aceite,Ana Torres,02/08/2026,103.69,Finalizada
+OT-00988,01/08/2026,YDY-483,SUV,Taller Lima Centro,Suspensión,María Huamán,06/08/2026,1048.39,Finalizada
+OT-00989,01/08/2026,MXM-888,Camioneta pick-up,Taller Lima Centro,Cambio de aceite,María Huamán,05/08/2026,114.00,Finalizada
+OT-00990,02/08/2026,USD-535,Sedán,Taller San Miguel,Suspensión,Jorge Mendoza,08/08/2026,413.95,Finalizada
+OT-00991,02/08/2026,UBR-988,Motocicleta,Taller San Miguel,Suspensión,Luis Pérez,02/08/2026,1155.16,Finalizada
+OT-00992,02/08/2026,EWW-354,Hatchback,Taller Surco,Alineamiento y balanceo,Miguel Castillo,04/08/2026,130.66,Finalizada
+OT-00993,03/08/2026,DKP-426,SUV,Taller Surco,Cambio de aceite,Miguel Castillo,08/08/2026,126.38,Finalizada
+OT-00994,03/08/2026,MNT-753,SUV,Taller Lima Centro,Frenos,María Huamán,05/08/2026,445.12,Finalizada
+OT-00995,03/08/2026,XGS-828,Minivan,Taller Surco,Mantenimiento preventivo 10 000 km,Pedro Ramírez,08/08/2026,697.78,Finalizada
+OT-00996,04/08/2026,YKU-918,Camioneta pick-up,Taller Surco,Frenos,Pedro Ramírez,05/08/2026,503.06,Finalizada
+OT-00997,04/08/2026,PCN-699,Hatchback,Taller Lima Centro,Cambio de aceite,María Huamán,07/08/2026,172.54,Finalizada
+OT-00998,04/08/2026,MKG-644,Minivan,Taller Surco,Planchado y pintura,Pedro Ramírez,09/08/2026,1537.99,Finalizada
+OT-00999,04/08/2026,WKX-220,SUV,Taller San Miguel,Frenos,Luis Pérez,05/08/2026,381.31,Finalizada
+OT-01000,04/08/2026,MFJ-575,Sedán,Taller Surco,Mantenimiento preventivo 10 000 km,Pedro Ramírez,09/08/2026,653.75,Finalizada
+OT-01001,04/08/2026,MFJ-575,Sedán,Taller San Miguel,Cambio de aceite,Jorge Mendoza,05/08/2026,145.95,Finalizada
+OT-01002,04/08/2026,CNK-291,Sedán,Taller San Miguel,Alineamiento y balanceo,Luis Pérez,04/08/2026,146.22,Finalizada
+OT-01003,04/08/2026,XXZ-729,Hatchback,Taller Lima Centro,Embrague,Carlos Quispe,08/08/2026,960.62,Finalizada
+OT-01004,05/08/2026,HUJ-451,Minivan,Taller Surco,Alineamiento y balanceo,Pedro Ramírez,05/08/2026,107.68,Finalizada
+OT-01005,05/08/2026,VAU-450,Minivan,Taller Lima Centro,Cambio de aceite,Carlos Quispe,06/08/2026,144.03,Finalizada
+OT-01006,05/08/2026,LFG-925,Camioneta pick-up,Taller Surco,Diagnóstico electrónico,Pedro Ramírez,06/08/2026,192.36,Finalizada
+OT-01007,05/08/2026,AYZ-654,Motocicleta,Taller Surco,Frenos,Rosa Flores,06/08/2026,296.78,Finalizada
+OT-01008,06/08/2026,CSK-371,Motocicleta,Taller Lima Centro,Diagnóstico electrónico,José Rojas,08/08/2026,128.75,Finalizada
+OT-01009,06/08/2026,MXM-888,Camioneta pick-up,Taller Lima Centro,Mantenimiento preventivo 10 000 km,José Rojas,12/08/2026,404.32,Finalizada
+OT-01010,06/08/2026,GNJ-456,Camioneta pick-up,Taller San Miguel,Afinamiento,Ana Torres,11/08/2026,404.13,Finalizada
+OT-01011,06/08/2026,LYV-688,Minivan,Taller Surco,Frenos,Rosa Flores,12/08/2026,322.29,Finalizada
+OT-01012,07/08/2026,FJJ-164,Camioneta pick-up,Taller Surco,Cambio de aceite,Pedro Ramírez,10/08/2026,160.03,Finalizada
+OT-01013,07/08/2026,RVU-956,SUV,Taller Lima Centro,Frenos,José Rojas,10/08/2026,197.06,Finalizada
+OT-01014,07/08/2026,BNL-722,Sedán,Taller Surco,Embrague,Pedro Ramírez,13/08/2026,1001.74,Finalizada
+OT-01015,07/08/2026,UKK-568,SUV,Taller San Miguel,Embrague,Jorge Mendoza,12/08/2026,1324.68,Finalizada
+OT-01016,07/08/2026,CWG-353,Minivan,Taller San Miguel,Mantenimiento preventivo 10 000 km,Luis Pérez,07/08/2026,421.98,Finalizada
+OT-01017,07/08/2026,AXH-581,Minivan,Taller Surco,Cambio de aceite,Rosa Flores,,170.92,Cancelada
+OT-01018,07/08/2026,GNJ-456,Camioneta pick-up,Taller Lima Centro,Afinamiento,José Rojas,09/08/2026,272.14,Finalizada
+OT-01019,08/08/2026,GNJ-456,Camioneta pick-up,Taller San Miguel,Cambio de aceite,Ana Torres,12/08/2026,152.09,Finalizada
+OT-01020,08/08/2026,KVJ-786,SUV,Taller Surco,Diagnóstico electrónico,Miguel Castillo,13/08/2026,226.62,Finalizada
+OT-01021,08/08/2026,JLX-632,SUV,Taller Surco,Cambio de aceite,Pedro Ramírez,08/08/2026,94.66,Finalizada
+OT-01022,09/08/2026,DFW-225,Camioneta pick-up,Taller Lima Centro,Alineamiento y balanceo,Carlos Quispe,10/08/2026,154.77,Finalizada
+OT-01023,09/08/2026,DRA-934,Minivan,Taller Surco,Afinamiento,Miguel Castillo,12/08/2026,407.99,Finalizada
+OT-01024,09/08/2026,UXJ-339,Minivan,Taller Lima Centro,Cambio de aceite,José Rojas,13/08/2026,137.71,Finalizada
+OT-01025,09/08/2026,CNK-291,Sedán,Taller Lima Centro,Afinamiento,Carlos Quispe,10/08/2026,437.37,Finalizada
+OT-01026,09/08/2026,HYZ-171,Sedán,Taller Surco,Diagnóstico electrónico,Pedro Ramírez,14/08/2026,197.88,Finalizada
+OT-01027,09/08/2026,UED-900,SUV,Taller Surco,Cambio de aceite,Miguel Castillo,11/08/2026,145.84,Finalizada
+OT-01028,09/08/2026,EHA-116,Motocicleta,Taller San Miguel,Cambio de aceite,Ana Torres,09/08/2026,143.82,Finalizada
+OT-01029,09/08/2026,GNJ-456,Camioneta pick-up,Taller Surco,Aire acondicionado,Miguel Castillo,14/08/2026,427.38,Finalizada
+OT-01030,10/08/2026,UJU-511,Camioneta pick-up,Taller Surco,Planchado y pintura,Rosa Flores,16/08/2026,1925.43,Finalizada
+OT-01031,10/08/2026,LYK-560,Minivan,Taller San Miguel,Afinamiento,Jorge Mendoza,16/08/2026,436.08,Finalizada
+OT-01032,10/08/2026,XTZ-590,Camioneta pick-up,Taller Lima Centro,Frenos,María Huamán,15/08/2026,444.40,Finalizada
+OT-01033,10/08/2026,EWW-354,Hatchback,Taller Lima Centro,Afinamiento,María Huamán,16/08/2026,437.85,Finalizada
+OT-01034,11/08/2026,JAB-253,Sedán,Taller San Miguel,Aire acondicionado,Ana Torres,14/08/2026,350.68,Finalizada
+OT-01035,11/08/2026,DRA-934,Minivan,Taller San Miguel,Afinamiento,Jorge Mendoza,16/08/2026,310.22,Finalizada
+OT-01036,12/08/2026,MYR-699,Hatchback,Taller Surco,Afinamiento,Miguel Castillo,13/08/2026,424.54,Finalizada
+OT-01037,12/08/2026,NLU-367,Camioneta pick-up,Taller Surco,Frenos,Miguel Castillo,15/08/2026,453.96,Finalizada
+OT-01038,12/08/2026,DFW-225,Camioneta pick-up,Taller San Miguel,Cambio de aceite,Jorge Mendoza,,150.32,Cancelada
+OT-01039,12/08/2026,GNJ-456,Camioneta pick-up,Taller Surco,Afinamiento,Miguel Castillo,12/08/2026,446.32,Finalizada
+OT-01040,13/08/2026,DTL-383,Camioneta pick-up,Taller Lima Centro,Afinamiento,María Huamán,19/08/2026,382.52,Finalizada
+OT-01041,13/08/2026,RVU-956,SUV,Taller San Miguel,Alineamiento y balanceo,Jorge Mendoza,18/08/2026,141.01,Finalizada
+OT-01042,13/08/2026,AVH-884,SUV,Taller Surco,Diagnóstico electrónico,Pedro Ramírez,13/08/2026,237.92,Finalizada
+OT-01043,13/08/2026,LYK-560,Minivan,Taller San Miguel,Cambio de aceite,Jorge Mendoza,18/08/2026,161.47,Finalizada
+OT-01044,13/08/2026,XDH-715,Camioneta pick-up,Taller Lima Centro,Diagnóstico electrónico,José Rojas,15/08/2026,249.01,Finalizada
+OT-01045,13/08/2026,ZVK-686,Hatchback,Taller Lima Centro,Suspensión,Carlos Quispe,13/08/2026,1002.24,Finalizada
+OT-01046,13/08/2026,EDL-596,Minivan,Taller Surco,Cambio de aceite,Pedro Ramírez,17/08/2026,134.42,Finalizada
+OT-01047,13/08/2026,DFW-225,Camioneta pick-up,Taller San Miguel,Suspensión,Ana Torres,17/08/2026,610.83,Finalizada
+OT-01048,14/08/2026,VRH-102,Motocicleta,Taller San Miguel,Afinamiento,Jorge Mendoza,16/08/2026,335.17,Finalizada
+OT-01049,14/08/2026,TSM-304,Hatchback,Taller San Miguel,Mantenimiento preventivo 10 000 km,Luis Pérez,,647.39,Cancelada
+OT-01050,14/08/2026,XAM-165,Minivan,Taller Surco,Aire acondicionado,Rosa Flores,,303.76,Cancelada
+OT-01051,14/08/2026,DAU-322,Minivan,Taller San Miguel,Frenos,Jorge Mendoza,14/08/2026,455.04,Finalizada
+OT-01052,14/08/2026,JEZ-857,Sedán,Taller Lima Centro,Frenos,María Huamán,14/08/2026,205.65,Finalizada
+OT-01053,14/08/2026,PTU-439,SUV,Taller Lima Centro,Cambio de aceite,Carlos Quispe,15/08/2026,153.51,Finalizada
+OT-01054,14/08/2026,HSV-234,Hatchback,Taller San Miguel,Aire acondicionado,Ana Torres,,436.72,Cancelada
+OT-01055,14/08/2026,XDH-715,Camioneta pick-up,Taller Lima Centro,Cambio de aceite,Carlos Quispe,19/08/2026,136.05,Finalizada
+OT-01056,15/08/2026,YSY-421,Hatchback,Taller Lima Centro,Afinamiento,José Rojas,16/08/2026,305.13,Finalizada
+OT-01057,15/08/2026,HYZ-171,Sedán,Taller Lima Centro,Mantenimiento preventivo 10 000 km,José Rojas,17/08/2026,635.09,Finalizada
+OT-01058,15/08/2026,UKM-237,Minivan,Taller San Miguel,Cambio de aceite,Ana Torres,20/08/2026,143.95,Finalizada
+OT-01059,16/08/2026,HEF-655,Sedán,Taller San Miguel,Cambio de aceite,Ana Torres,19/08/2026,172.90,Finalizada
+OT-01060,16/08/2026,YDZ-737,SUV,Taller San Miguel,Frenos,Jorge Mendoza,21/08/2026,235.88,Finalizada
+OT-01061,16/08/2026,JLD-427,Hatchback,Taller Surco,Diagnóstico electrónico,Pedro Ramírez,16/08/2026,217.14,Finalizada
+OT-01062,17/08/2026,VCF-666,Motocicleta,Taller Surco,Mantenimiento preventivo 10 000 km,Miguel Castillo,17/08/2026,486.93,Finalizada
+OT-01063,17/08/2026,DTL-383,Camioneta pick-up,Taller Lima Centro,Aire acondicionado,María Huamán,21/08/2026,519.74,Finalizada
+OT-01064,17/08/2026,GHA-195,Minivan,Taller Surco,Cambio de aceite,Miguel Castillo,18/08/2026,126.25,Finalizada
+OT-01065,17/08/2026,UBR-988,Motocicleta,Taller Surco,Afinamiento,Rosa Flores,19/08/2026,424.57,Finalizada
+OT-01066,18/08/2026,YKU-918,Camioneta pick-up,Taller Surco,Alineamiento y balanceo,Rosa Flores,24/08/2026,114.27,Finalizada
+OT-01067,18/08/2026,JUS-527,Motocicleta,Taller Lima Centro,Cambio de aceite,Carlos Quispe,22/08/2026,165.82,Finalizada
+OT-01068,18/08/2026,JUS-527,Motocicleta,Taller Surco,Diagnóstico electrónico,Pedro Ramírez,20/08/2026,173.82,Finalizada
+OT-01069,18/08/2026,UED-900,SUV,Taller San Miguel,Cambio de aceite,Jorge Mendoza,23/08/2026,150.16,Finalizada
+OT-01070,18/08/2026,TJD-968,Hatchback,Taller Surco,Afinamiento,Miguel Castillo,22/08/2026,372.95,Finalizada
+OT-01071,18/08/2026,RHZ-456,Minivan,Taller San Miguel,Cambio de aceite,Jorge Mendoza,24/08/2026,144.85,Finalizada
+OT-01072,18/08/2026,RHZ-456,Minivan,Taller Surco,Diagnóstico electrónico,Miguel Castillo,22/08/2026,211.62,Finalizada
+OT-01073,19/08/2026,XJS-479,Hatchback,Taller Surco,Afinamiento,Miguel Castillo,25/08/2026,421.07,Finalizada
+OT-01074,19/08/2026,DWB-869,Motocicleta,Taller Surco,Planchado y pintura,Miguel Castillo,24/08/2026,1157.82,Finalizada
+OT-01075,19/08/2026,BNN-651,SUV,Taller Lima Centro,Afinamiento,María Huamán,19/08/2026,440.86,Finalizada
+OT-01076,19/08/2026,JRJ-248,Hatchback,Taller Surco,Embrague,Rosa Flores,19/08/2026,1052.91,Finalizada
+OT-01077,19/08/2026,SPK-578,SUV,Taller Surco,Suspensión,Miguel Castillo,24/08/2026,839.53,Finalizada
+OT-01078,20/08/2026,YUV-978,Motocicleta,Taller Lima Centro,Cambio de aceite,José Rojas,23/08/2026,155.38,Finalizada
+OT-01079,20/08/2026,MNT-753,SUV,Taller Surco,Planchado y pintura,Miguel Castillo,21/08/2026,1173.68,Finalizada
+OT-01080,20/08/2026,FYF-499,Minivan,Taller Lima Centro,Afinamiento,María Huamán,26/08/2026,279.14,Finalizada
+OT-01081,20/08/2026,DWB-869,Motocicleta,Taller Lima Centro,Suspensión,María Huamán,25/08/2026,452.60,Finalizada
+OT-01082,20/08/2026,UJU-511,Camioneta pick-up,Taller Surco,Afinamiento,Pedro Ramírez,24/08/2026,426.10,Finalizada
+OT-01083,20/08/2026,ENZ-468,Minivan,Taller San Miguel,Frenos,Luis Pérez,24/08/2026,291.75,Finalizada
+OT-01084,20/08/2026,AXH-581,Minivan,Taller Surco,Afinamiento,Pedro Ramírez,21/08/2026,379.68,Finalizada
+OT-01085,20/08/2026,VTG-544,Motocicleta,Taller Surco,Cambio de aceite,Miguel Castillo,21/08/2026,161.54,Finalizada
+OT-01086,21/08/2026,TJP-677,Minivan,Taller Surco,Afinamiento,Miguel Castillo,22/08/2026,330.82,Finalizada
+OT-01087,21/08/2026,CSK-371,Motocicleta,Taller Lima Centro,Afinamiento,María Huamán,25/08/2026,266.79,Finalizada
+OT-01088,22/08/2026,AUZ-437,Motocicleta,Taller Lima Centro,Frenos,Carlos Quispe,22/08/2026,423.04,Finalizada
+OT-01089,22/08/2026,YVU-321,Camioneta pick-up,Taller Lima Centro,Cambio de aceite,María Huamán,22/08/2026,121.35,Finalizada
+OT-01090,22/08/2026,MXM-888,Camioneta pick-up,Taller Surco,Frenos,Miguel Castillo,25/08/2026,426.67,Finalizada
+OT-01091,22/08/2026,UJU-511,Camioneta pick-up,Taller Surco,Afinamiento,Miguel Castillo,27/08/2026,359.94,Finalizada
+OT-01092,23/08/2026,ENZ-468,Minivan,Taller San Miguel,Cambio de aceite,Ana Torres,26/08/2026,161.78,Finalizada
+OT-01093,23/08/2026,EVK-619,Sedán,Taller Lima Centro,Alineamiento y balanceo,José Rojas,25/08/2026,111.34,Finalizada
+OT-01094,24/08/2026,AXH-581,Minivan,Taller Lima Centro,Afinamiento,José Rojas,26/08/2026,288.91,Finalizada
+OT-01095,24/08/2026,FLT-593,Camioneta pick-up,Taller Lima Centro,Alineamiento y balanceo,Carlos Quispe,29/08/2026,82.91,Finalizada
+OT-01096,24/08/2026,DRA-934,Minivan,Taller Surco,Alineamiento y balanceo,Miguel Castillo,30/08/2026,137.61,Finalizada
+OT-01097,24/08/2026,DYB-877,SUV,Taller San Miguel,Cambio de aceite,Ana Torres,24/08/2026,127.48,Finalizada
+OT-01098,25/08/2026,BNN-651,SUV,Taller Lima Centro,Afinamiento,María Huamán,27/08/2026,257.21,Finalizada
+OT-01099,25/08/2026,KBV-778,Motocicleta,Taller San Miguel,Afinamiento,Ana Torres,25/08/2026,310.94,Finalizada
+OT-01100,25/08/2026,ESA-462,Motocicleta,Taller Lima Centro,Frenos,Carlos Quispe,29/08/2026,211.57,Finalizada
+OT-01101,25/08/2026,LEU-890,Minivan,Taller San Miguel,Diagnóstico electrónico,Jorge Mendoza,27/08/2026,190.44,Finalizada
+OT-01102,26/08/2026,BXT-939,Minivan,Taller Surco,Cambio de aceite,Rosa Flores,26/08/2026,119.76,Finalizada
+OT-01103,26/08/2026,CPY-263,Sedán,Taller Surco,Planchado y pintura,Rosa Flores,26/08/2026,2497.35,Finalizada
+OT-01104,26/08/2026,VTG-544,Motocicleta,Taller San Miguel,Mantenimiento preventivo 10 000 km,Jorge Mendoza,29/08/2026,372.36,Finalizada
+OT-01105,26/08/2026,ZTJ-563,SUV,Taller San Miguel,Cambio de aceite,Jorge Mendoza,31/08/2026,107.82,Finalizada
+OT-01106,26/08/2026,LYV-688,Minivan,Taller San Miguel,Cambio de aceite,Ana Torres,01/09/2026,179.64,Finalizada
+OT-01107,27/08/2026,VTG-544,Motocicleta,Taller Lima Centro,Suspensión,Carlos Quispe,31/08/2026,711.45,Finalizada
+OT-01108,27/08/2026,TJD-968,Hatchback,Taller Surco,Aire acondicionado,Miguel Castillo,01/09/2026,218.31,Finalizada
+OT-01109,27/08/2026,YUN-361,Motocicleta,Taller Surco,Cambio de aceite,Miguel Castillo,27/08/2026,166.28,Finalizada
+OT-01110,27/08/2026,XTZ-590,Camioneta pick-up,Taller Lima Centro,Alineamiento y balanceo,José Rojas,28/08/2026,91.29,Finalizada
+OT-01111,28/08/2026,RVU-956,SUV,Taller San Miguel,Mantenimiento preventivo 10 000 km,Luis Pérez,01/09/2026,696.45,Finalizada
+OT-01112,28/08/2026,CPY-263,Sedán,Taller Surco,Embrague,Miguel Castillo,02/09/2026,1337.94,Finalizada
+OT-01113,28/08/2026,GUB-838,Motocicleta,Taller Surco,Alineamiento y balanceo,Pedro Ramírez,30/08/2026,132.04,Finalizada
+OT-01114,28/08/2026,ZLK-844,SUV,Taller Lima Centro,Planchado y pintura,María Huamán,30/08/2026,1982.25,Finalizada
+OT-01115,28/08/2026,BNL-722,Sedán,Taller Surco,Afinamiento,Pedro Ramírez,29/08/2026,366.37,Finalizada
+OT-01116,28/08/2026,TDC-245,Minivan,Taller Surco,Mantenimiento preventivo 10 000 km,Pedro Ramírez,28/08/2026,617.63,Finalizada
+OT-01117,28/08/2026,XDH-715,Camioneta pick-up,Taller Lima Centro,Cambio de aceite,José Rojas,31/08/2026,110.68,Finalizada
+OT-01118,28/08/2026,GUB-838,Motocicleta,Taller San Miguel,Mantenimiento preventivo 10 000 km,Luis Pérez,03/09/2026,414.37,Finalizada
+OT-01119,29/08/2026,FJJ-164,Camioneta pick-up,Taller San Miguel,Cambio de aceite,Luis Pérez,03/09/2026,175.27,Finalizada
+OT-01120,29/08/2026,DWB-869,Motocicleta,Taller Surco,Mantenimiento preventivo 10 000 km,Rosa Flores,01/09/2026,613.17,Finalizada
+OT-01121,29/08/2026,PCN-699,Hatchback,Taller San Miguel,Cambio de aceite,Ana Torres,04/09/2026,155.48,Finalizada
+OT-01122,29/08/2026,TXY-261,Minivan,Taller Lima Centro,Diagnóstico electrónico,María Huamán,,201.74,Cancelada
+OT-01123,30/08/2026,KVJ-786,SUV,Taller Surco,Frenos,Rosa Flores,04/09/2026,198.21,Finalizada
+OT-01124,30/08/2026,MFM-675,Hatchback,Taller Surco,Diagnóstico electrónico,Rosa Flores,05/09/2026,129.20,Finalizada
+OT-01125,30/08/2026,DKP-426,SUV,Taller Lima Centro,Mantenimiento preventivo 10 000 km,Carlos Quispe,30/08/2026,480.59,Finalizada
+OT-01126,30/08/2026,LEU-890,Minivan,Taller San Miguel,Afinamiento,Jorge Mendoza,05/09/2026,370.44,Finalizada
+OT-01127,30/08/2026,ESA-462,Motocicleta,Taller Lima Centro,Afinamiento,María Huamán,03/09/2026,348.16,Finalizada
+OT-01128,30/08/2026,YKU-918,Camioneta pick-up,Taller San Miguel,Frenos,Luis Pérez,05/09/2026,221.40,Finalizada
+OT-01129,30/08/2026,MKG-644,Minivan,Taller San Miguel,Mantenimiento preventivo 10 000 km,Ana Torres,30/08/2026,631.45,Finalizada
+OT-01130,31/08/2026,KVJ-786,SUV,Taller Surco,Planchado y pintura,Rosa Flores,31/08/2026,639.79,Finalizada
+OT-01131,31/08/2026,JDP-275,SUV,Taller San Miguel,Mantenimiento preventivo 10 000 km,Jorge Mendoza,03/09/2026,477.68,Finalizada
+OT-01132,31/08/2026,PTU-439,SUV,Taller San Miguel,Mantenimiento preventivo 10 000 km,Luis Pérez,03/09/2026,652.74,Finalizada
+OT-01133,31/08/2026,WUP-902,Motocicleta,Taller Lima Centro,Mantenimiento preventivo 10 000 km,María Huamán,05/09/2026,588.04,Finalizada
+OT-01134,31/08/2026,RXL-517,Motocicleta,Taller Surco,Cambio de aceite,Miguel Castillo,04/09/2026,91.75,Finalizada
+OT-01135,31/08/2026,WCD-394,Minivan,Taller Lima Centro,Cambio de aceite,Carlos Quispe,06/09/2026,121.32,Finalizada
+OT-01136,31/08/2026,JRJ-248,Hatchback,Taller Surco,Frenos,Pedro Ramírez,01/09/2026,516.11,Finalizada
+OT-01137,31/08/2026,UJU-511,Camioneta pick-up,Taller Lima Centro,Cambio de aceite,José Rojas,04/09/2026,145.62,Finalizada
+OT-01138,31/08/2026,BNL-722,Sedán,Taller Lima Centro,Suspensión,María Huamán,06/09/2026,455.01,Finalizada
+OT-01139,01/09/2026,TJD-968,Hatchback,Taller Surco,Alineamiento y balanceo,Rosa Flores,,124.11,Cancelada
+OT-01140,01/09/2026,EBZ-635,Hatchback,Taller Lima Centro,Mantenimiento preventivo 10 000 km,José Rojas,03/09/2026,447.14,Finalizada
+OT-01141,01/09/2026,UJU-511,Camioneta pick-up,Taller San Miguel,Cambio de aceite,Luis Pérez,01/09/2026,104.32,Finalizada
+OT-01142,01/09/2026,GUB-838,Motocicleta,Taller Surco,Mantenimiento preventivo 10 000 km,Miguel Castillo,,601.72,Cancelada
+OT-01143,01/09/2026,CWG-353,Minivan,Taller Lima Centro,Diagnóstico electrónico,José Rojas,02/09/2026,123.71,Finalizada
+OT-01144,01/09/2026,DAU-322,Minivan,Taller Lima Centro,Aire acondicionado,José Rojas,,514.79,Cancelada
+OT-01145,01/09/2026,YVU-321,Camioneta pick-up,Taller Surco,Aire acondicionado,Miguel Castillo,05/09/2026,394.37,Finalizada
+OT-01146,01/09/2026,XTZ-590,Camioneta pick-up,Taller San Miguel,Diagnóstico electrónico,Ana Torres,,172.30,Cancelada
+OT-01147,02/09/2026,WLR-712,SUV,Taller Surco,Alineamiento y balanceo,Rosa Flores,06/09/2026,132.38,Finalizada
+OT-01148,02/09/2026,HEF-655,Sedán,Taller San Miguel,Mantenimiento preventivo 10 000 km,Ana Torres,02/09/2026,378.47,Finalizada
+OT-01149,03/09/2026,YUN-361,Motocicleta,Taller Lima Centro,Frenos,José Rojas,05/09/2026,324.71,Finalizada
+OT-01150,03/09/2026,DYB-877,SUV,Taller San Miguel,Aire acondicionado,Luis Pérez,03/09/2026,320.90,Finalizada
+OT-01151,03/09/2026,DCN-368,Hatchback,Taller Lima Centro,Frenos,Carlos Quispe,09/09/2026,407.66,Finalizada
+OT-01152,03/09/2026,AVH-884,SUV,Taller San Miguel,Afinamiento,Ana Torres,04/09/2026,278.49,Finalizada
+OT-01153,03/09/2026,NCB-953,Hatchback,Taller San Miguel,Aire acondicionado,Jorge Mendoza,08/09/2026,266.19,Finalizada
+OT-01154,03/09/2026,SPK-578,SUV,Taller Surco,Alineamiento y balanceo,Pedro Ramírez,05/09/2026,155.45,Finalizada
+OT-01155,03/09/2026,TZP-914,SUV,Taller Lima Centro,Cambio de aceite,María Huamán,03/09/2026,149.53,Finalizada
+OT-01156,04/09/2026,TDC-245,Minivan,Taller Lima Centro,Diagnóstico electrónico,María Huamán,07/09/2026,209.56,Finalizada
+OT-01157,04/09/2026,AAT-587,Hatchback,Taller Lima Centro,Alineamiento y balanceo,María Huamán,05/09/2026,131.07,Finalizada
+OT-01158,04/09/2026,JUS-527,Motocicleta,Taller Surco,Afinamiento,Rosa Flores,04/09/2026,268.95,Finalizada
+OT-01159,04/09/2026,DGP-249,Camioneta pick-up,Taller San Miguel,Frenos,Jorge Mendoza,04/09/2026,363.07,Finalizada
+OT-01160,04/09/2026,GNA-208,SUV,Taller Surco,Cambio de aceite,Rosa Flores,04/09/2026,161.18,Finalizada
+OT-01161,04/09/2026,YBK-424,Motocicleta,Taller San Miguel,Alineamiento y balanceo,Jorge Mendoza,04/09/2026,99.54,Finalizada
+OT-01162,04/09/2026,JLE-741,Minivan,Taller Lima Centro,Aire acondicionado,Carlos Quispe,09/09/2026,227.41,Finalizada
+OT-01163,04/09/2026,TGT-241,Minivan,Taller Surco,Planchado y pintura,Miguel Castillo,07/09/2026,2025.80,Finalizada
+OT-01164,05/09/2026,TJD-968,Hatchback,Taller Lima Centro,Planchado y pintura,Carlos Quispe,08/09/2026,1526.27,Finalizada
+OT-01165,05/09/2026,AYZ-654,Motocicleta,Taller Lima Centro,Cambio de aceite,Carlos Quispe,07/09/2026,160.92,Finalizada
+OT-01166,05/09/2026,WLR-712,SUV,Taller San Miguel,Suspensión,Jorge Mendoza,11/09/2026,591.99,Finalizada
+OT-01167,06/09/2026,DAU-322,Minivan,Taller Surco,Frenos,Miguel Castillo,09/09/2026,416.96,Finalizada
+OT-01168,06/09/2026,YPL-197,Hatchback,Taller Surco,Alineamiento y balanceo,Pedro Ramírez,,125.73,Cancelada
+OT-01169,06/09/2026,VCK-422,SUV,Taller Surco,Cambio de aceite,Pedro Ramírez,12/09/2026,108.92,Finalizada
+OT-01170,06/09/2026,LYK-560,Minivan,Taller Surco,Alineamiento y balanceo,Miguel Castillo,09/09/2026,121.46,Finalizada
+OT-01171,06/09/2026,ZPA-388,Hatchback,Taller San Miguel,Frenos,Luis Pérez,07/09/2026,460.28,Finalizada
+OT-01172,07/09/2026,DKP-426,SUV,Taller San Miguel,Aire acondicionado,Jorge Mendoza,07/09/2026,311.87,Finalizada
+OT-01173,07/09/2026,YBK-424,Motocicleta,Taller Surco,Cambio de aceite,Rosa Flores,13/09/2026,94.33,Finalizada
+OT-01174,07/09/2026,YDY-483,SUV,Taller Lima Centro,Cambio de aceite,José Rojas,13/09/2026,121.51,Finalizada
+OT-01175,08/09/2026,AYZ-654,Motocicleta,Taller Surco,Suspensión,Miguel Castillo,12/09/2026,687.84,Finalizada
+OT-01176,08/09/2026,JPU-524,Hatchback,Taller San Miguel,Embrague,Jorge Mendoza,13/09/2026,1053.62,Finalizada
+OT-01177,08/09/2026,LFG-925,Camioneta pick-up,Taller Surco,Alineamiento y balanceo,Rosa Flores,09/09/2026,152.17,Finalizada
+OT-01178,09/09/2026,NCB-953,Hatchback,Taller Surco,Mantenimiento preventivo 10 000 km,Miguel Castillo,11/09/2026,561.81,Finalizada
+OT-01179,09/09/2026,UKM-237,Minivan,Taller San Miguel,Cambio de aceite,Jorge Mendoza,15/09/2026,90.65,Finalizada
+OT-01180,10/09/2026,ABD-340,SUV,Taller Lima Centro,Frenos,José Rojas,11/09/2026,404.04,Finalizada
+OT-01181,10/09/2026,BXF-186,SUV,Taller San Miguel,Aire acondicionado,Ana Torres,12/09/2026,486.20,Finalizada
+OT-01182,10/09/2026,XTZ-590,Camioneta pick-up,Taller Lima Centro,Diagnóstico electrónico,María Huamán,15/09/2026,162.48,Finalizada
+OT-01183,11/09/2026,TDC-245,Minivan,Taller Surco,Frenos,Rosa Flores,11/09/2026,259.11,Finalizada
+OT-01184,11/09/2026,NLU-367,Camioneta pick-up,Taller San Miguel,Suspensión,Jorge Mendoza,16/09/2026,659.75,Finalizada
+OT-01185,12/09/2026,JUS-527,Motocicleta,Taller Lima Centro,Mantenimiento preventivo 10 000 km,María Huamán,15/09/2026,356.22,Finalizada
+OT-01186,12/09/2026,CWG-353,Minivan,Taller Lima Centro,Afinamiento,José Rojas,,250.95,Cancelada
+OT-01187,12/09/2026,UEF-129,Hatchback,Taller San Miguel,Diagnóstico electrónico,Luis Pérez,16/09/2026,242.98,Finalizada
+OT-01188,12/09/2026,LYK-560,Minivan,Taller Lima Centro,Aire acondicionado,María Huamán,18/09/2026,493.78,Finalizada
+OT-01189,12/09/2026,EVK-619,Sedán,Taller Lima Centro,Afinamiento,María Huamán,16/09/2026,368.10,Finalizada
+OT-01190,12/09/2026,TZP-914,SUV,Taller Surco,Cambio de aceite,Pedro Ramírez,15/09/2026,155.15,Finalizada
+OT-01191,12/09/2026,WZT-397,Minivan,Taller Surco,Alineamiento y balanceo,Pedro Ramírez,15/09/2026,157.46,Finalizada
+OT-01192,12/09/2026,ZVK-686,Hatchback,Taller San Miguel,Aire acondicionado,Luis Pérez,16/09/2026,293.74,Finalizada
+OT-01193,12/09/2026,SYV-419,Camioneta pick-up,Taller Lima Centro,Embrague,José Rojas,14/09/2026,1318.63,Finalizada
+OT-01194,13/09/2026,VKA-968,Camioneta pick-up,Taller Surco,Cambio de aceite,Miguel Castillo,15/09/2026,104.71,Finalizada
+OT-01195,13/09/2026,GFK-402,Sedán,Taller San Miguel,Cambio de aceite,Jorge Mendoza,19/09/2026,106.66,Finalizada
+OT-01196,13/09/2026,AVH-884,SUV,Taller San Miguel,Afinamiento,Jorge Mendoza,14/09/2026,254.90,Finalizada
+OT-01197,14/09/2026,SYV-419,Camioneta pick-up,Taller Surco,Cambio de aceite,Miguel Castillo,16/09/2026,118.31,Finalizada
+OT-01198,14/09/2026,KAP-692,Minivan,Taller Lima Centro,Suspensión,Carlos Quispe,17/09/2026,493.05,Finalizada
+OT-01199,14/09/2026,UKM-237,Minivan,Taller Surco,Planchado y pintura,Rosa Flores,20/09/2026,624.04,Finalizada
+OT-01200,14/09/2026,FJJ-164,Camioneta pick-up,Taller Lima Centro,Cambio de aceite,José Rojas,18/09/2026,142.02,Finalizada
+OT-01201,15/09/2026,PTU-439,SUV,Taller Surco,Cambio de aceite,Rosa Flores,20/09/2026,146.11,Finalizada
+OT-01202,15/09/2026,FLT-593,Camioneta pick-up,Taller Surco,Alineamiento y balanceo,Miguel Castillo,16/09/2026,110.44,Finalizada
+OT-01203,15/09/2026,NHP-778,Camioneta pick-up,Taller San Miguel,Suspensión,Ana Torres,17/09/2026,560.56,Finalizada
+OT-01204,16/09/2026,VRH-102,Motocicleta,Taller San Miguel,Frenos,Jorge Mendoza,17/09/2026,418.40,Finalizada
+OT-01205,16/09/2026,NPG-401,SUV,Taller San Miguel,Alineamiento y balanceo,Luis Pérez,16/09/2026,129.73,Finalizada
+OT-01206,16/09/2026,RXN-509,Hatchback,Taller San Miguel,Diagnóstico electrónico,Jorge Mendoza,19/09/2026,189.50,Finalizada
+OT-01207,16/09/2026,UJY-875,SUV,Taller San Miguel,Afinamiento,Ana Torres,16/09/2026,301.60,Finalizada
+OT-01208,17/09/2026,MUF-839,Camioneta pick-up,Taller Lima Centro,Cambio de aceite,José Rojas,17/09/2026,178.15,Finalizada
+OT-01209,17/09/2026,GNA-208,SUV,Taller Surco,Suspensión,Pedro Ramírez,19/09/2026,999.59,Finalizada
+OT-01210,17/09/2026,ZPA-388,Hatchback,Taller Lima Centro,Planchado y pintura,María Huamán,21/09/2026,1055.90,Finalizada
+OT-01211,17/09/2026,UBR-988,Motocicleta,Taller Lima Centro,Afinamiento,María Huamán,17/09/2026,290.92,Finalizada
+OT-01212,17/09/2026,XWR-922,Sedán,Taller Surco,Afinamiento,Rosa Flores,18/09/2026,361.98,Finalizada
+OT-01213,17/09/2026,XTZ-590,Camioneta pick-up,Taller Surco,Afinamiento,Rosa Flores,23/09/2026,333.73,Finalizada
+OT-01214,17/09/2026,SPK-578,SUV,Taller Surco,Embrague,Rosa Flores,,1002.09,Cancelada
+OT-01215,19/09/2026,TXY-261,Minivan,Taller Lima Centro,Cambio de aceite,José Rojas,24/09/2026,179.65,Finalizada
+OT-01216,19/09/2026,HUJ-451,Minivan,Taller Lima Centro,Frenos,María Huamán,20/09/2026,248.46,Finalizada
+OT-01217,19/09/2026,MLR-721,Camioneta pick-up,Taller Lima Centro,Alineamiento y balanceo,José Rojas,22/09/2026,114.86,Finalizada
+OT-01218,19/09/2026,LDS-577,Motocicleta,Taller Surco,Cambio de aceite,Miguel Castillo,20/09/2026,109.75,Finalizada
+OT-01219,20/09/2026,VAU-450,Minivan,Taller Lima Centro,Mantenimiento preventivo 10 000 km,José Rojas,23/09/2026,614.96,Finalizada
+OT-01220,21/09/2026,VCK-422,SUV,Taller San Miguel,Alineamiento y balanceo,Jorge Mendoza,27/09/2026,104.83,Finalizada
+OT-01221,22/09/2026,KMU-848,Hatchback,Taller Lima Centro,Mantenimiento preventivo 10 000 km,José Rojas,24/09/2026,612.64,Finalizada
+OT-01222,22/09/2026,TGT-241,Minivan,Taller San Miguel,Planchado y pintura,Luis Pérez,27/09/2026,916.91,Finalizada
+OT-01223,22/09/2026,PNE-632,Hatchback,Taller Lima Centro,Planchado y pintura,María Huamán,22/09/2026,2378.20,Finalizada
+OT-01224,22/09/2026,XGS-828,Minivan,Taller San Miguel,Planchado y pintura,Luis Pérez,24/09/2026,1159.28,Finalizada
+OT-01225,22/09/2026,GWR-536,Camioneta pick-up,Taller Lima Centro,Aire acondicionado,Carlos Quispe,25/09/2026,324.85,Finalizada
+OT-01226,22/09/2026,ZVK-686,Hatchback,Taller Surco,Afinamiento,Miguel Castillo,22/09/2026,425.98,Finalizada
+OT-01227,23/09/2026,YBK-424,Motocicleta,Taller San Miguel,Mantenimiento preventivo 10 000 km,Luis Pérez,24/09/2026,374.68,Finalizada
+OT-01228,23/09/2026,JPU-524,Hatchback,Taller Lima Centro,Cambio de aceite,María Huamán,27/09/2026,103.79,Finalizada
+OT-01229,23/09/2026,UEF-129,Hatchback,Taller San Miguel,Cambio de aceite,Luis Pérez,25/09/2026,102.99,Finalizada
+OT-01230,23/09/2026,VWF-257,Hatchback,Taller Lima Centro,Planchado y pintura,Carlos Quispe,28/09/2026,565.14,Finalizada
+OT-01231,23/09/2026,MPV-490,Minivan,Taller San Miguel,Cambio de aceite,Luis Pérez,26/09/2026,155.17,Finalizada
+OT-01232,23/09/2026,LEU-890,Minivan,Taller San Miguel,Mantenimiento preventivo 10 000 km,Luis Pérez,23/09/2026,592.65,Finalizada
+OT-01233,23/09/2026,MSS-223,Motocicleta,Taller San Miguel,Aire acondicionado,Jorge Mendoza,24/09/2026,541.19,Finalizada
+OT-01234,24/09/2026,UKM-237,Minivan,Taller San Miguel,Afinamiento,Jorge Mendoza,26/09/2026,418.16,Finalizada
+OT-01235,24/09/2026,RDR-805,SUV,Taller Lima Centro,Alineamiento y balanceo,Carlos Quispe,,140.87,Cancelada
+OT-01236,24/09/2026,VCF-666,Motocicleta,Taller Lima Centro,Cambio de aceite,María Huamán,25/09/2026,118.41,Finalizada
+OT-01237,25/09/2026,RXL-517,Motocicleta,Taller Surco,Afinamiento,Rosa Flores,01/10/2026,372.38,Finalizada
+OT-01238,25/09/2026,WCD-394,Minivan,Taller Lima Centro,Mantenimiento preventivo 10 000 km,José Rojas,01/10/2026,350.81,Finalizada
+OT-01239,25/09/2026,TJP-677,Minivan,Taller San Miguel,Suspensión,Ana Torres,29/09/2026,688.64,Finalizada
+OT-01240,25/09/2026,LYK-560,Minivan,Taller San Miguel,Alineamiento y balanceo,Ana Torres,25/09/2026,85.75,Finalizada
+OT-01241,26/09/2026,YDZ-737,SUV,Taller Lima Centro,Afinamiento,José Rojas,29/09/2026,391.33,Finalizada
+OT-01242,26/09/2026,NCB-953,Hatchback,Taller Lima Centro,Frenos,Carlos Quispe,28/09/2026,506.03,Finalizada
+OT-01243,26/09/2026,XGS-828,Minivan,Taller Lima Centro,Afinamiento,José Rojas,29/09/2026,403.95,Finalizada
+OT-01244,26/09/2026,DYB-877,SUV,Taller Lima Centro,Cambio de aceite,Carlos Quispe,01/10/2026,104.12,Finalizada
+OT-01245,26/09/2026,XME-105,Sedán,Taller Surco,Frenos,Rosa Flores,27/09/2026,361.62,Finalizada
+OT-01246,26/09/2026,VYE-541,Minivan,Taller Lima Centro,Diagnóstico electrónico,José Rojas,02/10/2026,198.55,Finalizada
+OT-01247,26/09/2026,DFW-225,Camioneta pick-up,Taller San Miguel,Planchado y pintura,Jorge Mendoza,29/09/2026,1315.95,Finalizada
+OT-01248,27/09/2026,RDT-915,Sedán,Taller Lima Centro,Afinamiento,Carlos Quispe,03/10/2026,294.36,Finalizada
+OT-01249,27/09/2026,XME-105,Sedán,Taller Lima Centro,Cambio de aceite,Carlos Quispe,27/09/2026,96.78,Finalizada
+OT-01250,27/09/2026,XME-105,Sedán,Taller San Miguel,Frenos,Luis Pérez,01/10/2026,372.00,Finalizada
+OT-01251,28/09/2026,VCF-666,Motocicleta,Taller San Miguel,Mantenimiento preventivo 10 000 km,Jorge Mendoza,28/09/2026,563.57,Finalizada
+OT-01252,28/09/2026,PNE-632,Hatchback,Taller Lima Centro,Frenos,José Rojas,,409.85,Cancelada
+OT-01253,28/09/2026,MPV-490,Minivan,Taller Surco,Diagnóstico electrónico,Rosa Flores,,183.31,Cancelada
+OT-01254,28/09/2026,SZE-658,Motocicleta,Taller Lima Centro,Cambio de aceite,José Rojas,03/10/2026,157.26,Finalizada
+OT-01255,28/09/2026,EVK-619,Sedán,Taller Surco,Cambio de aceite,Miguel Castillo,03/10/2026,116.39,Finalizada
+OT-01256,28/09/2026,ZVK-686,Hatchback,Taller Surco,Suspensión,Miguel Castillo,04/10/2026,934.55,Finalizada
+OT-01257,28/09/2026,CLC-670,Motocicleta,Taller Lima Centro,Alineamiento y balanceo,Carlos Quispe,04/10/2026,99.81,Finalizada
+OT-01258,28/09/2026,KBV-778,Motocicleta,Taller San Miguel,Afinamiento,Ana Torres,28/09/2026,316.80,Finalizada
+OT-01259,29/09/2026,CWG-353,Minivan,Taller Surco,Alineamiento y balanceo,Rosa Flores,29/09/2026,154.76,Finalizada
+OT-01260,29/09/2026,WLR-712,SUV,Taller San Miguel,Frenos,Luis Pérez,29/09/2026,368.93,Finalizada
+OT-01261,29/09/2026,RDR-805,SUV,Taller Lima Centro,Mantenimiento preventivo 10 000 km,Carlos Quispe,01/10/2026,408.81,Finalizada
+OT-01262,30/09/2026,DWZ-387,Motocicleta,Taller Surco,Frenos,Rosa Flores,30/09/2026,472.24,Finalizada
+OT-01263,30/09/2026,WUP-902,Motocicleta,Taller Surco,Diagnóstico electrónico,Pedro Ramírez,,135.49,Cancelada
+OT-01264,30/09/2026,VRH-102,Motocicleta,Taller Surco,Frenos,Pedro Ramírez,06/10/2026,239.30,Finalizada
+OT-01265,30/09/2026,GNA-208,SUV,Taller San Miguel,Diagnóstico electrónico,Jorge Mendoza,,199.70,Cancelada
+OT-01266,30/09/2026,VRH-102,Motocicleta,Taller Surco,Diagnóstico electrónico,Rosa Flores,30/09/2026,201.87,Finalizada
+OT-01267,30/09/2026,DYB-877,SUV,Taller Lima Centro,Mantenimiento preventivo 10 000 km,Carlos Quispe,04/10/2026,392.60,Finalizada
+OT-01268,30/09/2026,MLR-721,Camioneta pick-up,Taller Surco,Mantenimiento preventivo 10 000 km,Rosa Flores,06/10/2026,402.40,Finalizada
+OT-01269,30/09/2026,VUS-869,Motocicleta,Taller San Miguel,Suspensión,Ana Torres,30/09/2026,765.71,Finalizada
+OT-01270,01/10/2026,NPG-401,SUV,Taller San Miguel,Diagnóstico electrónico,Jorge Mendoza,02/10/2026,175.63,Finalizada
+OT-01271,01/10/2026,RXL-517,Motocicleta,Taller San Miguel,Alineamiento y balanceo,Ana Torres,03/10/2026,88.45,Finalizada
+OT-01272,01/10/2026,GNJ-456,Camioneta pick-up,Taller Lima Centro,Cambio de aceite,Carlos Quispe,07/10/2026,153.56,Finalizada
+OT-01273,01/10/2026,EVK-619,Sedán,Taller Lima Centro,Afinamiento,María Huamán,04/10/2026,322.60,Finalizada
+OT-01274,01/10/2026,ABD-340,SUV,Taller Lima Centro,Frenos,María Huamán,06/10/2026,215.13,Finalizada
+OT-01275,01/10/2026,LYS-512,Motocicleta,Taller Lima Centro,Cambio de aceite,María Huamán,05/10/2026,99.47,Finalizada
+OT-01276,02/10/2026,CNK-291,Sedán,Taller San Miguel,Mantenimiento preventivo 10 000 km,Luis Pérez,08/10/2026,437.33,Finalizada
+OT-01277,02/10/2026,NLU-367,Camioneta pick-up,Taller Lima Centro,Afinamiento,Carlos Quispe,02/10/2026,282.07,Finalizada
+OT-01278,02/10/2026,EVK-619,Sedán,Taller Surco,Afinamiento,Miguel Castillo,07/10/2026,397.35,Finalizada
+OT-01279,02/10/2026,YVU-321,Camioneta pick-up,Taller Surco,Alineamiento y balanceo,Miguel Castillo,04/10/2026,148.42,Finalizada
+OT-01280,02/10/2026,BHY-620,Sedán,Taller Surco,Diagnóstico electrónico,Rosa Flores,03/10/2026,208.38,Finalizada
+OT-01281,02/10/2026,BHY-620,Sedán,Taller San Miguel,Afinamiento,Jorge Mendoza,05/10/2026,318.01,Finalizada
+OT-01282,02/10/2026,VTG-544,Motocicleta,Taller Surco,Mantenimiento preventivo 10 000 km,Pedro Ramírez,05/10/2026,548.94,Finalizada
+OT-01283,02/10/2026,TXY-261,Minivan,Taller San Miguel,Cambio de aceite,Ana Torres,07/10/2026,92.37,Finalizada
+OT-01284,03/10/2026,XFB-763,Camioneta pick-up,Taller Surco,Mantenimiento preventivo 10 000 km,Rosa Flores,09/10/2026,523.79,Finalizada
+OT-01285,03/10/2026,WZT-397,Minivan,Taller Lima Centro,Aire acondicionado,José Rojas,09/10/2026,597.71,Finalizada
+OT-01286,03/10/2026,YDY-483,SUV,Taller San Miguel,Alineamiento y balanceo,Jorge Mendoza,07/10/2026,83.39,Finalizada
+OT-01287,03/10/2026,AUZ-437,Motocicleta,Taller Surco,Cambio de aceite,Pedro Ramírez,03/10/2026,177.85,Finalizada
+OT-01288,04/10/2026,JLD-427,Hatchback,Taller San Miguel,Mantenimiento preventivo 10 000 km,Jorge Mendoza,06/10/2026,601.11,Finalizada
+OT-01289,04/10/2026,DWZ-387,Motocicleta,Taller Lima Centro,Frenos,Carlos Quispe,04/10/2026,209.43,Finalizada
+OT-01290,04/10/2026,NPG-401,SUV,Taller Lima Centro,Diagnóstico electrónico,María Huamán,06/10/2026,231.84,Finalizada
+OT-01291,04/10/2026,JLX-632,SUV,Taller Lima Centro,Mantenimiento preventivo 10 000 km,María Huamán,,618.62,Cancelada
+OT-01292,04/10/2026,WLR-712,SUV,Taller San Miguel,Alineamiento y balanceo,Jorge Mendoza,08/10/2026,99.57,Finalizada
+OT-01293,05/10/2026,HSV-234,Hatchback,Taller Surco,Cambio de aceite,Miguel Castillo,10/10/2026,144.06,Finalizada
+OT-01294,05/10/2026,NCB-953,Hatchback,Taller Surco,Aire acondicionado,Miguel Castillo,,491.63,Cancelada
+OT-01295,05/10/2026,JPU-524,Hatchback,Taller Lima Centro,Diagnóstico electrónico,José Rojas,11/10/2026,164.41,Finalizada
+OT-01296,06/10/2026,LEU-890,Minivan,Taller Lima Centro,Alineamiento y balanceo,María Huamán,08/10/2026,156.95,Finalizada
+OT-01297,06/10/2026,VCK-422,SUV,Taller Surco,Mantenimiento preventivo 10 000 km,Miguel Castillo,10/10/2026,609.32,Finalizada
+OT-01298,06/10/2026,EDL-596,Minivan,Taller Surco,Frenos,Rosa Flores,,273.51,Cancelada
+OT-01299,06/10/2026,GUB-838,Motocicleta,Taller Surco,Afinamiento,Pedro Ramírez,08/10/2026,345.98,Finalizada
+OT-01300,06/10/2026,JLE-741,Minivan,Taller Surco,Planchado y pintura,Rosa Flores,11/10/2026,1392.62,Finalizada
+OT-01301,06/10/2026,GHA-195,Minivan,Taller Surco,Cambio de aceite,Rosa Flores,10/10/2026,176.58,Finalizada
+OT-01302,07/10/2026,GHA-195,Minivan,Taller San Miguel,Cambio de aceite,Luis Pérez,13/10/2026,148.65,Finalizada
+OT-01303,07/10/2026,AAT-587,Hatchback,Taller San Miguel,Alineamiento y balanceo,Jorge Mendoza,07/10/2026,110.25,Finalizada
+OT-01304,07/10/2026,ZTJ-563,SUV,Taller Surco,Cambio de aceite,Pedro Ramírez,10/10/2026,147.78,Finalizada
+OT-01305,08/10/2026,ZLK-844,SUV,Taller Lima Centro,Aire acondicionado,José Rojas,08/10/2026,540.48,Finalizada
+OT-01306,08/10/2026,JLE-741,Minivan,Taller Surco,Frenos,Rosa Flores,09/10/2026,231.66,Finalizada
+OT-01307,08/10/2026,RYS-831,Minivan,Taller Surco,Mantenimiento preventivo 10 000 km,Miguel Castillo,14/10/2026,428.49,Finalizada
+OT-01308,08/10/2026,YHF-432,SUV,Taller Surco,Cambio de aceite,Rosa Flores,10/10/2026,154.38,Finalizada
+OT-01309,08/10/2026,TJP-677,Minivan,Taller Surco,Cambio de aceite,Pedro Ramírez,14/10/2026,144.14,Finalizada
+OT-01310,08/10/2026,RDR-805,SUV,Taller Surco,Mantenimiento preventivo 10 000 km,Rosa Flores,13/10/2026,610.55,Finalizada
+OT-01311,08/10/2026,NHP-778,Camioneta pick-up,Taller Surco,Aire acondicionado,Miguel Castillo,13/10/2026,610.40,Finalizada
+OT-01312,08/10/2026,DJK-688,Motocicleta,Taller Surco,Frenos,Miguel Castillo,09/10/2026,423.15,Finalizada
+OT-01313,09/10/2026,MLR-721,Camioneta pick-up,Taller Lima Centro,Mantenimiento preventivo 10 000 km,José Rojas,11/10/2026,509.12,Finalizada
+OT-01314,09/10/2026,UBR-988,Motocicleta,Taller Lima Centro,Cambio de aceite,Carlos Quispe,,103.97,Cancelada
+OT-01315,09/10/2026,DJK-688,Motocicleta,Taller Surco,Suspensión,Rosa Flores,15/10/2026,537.99,Finalizada
+OT-01316,09/10/2026,MCC-897,Minivan,Taller Lima Centro,Afinamiento,José Rojas,09/10/2026,348.27,Finalizada
+OT-01317,09/10/2026,GER-860,Motocicleta,Taller San Miguel,Alineamiento y balanceo,Luis Pérez,12/10/2026,144.40,Finalizada
+OT-01318,10/10/2026,DTL-383,Camioneta pick-up,Taller Surco,Afinamiento,Miguel Castillo,14/10/2026,385.51,Finalizada
+OT-01319,10/10/2026,TAF-422,Hatchback,Taller Surco,Alineamiento y balanceo,Rosa Flores,10/10/2026,91.16,Finalizada
+OT-01320,10/10/2026,HSV-234,Hatchback,Taller Surco,Cambio de aceite,Pedro Ramírez,12/10/2026,150.63,Finalizada
+OT-01321,10/10/2026,DTL-383,Camioneta pick-up,Taller San Miguel,Alineamiento y balanceo,Luis Pérez,10/10/2026,84.09,Finalizada
+OT-01322,10/10/2026,GUB-838,Motocicleta,Taller Lima Centro,Diagnóstico electrónico,María Huamán,16/10/2026,137.41,Finalizada
+OT-01323,10/10/2026,MFX-745,Minivan,Taller San Miguel,Frenos,Luis Pérez,13/10/2026,311.50,Finalizada
+OT-01324,11/10/2026,BXF-186,SUV,Taller San Miguel,Alineamiento y balanceo,Jorge Mendoza,17/10/2026,133.43,Finalizada
+OT-01325,11/10/2026,YUV-978,Motocicleta,Taller San Miguel,Embrague,Jorge Mendoza,16/10/2026,872.77,Finalizada
+OT-01326,11/10/2026,WKX-220,SUV,Taller Surco,Diagnóstico electrónico,Pedro Ramírez,13/10/2026,143.79,Finalizada
+OT-01327,11/10/2026,YDY-483,SUV,Taller San Miguel,Diagnóstico electrónico,Ana Torres,16/10/2026,201.91,Finalizada
+OT-01328,11/10/2026,HEF-655,Sedán,Taller San Miguel,Mantenimiento preventivo 10 000 km,Ana Torres,11/10/2026,511.51,Finalizada
+OT-01329,11/10/2026,UEF-129,Hatchback,Taller Surco,Afinamiento,Miguel Castillo,15/10/2026,392.80,Finalizada
+OT-01330,11/10/2026,ENZ-468,Minivan,Taller Surco,Cambio de aceite,Pedro Ramírez,,153.64,Cancelada
+OT-01331,12/10/2026,EDL-596,Minivan,Taller San Miguel,Mantenimiento preventivo 10 000 km,Luis Pérez,18/10/2026,641.96,Finalizada
+OT-01332,12/10/2026,EMP-493,Sedán,Taller Lima Centro,Diagnóstico electrónico,Carlos Quispe,15/10/2026,233.03,Finalizada
+OT-01333,12/10/2026,SYV-419,Camioneta pick-up,Taller Lima Centro,Frenos,Carlos Quispe,16/10/2026,191.94,Finalizada
+OT-01334,12/10/2026,YVU-321,Camioneta pick-up,Taller Lima Centro,Cambio de aceite,Carlos Quispe,17/10/2026,135.90,Finalizada
+OT-01335,13/10/2026,WUP-902,Motocicleta,Taller Lima Centro,Cambio de aceite,José Rojas,15/10/2026,129.97,Finalizada
+OT-01336,13/10/2026,TYJ-498,SUV,Taller Lima Centro,Afinamiento,Carlos Quispe,16/10/2026,422.85,Finalizada
+OT-01337,13/10/2026,TJD-968,Hatchback,Taller Lima Centro,Diagnóstico electrónico,María Huamán,19/10/2026,219.54,Finalizada
+OT-01338,13/10/2026,VAU-450,Minivan,Taller San Miguel,Cambio de aceite,Jorge Mendoza,16/10/2026,124.53,Finalizada
+OT-01339,13/10/2026,ENZ-468,Minivan,Taller San Miguel,Cambio de aceite,Luis Pérez,16/10/2026,109.84,Finalizada
+OT-01340,13/10/2026,XGS-828,Minivan,Taller San Miguel,Diagnóstico electrónico,Ana Torres,17/10/2026,227.73,Finalizada
+OT-01341,14/10/2026,WXS-532,Sedán,Taller Surco,Cambio de aceite,Miguel Castillo,,172.17,Cancelada
+OT-01342,14/10/2026,DWZ-387,Motocicleta,Taller Surco,Alineamiento y balanceo,Miguel Castillo,20/10/2026,101.34,Finalizada
+OT-01343,15/10/2026,VTG-544,Motocicleta,Taller Surco,Afinamiento,Miguel Castillo,18/10/2026,373.19,Finalizada
+OT-01344,15/10/2026,MWX-771,Hatchback,Taller Surco,Cambio de aceite,Rosa Flores,21/10/2026,101.95,Finalizada
+OT-01345,15/10/2026,TAF-422,Hatchback,Taller Surco,Frenos,Rosa Flores,15/10/2026,325.86,Finalizada
+OT-01346,16/10/2026,UBR-988,Motocicleta,Taller Lima Centro,Alineamiento y balanceo,María Huamán,19/10/2026,151.92,Finalizada
+OT-01347,16/10/2026,ENZ-468,Minivan,Taller Surco,Mantenimiento preventivo 10 000 km,Miguel Castillo,18/10/2026,410.45,Finalizada
+OT-01348,16/10/2026,LDS-577,Motocicleta,Taller Surco,Frenos,Rosa Flores,16/10/2026,497.48,Finalizada
+OT-01349,16/10/2026,SZE-658,Motocicleta,Taller Lima Centro,Frenos,Carlos Quispe,,322.70,Cancelada
+OT-01350,16/10/2026,GFK-402,Sedán,Taller Surco,Frenos,Miguel Castillo,17/10/2026,331.95,Finalizada
+OT-01351,16/10/2026,HSV-234,Hatchback,Taller Surco,Suspensión,Miguel Castillo,16/10/2026,935.65,Finalizada
+OT-01352,16/10/2026,WLR-712,SUV,Taller Lima Centro,Aire acondicionado,María Huamán,20/10/2026,465.23,Finalizada
+OT-01353,17/10/2026,DGP-249,Camioneta pick-up,Taller Lima Centro,Afinamiento,José Rojas,18/10/2026,341.46,Finalizada
+OT-01354,17/10/2026,AKD-196,Sedán,Taller San Miguel,Embrague,Jorge Mendoza,21/10/2026,910.49,Finalizada
+OT-01355,17/10/2026,TGT-241,Minivan,Taller Lima Centro,Alineamiento y balanceo,Carlos Quispe,20/10/2026,112.15,Finalizada
+OT-01356,18/10/2026,JLX-632,SUV,Taller Surco,Cambio de aceite,Pedro Ramírez,24/10/2026,105.19,Finalizada
+OT-01357,18/10/2026,GFX-520,SUV,Taller Surco,Diagnóstico electrónico,Miguel Castillo,19/10/2026,186.14,Finalizada
+OT-01358,18/10/2026,KAP-692,Minivan,Taller San Miguel,Diagnóstico electrónico,Jorge Mendoza,,249.47,Cancelada
+OT-01359,18/10/2026,KAP-692,Minivan,Taller San Miguel,Mantenimiento preventivo 10 000 km,Jorge Mendoza,,580.77,Cancelada
+OT-01360,18/10/2026,DKP-426,SUV,Taller Surco,Cambio de aceite,Rosa Flores,22/10/2026,108.38,Finalizada
+OT-01361,18/10/2026,MSS-223,Motocicleta,Taller Surco,Cambio de aceite,Rosa Flores,19/10/2026,177.53,Finalizada
+OT-01362,18/10/2026,NPG-401,SUV,Taller Surco,Mantenimiento preventivo 10 000 km,Pedro Ramírez,20/10/2026,508.13,Finalizada
+OT-01363,19/10/2026,MYR-699,Hatchback,Taller Lima Centro,Afinamiento,María Huamán,21/10/2026,381.51,Finalizada
+OT-01364,19/10/2026,YBK-424,Motocicleta,Taller Surco,Diagnóstico electrónico,Miguel Castillo,,226.19,Cancelada
+OT-01365,19/10/2026,VCF-666,Motocicleta,Taller Lima Centro,Alineamiento y balanceo,Carlos Quispe,22/10/2026,111.40,Finalizada
+OT-01366,19/10/2026,GWR-536,Camioneta pick-up,Taller Surco,Diagnóstico electrónico,Pedro Ramírez,22/10/2026,192.29,Finalizada
+OT-01367,19/10/2026,EWW-354,Hatchback,Taller San Miguel,Cambio de aceite,Jorge Mendoza,24/10/2026,166.56,Finalizada
+OT-01368,20/10/2026,ZLK-844,SUV,Taller Lima Centro,Cambio de aceite,Carlos Quispe,26/10/2026,107.00,Finalizada
+OT-01369,20/10/2026,GER-860,Motocicleta,Taller Surco,Cambio de aceite,Pedro Ramírez,20/10/2026,150.50,Finalizada
+OT-01370,21/10/2026,TGT-241,Minivan,Taller Surco,Mantenimiento preventivo 10 000 km,Rosa Flores,23/10/2026,611.80,Finalizada
+OT-01371,21/10/2026,JEZ-857,Sedán,Taller San Miguel,Cambio de aceite,Ana Torres,27/10/2026,158.74,Finalizada
+OT-01372,22/10/2026,SYV-419,Camioneta pick-up,Taller Lima Centro,Mantenimiento preventivo 10 000 km,María Huamán,26/10/2026,455.69,Finalizada
+OT-01373,22/10/2026,CNK-291,Sedán,Taller Lima Centro,Afinamiento,José Rojas,28/10/2026,260.56,Finalizada
+OT-01374,22/10/2026,GWR-536,Camioneta pick-up,Taller Lima Centro,Afinamiento,José Rojas,25/10/2026,371.43,Finalizada
+OT-01375,22/10/2026,JRJ-248,Hatchback,Taller Lima Centro,Suspensión,José Rojas,,792.09,Cancelada
+OT-01376,23/10/2026,BXT-939,Minivan,Taller Surco,Cambio de aceite,Miguel Castillo,29/10/2026,136.96,Finalizada
+OT-01377,23/10/2026,FLT-593,Camioneta pick-up,Taller Surco,Aire acondicionado,Miguel Castillo,24/10/2026,256.86,Finalizada
+OT-01378,24/10/2026,DFW-225,Camioneta pick-up,Taller San Miguel,Afinamiento,Jorge Mendoza,30/10/2026,290.90,Finalizada
+OT-01379,25/10/2026,RDT-915,Sedán,Taller Lima Centro,Afinamiento,Carlos Quispe,31/10/2026,411.00,Finalizada
+OT-01380,25/10/2026,ABD-340,SUV,Taller Surco,Frenos,Miguel Castillo,27/10/2026,429.76,Finalizada
+OT-01381,25/10/2026,KVJ-786,SUV,Taller Lima Centro,Cambio de aceite,Carlos Quispe,27/10/2026,121.81,Finalizada
+OT-01382,25/10/2026,NPG-401,SUV,Taller San Miguel,Frenos,Jorge Mendoza,29/10/2026,267.36,Finalizada
+OT-01383,25/10/2026,RDT-915,Sedán,Taller Lima Centro,Suspensión,Carlos Quispe,29/10/2026,758.60,Finalizada
+OT-01384,25/10/2026,PTU-439,SUV,Taller Lima Centro,Alineamiento y balanceo,Carlos Quispe,27/10/2026,149.57,Finalizada
+OT-01385,26/10/2026,FLT-593,Camioneta pick-up,Taller Lima Centro,Suspensión,María Huamán,,1033.06,Cancelada
+OT-01386,26/10/2026,GHA-195,Minivan,Taller Surco,Frenos,Rosa Flores,01/11/2026,399.66,Finalizada
+OT-01387,26/10/2026,DKP-426,SUV,Taller Lima Centro,Afinamiento,Carlos Quispe,01/11/2026,289.51,Finalizada
+OT-01388,26/10/2026,AVH-884,SUV,Taller Lima Centro,Cambio de aceite,María Huamán,31/10/2026,105.10,Finalizada
+OT-01389,27/10/2026,FPS-165,Sedán,Taller Lima Centro,Suspensión,José Rojas,30/10/2026,1052.75,Finalizada
+OT-01390,27/10/2026,RDT-915,Sedán,Taller Surco,Frenos,Pedro Ramírez,27/10/2026,481.06,Finalizada
+OT-01391,27/10/2026,USD-535,Sedán,Taller Surco,Cambio de aceite,Rosa Flores,29/10/2026,116.63,Finalizada
+OT-01392,27/10/2026,TXY-261,Minivan,Taller Surco,Cambio de aceite,Rosa Flores,,151.83,Cancelada
+OT-01393,28/10/2026,GER-860,Motocicleta,Taller San Miguel,Diagnóstico electrónico,Luis Pérez,,229.33,Cancelada
+OT-01394,28/10/2026,NCB-953,Hatchback,Taller San Miguel,Cambio de aceite,Jorge Mendoza,,119.27,Cancelada
+OT-01395,29/10/2026,FYF-499,Minivan,Taller San Miguel,Cambio de aceite,Luis Pérez,30/10/2026,91.35,Finalizada
+OT-01396,29/10/2026,ZTJ-563,SUV,Taller Surco,Alineamiento y balanceo,Rosa Flores,,84.23,Cancelada
+OT-01397,29/10/2026,MWX-771,Hatchback,Taller Surco,Aire acondicionado,Rosa Flores,30/10/2026,611.21,Finalizada
+OT-01398,29/10/2026,UTH-948,Camioneta pick-up,Taller Surco,Diagnóstico electrónico,Miguel Castillo,03/11/2026,164.63,Finalizada
+OT-01399,30/10/2026,UJY-875,SUV,Taller Surco,Mantenimiento preventivo 10 000 km,Pedro Ramírez,31/10/2026,359.98,Finalizada
+OT-01400,30/10/2026,TDC-245,Minivan,Taller Surco,Afinamiento,Pedro Ramírez,31/10/2026,290.78,Finalizada
+OT-01401,31/10/2026,KAP-692,Minivan,Taller San Miguel,Alineamiento y balanceo,Jorge Mendoza,01/11/2026,87.51,Finalizada
+OT-01402,31/10/2026,TGT-241,Minivan,Taller Lima Centro,Suspensión,Carlos Quispe,31/10/2026,879.70,Finalizada
+OT-01403,31/10/2026,EMP-493,Sedán,Taller Surco,Cambio de aceite,Rosa Flores,01/11/2026,153.56,Finalizada
+OT-01404,01/11/2026,UKK-568,SUV,Taller Lima Centro,Embrague,José Rojas,04/11/2026,737.45,Finalizada
+OT-01405,01/11/2026,AYZ-654,Motocicleta,Taller San Miguel,Afinamiento,Luis Pérez,06/11/2026,301.41,Finalizada
+OT-01406,01/11/2026,NHP-778,Camioneta pick-up,Taller Lima Centro,Afinamiento,José Rojas,06/11/2026,296.39,Finalizada
+OT-01407,02/11/2026,DLT-624,Motocicleta,Taller Surco,Afinamiento,Pedro Ramírez,06/11/2026,436.67,Finalizada
+OT-01408,02/11/2026,GFK-402,Sedán,Taller Lima Centro,Cambio de aceite,Carlos Quispe,07/11/2026,110.47,Finalizada
+OT-01409,02/11/2026,DTL-383,Camioneta pick-up,Taller Surco,Cambio de aceite,Miguel Castillo,05/11/2026,150.60,Finalizada
+OT-01410,02/11/2026,UTH-948,Camioneta pick-up,Taller Surco,Afinamiento,Pedro Ramírez,05/11/2026,402.81,Finalizada
+OT-01411,02/11/2026,UTH-948,Camioneta pick-up,Taller Surco,Suspensión,Pedro Ramírez,04/11/2026,561.50,Finalizada
+OT-01412,03/11/2026,RHZ-456,Minivan,Taller Surco,Afinamiento,Miguel Castillo,06/11/2026,334.09,Finalizada
+OT-01413,03/11/2026,FLT-593,Camioneta pick-up,Taller Surco,Alineamiento y balanceo,Rosa Flores,05/11/2026,131.83,Finalizada
+OT-01414,03/11/2026,JLE-741,Minivan,Taller Surco,Planchado y pintura,Miguel Castillo,06/11/2026,898.66,Finalizada
+OT-01415,03/11/2026,GFX-520,SUV,Taller San Miguel,Mantenimiento preventivo 10 000 km,Luis Pérez,05/11/2026,584.87,Finalizada
+OT-01416,03/11/2026,MFM-675,Hatchback,Taller Surco,Afinamiento,Miguel Castillo,05/11/2026,336.52,Finalizada
+OT-01417,03/11/2026,DYB-877,SUV,Taller Lima Centro,Frenos,María Huamán,05/11/2026,317.05,Finalizada
+OT-01418,03/11/2026,WZT-397,Minivan,Taller Surco,Cambio de aceite,Pedro Ramírez,09/11/2026,120.55,Finalizada
+OT-01419,03/11/2026,TYJ-498,SUV,Taller San Miguel,Alineamiento y balanceo,Jorge Mendoza,,99.77,Cancelada
+OT-01420,03/11/2026,DFW-225,Camioneta pick-up,Taller San Miguel,Aire acondicionado,Jorge Mendoza,03/11/2026,314.38,Finalizada
+OT-01421,04/11/2026,DBE-635,SUV,Taller Surco,Cambio de aceite,Rosa Flores,05/11/2026,93.89,Finalizada
+OT-01422,04/11/2026,RDT-915,Sedán,Taller Surco,Cambio de aceite,Miguel Castillo,10/11/2026,96.65,Finalizada
+OT-01423,04/11/2026,JDP-275,SUV,Taller San Miguel,Mantenimiento preventivo 10 000 km,Jorge Mendoza,10/11/2026,639.28,Finalizada
+OT-01424,05/11/2026,UED-900,SUV,Taller Surco,Mantenimiento preventivo 10 000 km,Pedro Ramírez,,596.91,Cancelada
+OT-01425,05/11/2026,ENZ-468,Minivan,Taller San Miguel,Suspensión,Ana Torres,10/11/2026,873.83,Finalizada
+OT-01426,05/11/2026,MCC-897,Minivan,Taller Lima Centro,Cambio de aceite,José Rojas,10/11/2026,92.89,Finalizada
+OT-01427,05/11/2026,MKG-644,Minivan,Taller Lima Centro,Frenos,Carlos Quispe,07/11/2026,254.83,Finalizada
+OT-01428,05/11/2026,PSE-593,Minivan,Taller San Miguel,Diagnóstico electrónico,Ana Torres,11/11/2026,140.73,Finalizada
+OT-01429,05/11/2026,WZT-397,Minivan,Taller San Miguel,Diagnóstico electrónico,Ana Torres,05/11/2026,127.22,Finalizada
+OT-01430,05/11/2026,LDS-577,Motocicleta,Taller San Miguel,Cambio de aceite,Jorge Mendoza,05/11/2026,103.61,Finalizada
+OT-01431,05/11/2026,MWX-771,Hatchback,Taller San Miguel,Cambio de aceite,Ana Torres,07/11/2026,94.15,Finalizada
+OT-01432,05/11/2026,XFB-763,Camioneta pick-up,Taller Surco,Frenos,Pedro Ramírez,10/11/2026,455.53,Finalizada
+OT-01433,05/11/2026,UVG-683,Motocicleta,Taller San Miguel,Alineamiento y balanceo,Ana Torres,07/11/2026,139.59,Finalizada
+OT-01434,06/11/2026,UBR-988,Motocicleta,Taller Surco,Mantenimiento preventivo 10 000 km,Pedro Ramírez,07/11/2026,628.25,Finalizada
+OT-01435,06/11/2026,DBE-635,SUV,Taller Lima Centro,Suspensión,María Huamán,08/11/2026,909.63,Finalizada
+OT-01436,06/11/2026,ZLK-844,SUV,Taller Surco,Cambio de aceite,Pedro Ramírez,,157.97,En proceso
+OT-01437,07/11/2026,GHA-195,Minivan,Taller Lima Centro,Diagnóstico electrónico,José Rojas,10/11/2026,127.54,Finalizada
+OT-01438,07/11/2026,XAM-165,Minivan,Taller Lima Centro,Alineamiento y balanceo,Carlos Quispe,,83.10,Pendiente
+OT-01439,07/11/2026,SYV-419,Camioneta pick-up,Taller Lima Centro,Diagnóstico electrónico,María Huamán,07/11/2026,193.77,Finalizada
+OT-01440,07/11/2026,KMB-853,Camioneta pick-up,Taller Lima Centro,Cambio de aceite,María Huamán,,168.19,En proceso
+OT-01441,08/11/2026,MFX-745,Minivan,Taller Lima Centro,Cambio de aceite,José Rojas,09/11/2026,98.25,Finalizada
+OT-01442,08/11/2026,MLR-721,Camioneta pick-up,Taller San Miguel,Embrague,Ana Torres,12/11/2026,643.14,Finalizada
+OT-01443,08/11/2026,MPV-490,Minivan,Taller San Miguel,Afinamiento,Ana Torres,,349.74,Pendiente
+OT-01444,08/11/2026,KVJ-786,SUV,Taller San Miguel,Diagnóstico electrónico,Ana Torres,09/11/2026,152.04,Finalizada
+OT-01445,08/11/2026,DYB-877,SUV,Taller Surco,Mantenimiento preventivo 10 000 km,Pedro Ramírez,,647.75,En proceso
+OT-01446,08/11/2026,UJU-511,Camioneta pick-up,Taller Lima Centro,Embrague,Carlos Quispe,,705.28,En proceso
+OT-01447,09/11/2026,EVK-619,Sedán,Taller San Miguel,Planchado y pintura,Jorge Mendoza,10/11/2026,2170.95,Finalizada
+OT-01448,09/11/2026,MUF-839,Camioneta pick-up,Taller San Miguel,Suspensión,Ana Torres,14/11/2026,628.63,Finalizada
+OT-01449,09/11/2026,JLE-741,Minivan,Taller Lima Centro,Cambio de aceite,José Rojas,10/11/2026,95.49,Finalizada
+OT-01450,09/11/2026,XFB-763,Camioneta pick-up,Taller Surco,Afinamiento,Miguel Castillo,12/11/2026,319.78,Finalizada
+OT-01451,09/11/2026,ZVK-686,Hatchback,Taller Surco,Frenos,Miguel Castillo,10/11/2026,276.70,Finalizada
+OT-01452,09/11/2026,DLT-624,Motocicleta,Taller Surco,Frenos,Pedro Ramírez,12/11/2026,440.98,Finalizada
+OT-01453,09/11/2026,BHY-620,Sedán,Taller Lima Centro,Diagnóstico electrónico,José Rojas,,155.28,En proceso
+OT-01454,10/11/2026,ZMM-572,Motocicleta,Taller Surco,Afinamiento,Rosa Flores,,432.46,En proceso
+OT-01455,10/11/2026,RDR-805,SUV,Taller San Miguel,Cambio de aceite,Jorge Mendoza,11/11/2026,92.54,Finalizada
+OT-01456,10/11/2026,KMB-853,Camioneta pick-up,Taller Lima Centro,Afinamiento,Carlos Quispe,11/11/2026,327.14,Finalizada
+OT-01457,11/11/2026,UJU-511,Camioneta pick-up,Taller Lima Centro,Cambio de aceite,María Huamán,,168.38,En proceso
+OT-01458,11/11/2026,UED-900,SUV,Taller Surco,Frenos,Miguel Castillo,17/11/2026,289.09,Finalizada
+OT-01459,11/11/2026,MPV-490,Minivan,Taller Lima Centro,Frenos,María Huamán,16/11/2026,284.56,Finalizada
+OT-01460,11/11/2026,TXY-261,Minivan,Taller San Miguel,Alineamiento y balanceo,Luis Pérez,,100.39,Pendiente
+OT-01461,11/11/2026,DLT-624,Motocicleta,Taller Lima Centro,Diagnóstico electrónico,José Rojas,17/11/2026,192.50,Finalizada
+OT-01462,12/11/2026,DTL-383,Camioneta pick-up,Taller Surco,Alineamiento y balanceo,Rosa Flores,,93.99,Pendiente
+OT-01463,12/11/2026,HUJ-451,Minivan,Taller San Miguel,Planchado y pintura,Jorge Mendoza,18/11/2026,1504.30,Finalizada
+OT-01464,12/11/2026,SZE-658,Motocicleta,Taller Surco,Afinamiento,Pedro Ramírez,,284.52,En proceso
+OT-01465,12/11/2026,VYE-541,Minivan,Taller San Miguel,Planchado y pintura,Luis Pérez,,1020.26,En proceso
+OT-01466,13/11/2026,UKM-237,Minivan,Taller Surco,Cambio de aceite,Rosa Flores,,128.01,En proceso
+OT-01467,14/11/2026,ZTJ-563,SUV,Taller Surco,Diagnóstico electrónico,Pedro Ramírez,18/11/2026,153.05,Finalizada
+OT-01468,14/11/2026,MSS-223,Motocicleta,Taller Surco,Mantenimiento preventivo 10 000 km,Pedro Ramírez,20/11/2026,378.32,Finalizada
+OT-01469,14/11/2026,WXS-532,Sedán,Taller Surco,Aire acondicionado,Pedro Ramírez,15/11/2026,335.80,Finalizada
+OT-01470,14/11/2026,AVH-884,SUV,Taller Lima Centro,Frenos,María Huamán,,234.23,En proceso
+OT-01471,14/11/2026,XRU-930,SUV,Taller Surco,Cambio de aceite,Rosa Flores,,101.07,Pendiente
+OT-01472,14/11/2026,MXM-888,Camioneta pick-up,Taller San Miguel,Diagnóstico electrónico,Jorge Mendoza,20/11/2026,216.27,Finalizada
+OT-01473,14/11/2026,MPV-490,Minivan,Taller Surco,Diagnóstico electrónico,Pedro Ramírez,19/11/2026,244.82,Finalizada
+OT-01474,15/11/2026,MCC-897,Minivan,Taller Lima Centro,Frenos,Carlos Quispe,,337.16,En proceso
+OT-01475,15/11/2026,LBY-960,Camioneta pick-up,Taller Lima Centro,Embrague,Carlos Quispe,,1065.19,En proceso
+OT-01476,15/11/2026,MXM-888,Camioneta pick-up,Taller Surco,Aire acondicionado,Pedro Ramírez,17/11/2026,229.51,Finalizada
+OT-01477,15/11/2026,TGT-241,Minivan,Taller Lima Centro,Aire acondicionado,María Huamán,,360.14,Pendiente
+OT-01478,15/11/2026,WXS-532,Sedán,Taller Lima Centro,Mantenimiento preventivo 10 000 km,María Huamán,15/11/2026,444.96,Finalizada
+OT-01479,16/11/2026,FPS-165,Sedán,Taller Surco,Diagnóstico electrónico,Pedro Ramírez,,249.62,En proceso
+OT-01480,16/11/2026,MCC-897,Minivan,Taller San Miguel,Alineamiento y balanceo,Ana Torres,18/11/2026,157.70,Finalizada
+OT-01481,16/11/2026,RXN-509,Hatchback,Taller Lima Centro,Frenos,José Rojas,20/11/2026,424.21,Finalizada
+OT-01482,16/11/2026,GUB-838,Motocicleta,Taller Surco,Alineamiento y balanceo,Miguel Castillo,,104.76,Cancelada
+OT-01483,17/11/2026,AUZ-437,Motocicleta,Taller Lima Centro,Diagnóstico electrónico,María Huamán,,223.18,En proceso
+OT-01484,17/11/2026,WLR-712,SUV,Taller Surco,Frenos,Miguel Castillo,,240.02,En proceso
+OT-01485,17/11/2026,RAC-100,Minivan,Taller San Miguel,Frenos,Luis Pérez,,394.08,Pendiente
+OT-01486,17/11/2026,TXY-261,Minivan,Taller Surco,Cambio de aceite,Pedro Ramírez,,98.95,Pendiente
+OT-01487,17/11/2026,RYS-831,Minivan,Taller Lima Centro,Afinamiento,José Rojas,,366.72,Pendiente
+OT-01488,17/11/2026,VKA-968,Camioneta pick-up,Taller Surco,Aire acondicionado,Rosa Flores,,597.09,En proceso
+OT-01489,17/11/2026,AKD-196,Sedán,Taller Lima Centro,Suspensión,María Huamán,,460.79,Pendiente
+OT-01490,17/11/2026,CWG-353,Minivan,Taller San Miguel,Suspensión,Ana Torres,,789.42,En proceso
+OT-01491,19/11/2026,ZTJ-563,SUV,Taller San Miguel,Cambio de aceite,Jorge Mendoza,,178.13,En proceso
+OT-01492,19/11/2026,GUB-838,Motocicleta,Taller Lima Centro,Mantenimiento preventivo 10 000 km,Carlos Quispe,,406.17,Pendiente
+OT-01493,19/11/2026,RYS-831,Minivan,Taller Surco,Mantenimiento preventivo 10 000 km,Rosa Flores,,506.67,En proceso
+OT-01494,19/11/2026,RVU-956,SUV,Taller Lima Centro,Afinamiento,María Huamán,,432.16,En proceso
+OT-01495,19/11/2026,DLT-624,Motocicleta,Taller Lima Centro,Frenos,María Huamán,,497.63,Pendiente
+OT-01496,19/11/2026,UKM-237,Minivan,Taller Lima Centro,Cambio de aceite,María Huamán,,154.92,En proceso
+OT-01497,19/11/2026,MSS-223,Motocicleta,Taller San Miguel,Cambio de aceite,Luis Pérez,,102.86,En proceso
+OT-01498,19/11/2026,XFB-763,Camioneta pick-up,Taller San Miguel,Mantenimiento preventivo 10 000 km,Jorge Mendoza,,395.47,En proceso
+OT-01499,20/11/2026,TWS-507,SUV,Taller Surco,Cambio de aceite,Miguel Castillo,,124.05,Pendiente
+OT-01500,20/11/2026,VUS-869,Motocicleta,Taller Lima Centro,Frenos,María Huamán,,389.57,Pendiente
