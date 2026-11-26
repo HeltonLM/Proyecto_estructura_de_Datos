@@ -148,6 +148,26 @@ public class ArbolIndice {
         return sucesor;
     }
 
+    /**
+     * Recorrido inorden que copia la lista de órdenes de cada clave a un
+     * arreglo, en orden alfabético de clave.
+     */
+    public ListaOrdenes[] listasPorClave() {
+        ListaOrdenes[] resultado = new ListaOrdenes[cantidadClaves];
+        llenarInOrden(raiz, resultado, 0);
+        return resultado;
+    }
+
+    // Devuelve la siguiente posición libre del arreglo
+    private int llenarInOrden(NodoIndice nodo, ListaOrdenes[] destino, int posicion) {
+        if (nodo == null) {
+            return posicion;
+        }
+        posicion = llenarInOrden(nodo.getIzquierdo(), destino, posicion);
+        destino[posicion++] = nodo.getOrdenes();
+        return llenarInOrden(nodo.getDerecho(), destino, posicion);
+    }
+
     private String claveDe(OrdenTrabajo orden) {
         return normalizar(tipoClave == POR_PLACA ? orden.getPlaca() : orden.getMecanicoResponsable());
     }

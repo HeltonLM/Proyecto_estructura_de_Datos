@@ -1,9 +1,12 @@
 package vistas;
 
+import estructuras.ListaCircularTalleres;
 import estructuras.ListaOrdenes;
 import estructuras.ListaResumen;
 import estructuras.MatrizEstadistica;
+import estructuras.MatrizSimetrica;
 import estructuras.NodoResumen;
+import modelo.Campo;
 import modelo.FiltroBusqueda;
 import modelo.ResumenEstadistico;
 import servicios.ServicioEstadistica;
@@ -22,12 +25,14 @@ public class FrmEstadisticas extends JFrame {
     private static final String EST_A = "A. Órdenes por taller y tipo de servicio";
     private static final String EST_B = "B. Órdenes e importe por mecánico y estado";
     private static final String EST_C = "C. Servicios e importe por mes de ingreso y tipo de vehículo";
+    private static final String EST_D = "D. Vehículos atendidos en dos talleres (matriz simétrica)";
     private static final String EST_RANKING = "Servicios más solicitados";
 
     private ListaOrdenes lista = new ListaOrdenes();
 
     private final JComboBox<String> cboEstadistica =
-            new JComboBox<>(new String[]{EST_A, EST_B, EST_C, EST_RANKING});
+            new JComboBox<>(new String[]{EST_A, EST_B, EST_C, EST_D, EST_RANKING});
+    private ListaCircularTalleres rotacionTalleres = new ListaCircularTalleres();
     private final JCheckBox chkMatriz = new JCheckBox("Ver como tabla cruzada (matriz)");
     private final PnlFiltros pnlFiltros = new PnlFiltros();
     private final DefaultTableModel modeloTabla = new DefaultTableModel() {
@@ -47,10 +52,13 @@ public class FrmEstadisticas extends JFrame {
         pnlSeleccion.setBorder(BorderFactory.createTitledBorder("Estadística"));
         JButton btnGenerar = new JButton("Generar");
         JButton btnLimpiar = new JButton("Limpiar filtros");
+        JButton btnSiguienteTaller = new JButton("Siguiente taller");
+        btnSiguienteTaller.setToolTipText("Genera la estadística para cada taller por turnos; después del último vuelve al primero.");
         pnlSeleccion.add(cboEstadistica);
         pnlSeleccion.add(chkMatriz);
         pnlSeleccion.add(btnGenerar);
         pnlSeleccion.add(btnLimpiar);
+        pnlSeleccion.add(btnSiguienteTaller);
 
         JPanel pnlNorte = new JPanel(new BorderLayout());
         pnlNorte.add(pnlFiltros, BorderLayout.NORTH);
@@ -67,11 +75,14 @@ public class FrmEstadisticas extends JFrame {
 
         btnGenerar.addActionListener(e -> generar());
         btnLimpiar.addActionListener(e -> pnlFiltros.limpiar());
+        btnSiguienteTaller.addActionListener(e -> siguienteTaller());
     }
 
     public void actualizarDatos(ListaOrdenes lista) {
         this.lista = lista;
         pnlFiltros.cargarOpciones(lista);
+        rotacionTalleres = ListaCircularTalleres.desdeArreglo(
+                ServicioEstadistica.valoresDistintos(lista, Campo.TALLER));
         modeloTabla.setDataVector(new Object[0][0], new Object[0]);
         lblResumen.setText(lista.getTamaño() + " órdenes disponibles. Elija los filtros y una estadística.");
         lblFinalizadas.setText(" ");
@@ -107,6 +118,9 @@ public class FrmEstadisticas extends JFrame {
             mostrarMatriz(ServicioEstadistica.matrizMecanicoEstado(datos), "Mecánico / Estado", true);
         } else if (comoMatriz && EST_C.equals(opcion)) {
             mostrarMatriz(ServicioEstadistica.matrizMesTipoVehiculo(datos), "Mes / Tipo de vehículo", true);
+        } else if (EST_D.equals(opcion)) {
+            String[] talleres = ServicioEstadistica.valoresDistintos(datos, Campo.TALLER);
+            mostrarSimetrica(ServicioEstadistica.vehiculosCompartidos(datos, talleres), talleres);
         } else if (EST_A.equals(opcion)) {
             mostrarAgrupado(ServicioEstadistica.estadisticaTallerServicio(datos),
                     "Taller", "Servicio", "N° de órdenes", false);
@@ -205,6 +219,34 @@ public class FrmEstadisticas extends JFrame {
         celdas[filas][columnas + 1] = celda(m.totalCantidad(), m.totalImporte(), conImporte);
 
         modeloTabla.setDataVector(celdas, titulos);
+    }
+
+    /** Muestra la matriz simétrica completa, leyendo cada celda de su triangular inferior. */
+    private void mostrarSimetrica(MatrizSimetrica m, String[] talleres) {
+        int n = m.getDimension();
+        Object[] titulos = new Object[n + 1];
+        titulos[0] = "Taller / Taller";
+        for (int j = 0; j < n; j++) {
+            titulos[j + 1] = talleres[j];
+        }
+        Object[][] celdas = new Object[n][n + 1];
+        for (int i = 0; i < n; i++) {
+            celdas[i][0] = talleres[i];
+            for (int j = 0; j < n; j++) {
+                celdas[i][j + 1] = m.obtener(i, j);
+            }
+        }
+        modeloTabla.setDataVector(celdas, titulos);
+    }
+
+    /** Avanza la lista circular de talleres, lo pone como filtro y genera la estadística. */
+    private void siguienteTaller() {
+        if (rotacionTalleres.estaVacia()) {
+            JOptionPane.showMessageDialog(this, "Primero importe un archivo CSV.");
+            return;
+        }
+        pnlFiltros.seleccionarTaller(rotacionTalleres.siguiente());
+        generar();
     }
 
     private static Object celda(int cantidad, double importe, boolean conImporte) {

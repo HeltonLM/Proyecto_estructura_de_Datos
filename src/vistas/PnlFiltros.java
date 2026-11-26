@@ -106,6 +106,11 @@ public class PnlFiltros extends JPanel {
         return fecha;
     }
 
+    /** Selecciona un taller en el combo (lo usa la rotación de talleres). */
+    public void seleccionarTaller(String taller) {
+        seleccionar(cboTaller, taller);
+    }
+
     /** Vuelve a mostrar un filtro guardado (al regresar a la consulta anterior). */
     public void mostrarFiltro(FiltroBusqueda filtro) {
         seleccionar(cboTaller, filtro.getTaller());

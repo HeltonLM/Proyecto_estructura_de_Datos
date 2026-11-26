@@ -157,6 +157,83 @@ public class ArbolOrdenCodigo {
         inOrden(nodo.getDerecho(), resultado);
     }
 
+    /** Recorrido preorden (raíz, izquierdo, derecho): muestra la forma del árbol. */
+    public ListaOrdenes recorrerPreOrden() {
+        ListaOrdenes resultado = new ListaOrdenes();
+        preOrden(raiz, resultado);
+        return resultado;
+    }
+
+    private void preOrden(NodoArbol nodo, ListaOrdenes resultado) {
+        if (nodo == null) {
+            return;
+        }
+        resultado.insertarFinal(nodo.getDato());
+        preOrden(nodo.getIzquierdo(), resultado);
+        preOrden(nodo.getDerecho(), resultado);
+    }
+
+    /** Recorrido postorden (izquierdo, derecho, raíz): la raíz sale al final. */
+    public ListaOrdenes recorrerPostOrden() {
+        ListaOrdenes resultado = new ListaOrdenes();
+        postOrden(raiz, resultado);
+        return resultado;
+    }
+
+    private void postOrden(NodoArbol nodo, ListaOrdenes resultado) {
+        if (nodo == null) {
+            return;
+        }
+        postOrden(nodo.getIzquierdo(), resultado);
+        postOrden(nodo.getDerecho(), resultado);
+        resultado.insertarFinal(nodo.getDato());
+    }
+
+    /**
+     * Dibuja el árbol como texto con sangría, recorriéndolo en preorden:
+     * cada nodo aparece antes que sus hijos y un nivel más a la izquierda.
+     * Se muestran hasta maxNiveles niveles para que el texto sea legible.
+     */
+    public String dibujar(int maxNiveles) {
+        StringBuilder sb = new StringBuilder();
+        dibujar(raiz, 0, "Raíz", maxNiveles, sb);
+        return sb.toString();
+    }
+
+    private void dibujar(NodoArbol nodo, int nivel, String lado, int maxNiveles, StringBuilder sb) {
+        if (nodo == null || nivel >= maxNiveles) {
+            return;
+        }
+        for (int i = 0; i < nivel; i++) {
+            sb.append("    ");
+        }
+        sb.append(lado).append(": ").append(nodo.getDato().getCodigoOrden())
+          .append("  (altura ").append(nodo.getAltura())
+          .append(", equilibrio ").append(factorEquilibrio(nodo)).append(")\n");
+        dibujar(nodo.getIzquierdo(), nivel + 1, "Izq", maxNiveles, sb);
+        dibujar(nodo.getDerecho(), nivel + 1, "Der", maxNiveles, sb);
+    }
+
+    /**
+     * Cuenta las hojas con un recorrido postorden: primero se resuelven
+     * los dos subárboles y luego el nodo combina sus resultados.
+     */
+    public int contarHojas() {
+        return contarHojas(raiz);
+    }
+
+    private int contarHojas(NodoArbol nodo) {
+        if (nodo == null) {
+            return 0;
+        }
+        int izquierda = contarHojas(nodo.getIzquierdo());
+        int derecha = contarHojas(nodo.getDerecho());
+        if (nodo.getIzquierdo() == null && nodo.getDerecho() == null) {
+            return 1;
+        }
+        return izquierda + derecha;
+    }
+
     // ----- Balanceo AVL -----
 
     private NodoArbol balancear(NodoArbol nodo) {

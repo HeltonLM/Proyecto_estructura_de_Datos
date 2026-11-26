@@ -1,6 +1,8 @@
 package vistas;
 
+import estructuras.ListaDobleOrdenes;
 import estructuras.ListaOrdenes;
+import estructuras.PilaEliminaciones;
 import estructuras.PilaHistorialFiltros;
 import modelo.ConsultaBusqueda;
 import modelo.FiltroBusqueda;
@@ -16,7 +18,9 @@ import java.awt.*;
  * de ingreso o mecánico; filtrar por taller, tipo de vehículo, servicio,
  * estado y rango de fechas; y ordenar los resultados por inserción.
  * Las consultas anteriores se guardan en una pila para poder regresar.
- * También permite eliminar la orden seleccionada de todas las estructuras.
+ * También permite eliminar la orden seleccionada de todas las estructuras
+ * y deshacer las últimas eliminaciones (pila con arreglo). El resultado se
+ * guarda en una lista doble para mostrarlo también en orden inverso.
  */
 public class FrmBusqueda extends JFrame {
     private static final String[] COLUMNAS = {
@@ -40,7 +44,11 @@ public class FrmBusqueda extends JFrame {
     private final JComboBox<String> cboOrden = new JComboBox<>(ORDENES);
     private final JButton btnAnterior = new JButton("Consulta anterior");
     private final JButton btnEliminar = new JButton("Eliminar orden seleccionada");
-    private Runnable alEliminar; // avisa al formulario principal para refrescar sus vistas
+    private final JButton btnDeshacer = new JButton("Deshacer eliminación");
+    private final JCheckBox chkInverso = new JCheckBox("Orden inverso");
+    private final PilaEliminaciones eliminadas = new PilaEliminaciones();
+    private ListaDobleOrdenes resultadoActual = new ListaDobleOrdenes();
+    private Runnable alCambiarDatos; // avisa al formulario principal para refrescar sus vistas
     private final PnlFiltros pnlFiltros = new PnlFiltros();
     private final DefaultTableModel modeloTabla;
     private final JTable tabla;
@@ -61,6 +69,7 @@ public class FrmBusqueda extends JFrame {
         pnlBusqueda.add(txtValor);
         pnlBusqueda.add(new JLabel("Ordenar por:"));
         pnlBusqueda.add(cboOrden);
+        pnlBusqueda.add(chkInverso);
         pnlBusqueda.add(btnBuscar);
         pnlBusqueda.add(btnLimpiar);
         pnlBusqueda.add(btnAnterior);
@@ -82,6 +91,7 @@ public class FrmBusqueda extends JFrame {
 
         JPanel pnlSur = new JPanel(new FlowLayout(FlowLayout.LEFT));
         pnlSur.add(btnEliminar);
+        pnlSur.add(btnDeshacer);
         pnlSur.add(lblResultado);
         add(pnlSur, BorderLayout.SOUTH);
 
@@ -91,16 +101,20 @@ public class FrmBusqueda extends JFrame {
         btnAnterior.addActionListener(e -> consultaAnterior());
         btnAnterior.setEnabled(false);
         btnEliminar.addActionListener(e -> eliminarSeleccionada());
+        btnDeshacer.addActionListener(e -> deshacerEliminacion());
+        btnDeshacer.setEnabled(false);
+        chkInverso.addActionListener(e -> pintarResultado());
     }
 
-    /** Acción que se ejecuta después de eliminar una orden. */
-    public void setAlEliminar(Runnable accion) {
-        this.alEliminar = accion;
+    /** Acción que se ejecuta después de eliminar o restaurar una orden. */
+    public void setAlCambiarDatos(Runnable accion) {
+        this.alCambiarDatos = accion;
     }
 
     /** Se desactiva mientras se importa un CSV, para no modificar la lista que se está copiando. */
     public void setEliminacionHabilitada(boolean habilitada) {
         btnEliminar.setEnabled(habilitada);
+        btnDeshacer.setEnabled(habilitada && !eliminadas.estaVacia());
     }
 
     /** Recibe los datos recién importados y muestra todas las órdenes. */
@@ -108,6 +122,8 @@ public class FrmBusqueda extends JFrame {
         this.servicio = servicio;
         historial.vaciar();
         btnAnterior.setEnabled(false);
+        eliminadas.vaciar(); // las órdenes eliminadas eran de los datos anteriores
+        btnDeshacer.setEnabled(false);
         pnlFiltros.cargarOpciones(servicio.getLista());
         txtValor.setText("");
         cboOrden.setSelectedIndex(0);
@@ -158,9 +174,27 @@ public class FrmBusqueda extends JFrame {
             JOptionPane.showMessageDialog(this, "La orden " + codigo + " ya no existe.");
             return;
         }
-        ejecutarSinAviso(consultaActual); // vuelve a mostrar la misma consulta, ya sin la orden
-        if (alEliminar != null) {
-            alEliminar.run();
+        eliminadas.apilar(eliminada);
+        btnDeshacer.setEnabled(true);
+        datosCambiados();
+    }
+
+    /** Restaura la última orden eliminada (la cima de la pila). */
+    private void deshacerEliminacion() {
+        if (servicio == null || eliminadas.estaVacia()) {
+            return;
+        }
+        OrdenTrabajo orden = eliminadas.desapilar();
+        servicio.restaurarOrden(orden);
+        btnDeshacer.setEnabled(!eliminadas.estaVacia());
+        datosCambiados();
+        JOptionPane.showMessageDialog(this, "Se restauró la orden " + orden.getCodigoOrden() + ".");
+    }
+
+    private void datosCambiados() {
+        ejecutarSinAviso(consultaActual); // vuelve a mostrar la misma consulta con los datos actuales
+        if (alCambiarDatos != null) {
+            alCambiarDatos.run();
         }
     }
 
@@ -212,10 +246,17 @@ public class FrmBusqueda extends JFrame {
     }
 
     private void mostrar(ListaOrdenes resultado) {
-        modeloTabla.setDataVector(resultado.aFilasTabla(), COLUMNAS);
+        resultadoActual = ListaDobleOrdenes.desdeLista(resultado);
+        pintarResultado();
+    }
+
+    /** Pinta el resultado recorriendo la lista doble hacia adelante o hacia atrás. */
+    private void pintarResultado() {
+        modeloTabla.setDataVector(resultadoActual.aFilasTabla(chkInverso.isSelected()), COLUMNAS);
         aplicarAnchos(); // setDataVector recrea las columnas
+        int total = servicio == null ? 0 : servicio.getLista().getTamaño();
         lblResultado.setText(String.format("Mostrando %d de %d órdenes  ·  Importe total: S/ %,.2f",
-                resultado.getTamaño(), servicio.getLista().getTamaño(), resultado.calcularImporteTotal()));
+                resultadoActual.getTamaño(), total, resultadoActual.calcularImporteTotal()));
     }
 
     private void aplicarAnchos() {

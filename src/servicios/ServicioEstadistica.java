@@ -1,8 +1,10 @@
 package servicios;
 
+import estructuras.ArbolIndice;
 import estructuras.ListaOrdenes;
 import estructuras.ListaResumen;
 import estructuras.MatrizEstadistica;
+import estructuras.MatrizSimetrica;
 import estructuras.NodoOrden;
 import modelo.Campo;
 import modelo.ResumenEstadistico;
@@ -46,6 +48,49 @@ public final class ServicioEstadistica {
     /** C como tabla cruzada: filas = meses de ingreso, columnas = tipos de vehículo. */
     public static MatrizEstadistica matrizMesTipoVehiculo(ListaOrdenes lista) {
         return MatrizEstadistica.construir(lista, Campo.MES_INGRESO, Campo.TIPO_VEHICULO);
+    }
+
+    /**
+     * D. Vehículos atendidos en dos talleres: la celda (i, j) es la cantidad
+     * de placas con órdenes en el taller i y en el taller j; la diagonal
+     * (i, i) es la cantidad de placas distintas del taller i. Como la
+     * relación es simétrica, se guarda en una MatrizSimetrica.
+     *
+     * Recorre el ABB por placa (cada nodo tiene las órdenes de una placa) y
+     * marca en un arreglo de booleanos los talleres donde se atendió.
+     */
+    public static MatrizSimetrica vehiculosCompartidos(ListaOrdenes lista, String[] talleres) {
+        MatrizSimetrica matriz = new MatrizSimetrica(talleres.length);
+        ListaOrdenes[] ordenesPorPlaca = ArbolIndice.desdeLista(lista, ArbolIndice.POR_PLACA).listasPorClave();
+
+        for (int p = 0; p < ordenesPorPlaca.length; p++) {
+            boolean[] atendida = new boolean[talleres.length];
+            NodoOrden actual = ordenesPorPlaca[p].getCabeza();
+            while (actual != null) {
+                int t = indiceDe(talleres, valor(actual.getDato().getTaller()));
+                if (t >= 0) {
+                    atendida[t] = true;
+                }
+                actual = actual.getSiguiente();
+            }
+            for (int i = 0; i < talleres.length; i++) {
+                for (int j = 0; j <= i; j++) {          // solo la triangular inferior
+                    if (atendida[i] && atendida[j]) {
+                        matriz.incrementar(i, j);
+                    }
+                }
+            }
+        }
+        return matriz;
+    }
+
+    private static int indiceDe(String[] arreglo, String valor) {
+        for (int i = 0; i < arreglo.length; i++) {
+            if (arreglo[i].equalsIgnoreCase(valor)) {
+                return i;
+            }
+        }
+        return -1;
     }
 
     /** Servicios ordenados del más al menos solicitado. */

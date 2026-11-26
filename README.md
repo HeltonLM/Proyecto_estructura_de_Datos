@@ -32,6 +32,13 @@ Restricciones de la consigna: no se usa base de datos y no se usan colecciones d
 | Volver a la consulta anterior | `PilaHistorialFiltros` (botón "Consulta anterior") |
 | Ordenar resultados | `ListaOrdenes.ordenarPorInsercion`, por fecha, costo, estado o código |
 | Eliminar una orden (por ejemplo, una importada por error) | Botón "Eliminar orden seleccionada" en Búsquedas: `ServicioBusqueda.eliminarOrden` la quita de la lista, del AVL y de los dos ABB |
+| Deshacer las últimas eliminaciones | `PilaEliminaciones` (pila con arreglo, últimas 10), botón "Deshacer eliminación" |
+| Ver resultados en orden inverso | `ListaDobleOrdenes`: casilla "Orden inverso" recorre la lista de la cola a la cabeza |
+| Estadística por cada taller, por turnos | `ListaCircularTalleres`: botón "Siguiente taller" en Estadísticas |
+| Vehículos atendidos en dos talleres | Estadística D, guardada en una `MatrizSimetrica` (triangular inferior) |
+| Cola de atención de órdenes no finalizadas | `ColaPrioridadOrdenes`: menú Consultas > Cola de atención (pendientes primero, luego en proceso; a igual prioridad, el ingreso más antiguo) |
+| Ver el árbol de códigos | `FrmArbol`: estructura del AVL y recorridos preorden, inorden y postorden |
+| Mensajes de líneas inválidas del CSV | `ColaMensajes` (cola con arreglo circular) en `ResultadoCarga` |
 
 ## Estructura del código
 
@@ -41,10 +48,12 @@ src/
 ├── modelo/       OrdenTrabajo, FiltroBusqueda, ConsultaBusqueda, ResumenEstadistico, Campo
 ├── estructuras/  NodoOrden, ListaOrdenes, ColaImportacion, PilaHistorialFiltros,
 │                 NodoArbol, ArbolOrdenCodigo (AVL), NodoIndice, ArbolIndice (ABB),
-│                 NodoResumen, ListaResumen, MatrizEstadistica
+│                 NodoResumen, ListaResumen, MatrizEstadistica, MatrizSimetrica,
+│                 PilaEliminaciones, ColaMensajes, ColaPrioridadOrdenes,
+│                 NodoDoble, ListaDobleOrdenes, NodoTexto, ListaCircularTalleres
 ├── servicios/    LectorCSV, ResultadoCarga, ServicioBusqueda, ServicioFiltro, ServicioEstadistica
 ├── util/         ValidadorFecha
-└── vistas/       FrmPrincipal, FrmBusqueda, FrmEstadisticas, PnlFiltros
+└── vistas/       FrmPrincipal, FrmBusqueda, FrmEstadisticas, FrmColaAtencion, FrmArbol, PnlFiltros
 ```
 
 ## Relación con el sílabo
@@ -53,16 +62,23 @@ src/
 |---|---|---|
 | 1 | Arreglos unidimensionales: inserción ordenada con desplazamiento, búsqueda, copia, recorrido | `MatrizEstadistica` (etiquetas de filas y columnas), `LectorCSV.dividirLinea`, `ListaResumen.grupos` |
 | 1 | Arreglos paralelos y bidimensionales (recorrido por filas y por columnas, totales) | `MatrizEstadistica`: `etiquetasFila`/`etiquetasColumna` + `cantidades[][]` e `importes[][]` |
+| 1 | Matrices poco densas: simétrica guardada como triangular inferior en un arreglo de n(n+1)/2 | `MatrizSimetrica` (estadística D) |
 | 2 | TAD y lista enlazada simple: inserción, eliminación, recorrido, búsqueda, ordenamiento | `ListaOrdenes` (`eliminar` cubre cabeza, medio y cola), `ListaResumen` |
-| 3 | Cola dinámica (enqueue/dequeue) | `ColaImportacion` |
+| 2 | Lista doblemente enlazada: inserción al inicio y al final, eliminación, búsqueda, recorrido en ambos sentidos | `ListaDobleOrdenes` |
+| 2 | Lista circular: inserción, eliminación, búsqueda, recorrido de una vuelta, rotación | `ListaCircularTalleres` |
+| 3 | Pila con arreglo (push/pop/peek, llena y vacía) | `PilaEliminaciones` |
 | 3 | Pila dinámica (push/pop) | `PilaHistorialFiltros` |
+| 3 | Cola con arreglo circular (enqueue/dequeue) | `ColaMensajes` |
+| 3 | Cola dinámica (enqueue/dequeue) | `ColaImportacion` |
+| 3 | Cola con prioridad | `ColaPrioridadOrdenes` |
 | 4 | ABB: inserción, búsqueda y eliminación (hoja, un hijo, dos hijos con sucesor inorden) | `ArbolIndice` (placa y mecánico) |
-| 4 | AVL: inserción con rotaciones, borrado con rebalanceo, recorrido inorden | `ArbolOrdenCodigo` |
+| 4 | Árbol binario: recorridos preorden, inorden y postorden | `ArbolOrdenCodigo` + `FrmArbol` (el dibujo del árbol usa preorden y el conteo de hojas, postorden) |
+| 4 | AVL: inserción con rotaciones, borrado con rebalanceo | `ArbolOrdenCodigo` |
 
 ## Decisiones respecto a la primera entrega
 
 - **Árbol AVL para el código, en lugar de un ABB simple.** El CSV viene ordenado por código (OT-00001, OT-00002, ...). Con claves ordenadas, un ABB simple degenera en una lista. El AVL mantiene la altura en O(log n): con 1 500 órdenes, la altura es 11.
 - **`ArbolPlaca` y `ArbolMecanico` comparten una sola clase, `ArbolIndice`**, porque solo cambia la clave. Se crean dos instancias.
 - **La "ListaResultado" es una `ListaOrdenes`.** Los resultados de búsquedas y filtros son listas nuevas, así que la lista principal nunca se modifica.
-- **Temas del sílabo que no se usan:** lista doble, lista circular, pila y cola con arreglo, cola con prioridad, matrices poco densas (triangular, tridiagonal, simétrica) y recorridos preorden y postorden. El caso no tiene una operación que los necesite de forma natural.
+- **Todos los temas del sílabo están aplicados.** Los que el enunciado no exige (lista doble, lista circular, pila y cola con arreglo, cola con prioridad, matriz simétrica, recorridos) se usan en funciones complementarias del mismo caso.
 - **Autenticación y exportación a CSV o PDF** no están incluidas: el documento las deja para avances posteriores y el caso no las pide.

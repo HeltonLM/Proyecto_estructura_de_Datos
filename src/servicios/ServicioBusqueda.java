@@ -36,6 +36,7 @@ public class ServicioBusqueda {
     }
 
     public ListaOrdenes getLista() { return lista; }
+    public ArbolOrdenCodigo getArbolCodigo() { return arbolCodigo; }
     public int getCodigosDuplicados() { return arbolCodigo.getDuplicados(); }
     public int getCantidadPlacas() { return arbolPlaca.getCantidadClaves(); }
     public int getCantidadMecanicos() { return arbolMecanico.getCantidadClaves(); }
@@ -71,6 +72,17 @@ public class ServicioBusqueda {
             arbolCodigo.reemplazarDuplicado(repetida);
         }
         return eliminada;
+    }
+
+    /**
+     * Vuelve a insertar una orden eliminada (deshacer) en la lista y en los
+     * tres árboles.
+     */
+    public void restaurarOrden(OrdenTrabajo orden) {
+        lista.insertarFinal(orden);
+        arbolCodigo.insertar(orden);
+        arbolPlaca.insertar(orden);
+        arbolMecanico.insertar(orden);
     }
 
     /** @throws IllegalArgumentException si la fecha no es válida */

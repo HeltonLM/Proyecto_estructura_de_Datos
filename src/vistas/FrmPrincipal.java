@@ -28,6 +28,8 @@ public class FrmPrincipal extends JFrame {
 
     private final FrmBusqueda frmBusqueda = new FrmBusqueda();
     private final FrmEstadisticas frmEstadisticas = new FrmEstadisticas();
+    private final FrmColaAtencion frmColaAtencion = new FrmColaAtencion();
+    private final FrmArbol frmArbol = new FrmArbol();
 
     private DefaultTableModel modeloTabla;
     private JLabel lblTotalRegistros;
@@ -37,15 +39,21 @@ public class FrmPrincipal extends JFrame {
     public FrmPrincipal() {
         iniciarComponentes();
         frmBusqueda.actualizarDatos(servicioBusqueda);
-        frmEstadisticas.actualizarDatos(listaPrincipal);
-        frmBusqueda.setAlEliminar(() -> ordenEliminada());
+        actualizarVistasSecundarias();
+        frmBusqueda.setAlCambiarDatos(() -> datosModificados());
     }
 
-    /** Refresca la tabla principal y las estadísticas después de eliminar una orden. */
-    private void ordenEliminada() {
+    /** Refresca la tabla principal y los demás formularios después de eliminar o restaurar una orden. */
+    private void datosModificados() {
         modeloTabla.setDataVector(listaPrincipal.aFilasTabla(), COLUMNAS);
-        frmEstadisticas.actualizarDatos(listaPrincipal);
+        actualizarVistasSecundarias();
         actualizarEtiqueta(null);
+    }
+
+    private void actualizarVistasSecundarias() {
+        frmEstadisticas.actualizarDatos(listaPrincipal);
+        frmColaAtencion.actualizarDatos(listaPrincipal);
+        frmArbol.actualizarDatos(servicioBusqueda.getArbolCodigo());
     }
 
     private void iniciarComponentes() {
@@ -73,10 +81,17 @@ public class FrmPrincipal extends JFrame {
         JMenu menuConsultas = new JMenu("Consultas");
         JMenuItem itemBusquedas = new JMenuItem("Búsquedas...");
         JMenuItem itemEstadisticas = new JMenuItem("Estadísticas...");
+        JMenuItem itemCola = new JMenuItem("Cola de atención...");
+        JMenuItem itemArbol = new JMenuItem("Árbol de códigos (AVL)...");
         itemBusquedas.addActionListener(e -> abrir(frmBusqueda));
         itemEstadisticas.addActionListener(e -> abrir(frmEstadisticas));
         menuConsultas.add(itemBusquedas);
         menuConsultas.add(itemEstadisticas);
+        menuConsultas.addSeparator();
+        menuConsultas.add(itemCola);
+        menuConsultas.add(itemArbol);
+        itemCola.addActionListener(e -> abrir(frmColaAtencion));
+        itemArbol.addActionListener(e -> abrir(frmArbol));
 
         menuBar.add(menuArchivo);
         menuBar.add(menuConsultas);
@@ -163,7 +178,7 @@ public class FrmPrincipal extends JFrame {
 
         modeloTabla.setDataVector(listaPrincipal.aFilasTabla(), COLUMNAS);
         frmBusqueda.actualizarDatos(servicioBusqueda);
-        frmEstadisticas.actualizarDatos(listaPrincipal);
+        actualizarVistasSecundarias();
         actualizarEtiqueta(archivo.getName() + " (" + resultado.getCodificacion() + ")");
 
         StringBuilder mensaje = new StringBuilder();
