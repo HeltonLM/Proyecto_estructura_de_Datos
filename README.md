@@ -4,6 +4,8 @@ Proyecto final de **Algoritmos y Estructuras de Datos** (2026-2). Es una aplicac
 
 Restricciones de la consigna: no se usa base de datos y no se usan colecciones de Java (`ArrayList`, `List`, `Map`, `Set`, `LinkedList`...). El código no importa nada de `java.util`.
 
+El guion para el informe y la exposición está en [`docs/GUION_INFORME_Y_EXPOSICION.md`](docs/GUION_INFORME_Y_EXPOSICION.md).
+
 ## Cómo ejecutarlo
 
 1. Abre la carpeta en IntelliJ IDEA (JDK 17 o superior; el proyecto está configurado con JDK 25).
