@@ -1,5 +1,7 @@
 package modelo;
 
+import util.ValidadorFecha;
+
 public class OrdenTrabajo {
     private String codigoOrden;
     private String fechaIngreso;
@@ -11,6 +13,9 @@ public class OrdenTrabajo {
     private String fechaEntrega;
     private double costoTotal;
     private String estado;
+
+    // Fecha de ingreso convertida a AAAAMMDD para comparar y filtrar por rango
+    private int fechaIngresoNumero;
 
     // Constructor para inicializar los 10 datos de cada orden
     public OrdenTrabajo(String codigoOrden, String fechaIngreso, String placa,
@@ -27,6 +32,7 @@ public class OrdenTrabajo {
         this.fechaEntrega = fechaEntrega;
         this.costoTotal = costoTotal;
         this.estado = estado;
+        this.fechaIngresoNumero = ValidadorFecha.aNumero(fechaIngreso);
     }
 
     // Métodos Getters para consultar los datos
@@ -41,11 +47,23 @@ public class OrdenTrabajo {
     public double getCostoTotal() { return costoTotal; }
     public String getEstado() { return estado; }
 
+    public int getFechaIngresoNumero() { return fechaIngresoNumero; }
+
+    public boolean tieneFechaIngresoValida() {
+        return fechaIngresoNumero != ValidadorFecha.FECHA_INVALIDA;
+    }
+
+    // Mes de ingreso "AAAA-MM", usado en la estadística C
+    public String getMesIngreso() {
+        return ValidadorFecha.mesDe(fechaIngresoNumero);
+    }
+
     // Convierte el objeto en una fila lista para pintarse en la tabla visual
     public Object[] toTableRow() {
         return new Object[]{
                 codigoOrden, fechaIngreso, placa, tipoVehiculo, taller,
-                servicioPrincipal, mecanicoResponsable, fechaEntrega, costoTotal, estado
+                servicioPrincipal, mecanicoResponsable, fechaEntrega,
+                String.format("%.2f", costoTotal), estado
         };
     }
 }
