@@ -4,6 +4,7 @@ import estructuras.ListaOrdenes;
 import estructuras.PilaHistorialFiltros;
 import modelo.ConsultaBusqueda;
 import modelo.FiltroBusqueda;
+import modelo.OrdenTrabajo;
 import servicios.ServicioBusqueda;
 
 import javax.swing.*;
@@ -15,6 +16,7 @@ import java.awt.*;
  * de ingreso o mecánico; filtrar por taller, tipo de vehículo, servicio,
  * estado y rango de fechas; y ordenar los resultados por inserción.
  * Las consultas anteriores se guardan en una pila para poder regresar.
+ * También permite eliminar la orden seleccionada de todas las estructuras.
  */
 public class FrmBusqueda extends JFrame {
     private static final String[] COLUMNAS = {
@@ -37,6 +39,8 @@ public class FrmBusqueda extends JFrame {
     private final JTextField txtValor = new JTextField(16);
     private final JComboBox<String> cboOrden = new JComboBox<>(ORDENES);
     private final JButton btnAnterior = new JButton("Consulta anterior");
+    private final JButton btnEliminar = new JButton("Eliminar orden seleccionada");
+    private Runnable alEliminar; // avisa al formulario principal para refrescar sus vistas
     private final PnlFiltros pnlFiltros = new PnlFiltros();
     private final DefaultTableModel modeloTabla;
     private final JTable tabla;
@@ -77,6 +81,7 @@ public class FrmBusqueda extends JFrame {
         add(new JScrollPane(tabla), BorderLayout.CENTER);
 
         JPanel pnlSur = new JPanel(new FlowLayout(FlowLayout.LEFT));
+        pnlSur.add(btnEliminar);
         pnlSur.add(lblResultado);
         add(pnlSur, BorderLayout.SOUTH);
 
@@ -85,6 +90,17 @@ public class FrmBusqueda extends JFrame {
         btnLimpiar.addActionListener(e -> limpiar());
         btnAnterior.addActionListener(e -> consultaAnterior());
         btnAnterior.setEnabled(false);
+        btnEliminar.addActionListener(e -> eliminarSeleccionada());
+    }
+
+    /** Acción que se ejecuta después de eliminar una orden. */
+    public void setAlEliminar(Runnable accion) {
+        this.alEliminar = accion;
+    }
+
+    /** Se desactiva mientras se importa un CSV, para no modificar la lista que se está copiando. */
+    public void setEliminacionHabilitada(boolean habilitada) {
+        btnEliminar.setEnabled(habilitada);
     }
 
     /** Recibe los datos recién importados y muestra todas las órdenes. */
@@ -120,6 +136,39 @@ public class FrmBusqueda extends JFrame {
             historial.apilar(consultaActual); // guarda la consulta que se estaba viendo
             consultaActual = consulta;
             btnAnterior.setEnabled(true);
+        }
+    }
+
+    private void eliminarSeleccionada() {
+        int fila = tabla.getSelectedRow();
+        if (servicio == null || fila < 0) {
+            JOptionPane.showMessageDialog(this, "Seleccione en la tabla la orden que desea eliminar.");
+            return;
+        }
+        String codigo = String.valueOf(modeloTabla.getValueAt(tabla.convertRowIndexToModel(fila), 0));
+        int respuesta = JOptionPane.showConfirmDialog(this,
+                "¿Eliminar la orden " + codigo + "? Se quitará de la lista y de los árboles de búsqueda.",
+                "Eliminar orden", JOptionPane.YES_NO_OPTION, JOptionPane.WARNING_MESSAGE);
+        if (respuesta != JOptionPane.YES_OPTION) {
+            return;
+        }
+
+        OrdenTrabajo eliminada = servicio.eliminarOrden(codigo);
+        if (eliminada == null) {
+            JOptionPane.showMessageDialog(this, "La orden " + codigo + " ya no existe.");
+            return;
+        }
+        ejecutarSinAviso(consultaActual); // vuelve a mostrar la misma consulta, ya sin la orden
+        if (alEliminar != null) {
+            alEliminar.run();
+        }
+    }
+
+    private void ejecutarSinAviso(ConsultaBusqueda consulta) {
+        try {
+            mostrar(servicio.ejecutar(consulta));
+        } catch (IllegalArgumentException ex) {
+            mostrar(servicio.getLista());
         }
     }
 

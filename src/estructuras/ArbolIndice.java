@@ -93,6 +93,61 @@ public class ArbolIndice {
         return new ListaOrdenes();
     }
 
+    /**
+     * Quita la orden del nodo de su clave. Si esa clave se queda sin
+     * órdenes, el nodo se elimina del ABB. Devuelve true si la quitó.
+     */
+    public boolean eliminar(OrdenTrabajo orden) {
+        String clave = claveDe(orden);
+        NodoIndice nodo = raiz;
+        while (nodo != null && !clave.equals(nodo.getClave())) {
+            nodo = clave.compareTo(nodo.getClave()) < 0 ? nodo.getIzquierdo() : nodo.getDerecho();
+        }
+        if (nodo == null || !nodo.getOrdenes().eliminar(orden)) {
+            return false;
+        }
+        if (nodo.getOrdenes().estaVacia()) {
+            raiz = eliminarNodo(raiz, clave);
+            cantidadClaves--;
+        }
+        return true;
+    }
+
+    /**
+     * Eliminación en ABB por clave. Tres casos:
+     *  - hoja: se quita;
+     *  - un hijo: el hijo ocupa su lugar;
+     *  - dos hijos: se reemplaza por el sucesor inorden (el menor del
+     *    subárbol derecho), que luego se elimina de ese subárbol.
+     */
+    private NodoIndice eliminarNodo(NodoIndice nodo, String clave) {
+        if (nodo == null) {
+            return null;
+        }
+        int comparacion = clave.compareTo(nodo.getClave());
+        if (comparacion < 0) {
+            nodo.setIzquierdo(eliminarNodo(nodo.getIzquierdo(), clave));
+            return nodo;
+        }
+        if (comparacion > 0) {
+            nodo.setDerecho(eliminarNodo(nodo.getDerecho(), clave));
+            return nodo;
+        }
+        if (nodo.getIzquierdo() == null) {
+            return nodo.getDerecho();
+        }
+        if (nodo.getDerecho() == null) {
+            return nodo.getIzquierdo();
+        }
+        NodoIndice sucesor = nodo.getDerecho();
+        while (sucesor.getIzquierdo() != null) {
+            sucesor = sucesor.getIzquierdo();
+        }
+        sucesor.setDerecho(eliminarNodo(nodo.getDerecho(), sucesor.getClave()));
+        sucesor.setIzquierdo(nodo.getIzquierdo());
+        return sucesor;
+    }
+
     private String claveDe(OrdenTrabajo orden) {
         return normalizar(tipoClave == POR_PLACA ? orden.getPlaca() : orden.getMecanicoResponsable());
     }

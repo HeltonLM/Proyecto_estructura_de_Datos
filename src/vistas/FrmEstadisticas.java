@@ -2,6 +2,7 @@ package vistas;
 
 import estructuras.ListaOrdenes;
 import estructuras.ListaResumen;
+import estructuras.MatrizEstadistica;
 import estructuras.NodoResumen;
 import modelo.FiltroBusqueda;
 import modelo.ResumenEstadistico;
@@ -27,6 +28,7 @@ public class FrmEstadisticas extends JFrame {
 
     private final JComboBox<String> cboEstadistica =
             new JComboBox<>(new String[]{EST_A, EST_B, EST_C, EST_RANKING});
+    private final JCheckBox chkMatriz = new JCheckBox("Ver como tabla cruzada (matriz)");
     private final PnlFiltros pnlFiltros = new PnlFiltros();
     private final DefaultTableModel modeloTabla = new DefaultTableModel() {
         @Override
@@ -46,6 +48,7 @@ public class FrmEstadisticas extends JFrame {
         JButton btnGenerar = new JButton("Generar");
         JButton btnLimpiar = new JButton("Limpiar filtros");
         pnlSeleccion.add(cboEstadistica);
+        pnlSeleccion.add(chkMatriz);
         pnlSeleccion.add(btnGenerar);
         pnlSeleccion.add(btnLimpiar);
 
@@ -97,7 +100,14 @@ public class FrmEstadisticas extends JFrame {
         }
 
         String opcion = (String) cboEstadistica.getSelectedItem();
-        if (EST_A.equals(opcion)) {
+        boolean comoMatriz = chkMatriz.isSelected();
+        if (comoMatriz && EST_A.equals(opcion)) {
+            mostrarMatriz(ServicioEstadistica.matrizTallerServicio(datos), "Taller / Servicio", false);
+        } else if (comoMatriz && EST_B.equals(opcion)) {
+            mostrarMatriz(ServicioEstadistica.matrizMecanicoEstado(datos), "Mecánico / Estado", true);
+        } else if (comoMatriz && EST_C.equals(opcion)) {
+            mostrarMatriz(ServicioEstadistica.matrizMesTipoVehiculo(datos), "Mes / Tipo de vehículo", true);
+        } else if (EST_A.equals(opcion)) {
             mostrarAgrupado(ServicioEstadistica.estadisticaTallerServicio(datos),
                     "Taller", "Servicio", "N° de órdenes", false);
         } else if (EST_B.equals(opcion)) {
@@ -162,6 +172,46 @@ public class FrmEstadisticas extends JFrame {
                 ? new Object[]{tituloGrupo, tituloSubgrupo, tituloCantidad, "Importe total (S/)"}
                 : new Object[]{tituloGrupo, tituloSubgrupo, tituloCantidad};
         modeloTabla.setDataVector(filas, titulos);
+    }
+
+    /**
+     * Muestra la matriz como tabla cruzada: una fila por etiqueta de fila,
+     * una columna por etiqueta de columna, y al final la columna y la fila
+     * de totales. Con importe, cada celda muestra "cantidad (S/ importe)".
+     */
+    private void mostrarMatriz(MatrizEstadistica m, String esquina, boolean conImporte) {
+        int filas = m.getFilas();
+        int columnas = m.getColumnas();
+
+        Object[] titulos = new Object[columnas + 2];
+        titulos[0] = esquina;
+        for (int j = 0; j < columnas; j++) {
+            titulos[j + 1] = m.getEtiquetaColumna(j);
+        }
+        titulos[columnas + 1] = "TOTAL";
+
+        Object[][] celdas = new Object[filas + 1][columnas + 2];
+        for (int i = 0; i < filas; i++) {
+            celdas[i][0] = m.getEtiquetaFila(i);
+            for (int j = 0; j < columnas; j++) {
+                celdas[i][j + 1] = celda(m.getCantidad(i, j), m.getImporte(i, j), conImporte);
+            }
+            celdas[i][columnas + 1] = celda(m.totalCantidadFila(i), m.totalImporteFila(i), conImporte);
+        }
+        celdas[filas][0] = "TOTAL";
+        for (int j = 0; j < columnas; j++) {
+            celdas[filas][j + 1] = celda(m.totalCantidadColumna(j), m.totalImporteColumna(j), conImporte);
+        }
+        celdas[filas][columnas + 1] = celda(m.totalCantidad(), m.totalImporte(), conImporte);
+
+        modeloTabla.setDataVector(celdas, titulos);
+    }
+
+    private static Object celda(int cantidad, double importe, boolean conImporte) {
+        if (!conImporte) {
+            return cantidad;
+        }
+        return cantidad == 0 ? "0" : String.format("%d (S/ %,.2f)", cantidad, importe);
     }
 
     private void mostrarRanking(ListaResumen resumen) {

@@ -67,6 +67,67 @@ public class ArbolOrdenCodigo {
         return balancear(nodo);
     }
 
+    /**
+     * Elimina la orden con ese código y rebalancea el árbol.
+     * Devuelve la orden eliminada o null si el código no existe.
+     */
+    public OrdenTrabajo eliminar(String codigo) {
+        OrdenTrabajo encontrada = buscar(codigo);
+        if (encontrada == null) {
+            return null;
+        }
+        raiz = eliminar(raiz, codigo);
+        tamaño--;
+        return encontrada;
+    }
+
+    /**
+     * Borrado en un árbol equilibrado: primero se borra como en un ABB
+     * (hoja, un hijo o dos hijos) y, al regresar de la recursión, cada
+     * ancestro actualiza su altura y se rebalancea con las mismas rotaciones
+     * de la inserción. A diferencia de la inserción, puede necesitarse más
+     * de una rotación en el camino hacia la raíz.
+     */
+    private NodoArbol eliminar(NodoArbol nodo, String codigo) {
+        if (nodo == null) {
+            return null;
+        }
+        int comparacion = compararCodigos(codigo, nodo.getDato().getCodigoOrden());
+        if (comparacion < 0) {
+            nodo.setIzquierdo(eliminar(nodo.getIzquierdo(), codigo));
+        } else if (comparacion > 0) {
+            nodo.setDerecho(eliminar(nodo.getDerecho(), codigo));
+        } else if (nodo.getIzquierdo() == null) {     // hoja o solo hijo derecho
+            return nodo.getDerecho();
+        } else if (nodo.getDerecho() == null) {       // solo hijo izquierdo
+            return nodo.getIzquierdo();
+        } else {
+            // Dos hijos: el sucesor inorden (menor del subárbol derecho)
+            // ocupa su lugar y se borra de ese subárbol.
+            NodoArbol sucesor = nodo.getDerecho();
+            while (sucesor.getIzquierdo() != null) {
+                sucesor = sucesor.getIzquierdo();
+            }
+            sucesor.setDerecho(eliminar(nodo.getDerecho(), sucesor.getDato().getCodigoOrden()));
+            sucesor.setIzquierdo(nodo.getIzquierdo());
+            nodo = sucesor;
+        }
+
+        actualizarAltura(nodo);
+        return balancear(nodo);
+    }
+
+    /**
+     * Inserta una orden cuyo código estaba repetido en el CSV, después de
+     * eliminar la que ocupaba ese código. Ya no cuenta como duplicado.
+     */
+    public void reemplazarDuplicado(OrdenTrabajo orden) {
+        if (buscar(orden.getCodigoOrden()) == null) {
+            insertar(orden);
+            duplicados--;
+        }
+    }
+
     /** Búsqueda en el ABB: en cada nodo se descarta un subárbol completo. */
     public OrdenTrabajo buscar(String codigo) {
         NodoArbol actual = raiz;

@@ -48,6 +48,31 @@ public class ServicioBusqueda {
         return arbolPlaca.buscar(placa);
     }
 
+    /**
+     * Elimina una orden de todas las estructuras: el AVL por código, la
+     * lista principal y los dos ABB índice. Devuelve la orden eliminada o
+     * null si el código no existe.
+     *
+     * Si el CSV traía el código repetido (RN-01), el AVL solo guardaba la
+     * primera orden; al eliminarla, la siguiente con ese código pasa a ser
+     * la que encuentra la búsqueda.
+     */
+    public OrdenTrabajo eliminarOrden(String codigo) {
+        OrdenTrabajo eliminada = arbolCodigo.eliminar(codigo);
+        if (eliminada == null) {
+            return null;
+        }
+        lista.eliminar(eliminada);
+        arbolPlaca.eliminar(eliminada);
+        arbolMecanico.eliminar(eliminada);
+
+        OrdenTrabajo repetida = lista.buscarPorCodigo(eliminada.getCodigoOrden());
+        if (repetida != null) {
+            arbolCodigo.reemplazarDuplicado(repetida);
+        }
+        return eliminada;
+    }
+
     /** @throws IllegalArgumentException si la fecha no es válida */
     public ListaOrdenes buscarPorFechaIngreso(String fecha) {
         int numero = ValidadorFecha.aNumero(fecha);

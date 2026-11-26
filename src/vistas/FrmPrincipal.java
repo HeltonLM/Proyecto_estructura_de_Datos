@@ -38,6 +38,14 @@ public class FrmPrincipal extends JFrame {
         iniciarComponentes();
         frmBusqueda.actualizarDatos(servicioBusqueda);
         frmEstadisticas.actualizarDatos(listaPrincipal);
+        frmBusqueda.setAlEliminar(() -> ordenEliminada());
+    }
+
+    /** Refresca la tabla principal y las estadísticas después de eliminar una orden. */
+    private void ordenEliminada() {
+        modeloTabla.setDataVector(listaPrincipal.aFilasTabla(), COLUMNAS);
+        frmEstadisticas.actualizarDatos(listaPrincipal);
+        actualizarEtiqueta(null);
     }
 
     private void iniciarComponentes() {
@@ -191,6 +199,7 @@ public class FrmPrincipal extends JFrame {
     private void habilitarImportacion(boolean habilitar) {
         itemImportar.setEnabled(habilitar);
         itemAgregar.setEnabled(habilitar);
+        frmBusqueda.setEliminacionHabilitada(habilitar);
     }
 
     public static void main(String[] args) {

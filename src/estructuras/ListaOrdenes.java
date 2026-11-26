@@ -63,6 +63,40 @@ public class ListaOrdenes {
         otra.tamaño = 0;
     }
 
+    /**
+     * Elimina de la lista el nodo que guarda esa orden (la misma instancia).
+     * Casos: lista vacía, nodo en la cabeza, nodo en medio y nodo en la
+     * cola; en este último se actualiza también el puntero a la cola.
+     * Devuelve true si la encontró y la quitó.
+     */
+    public boolean eliminar(OrdenTrabajo orden) {
+        if (cabeza == null || orden == null) {
+            return false;
+        }
+        if (cabeza.getDato() == orden) {           // está en la cabeza
+            cabeza = cabeza.getSiguiente();
+            if (cabeza == null) {
+                cola = null;
+            }
+            tamaño--;
+            return true;
+        }
+        NodoOrden anterior = cabeza;               // busca el nodo previo
+        while (anterior.getSiguiente() != null && anterior.getSiguiente().getDato() != orden) {
+            anterior = anterior.getSiguiente();
+        }
+        if (anterior.getSiguiente() == null) {
+            return false;                          // no está en la lista
+        }
+        NodoOrden eliminado = anterior.getSiguiente();
+        anterior.setSiguiente(eliminado.getSiguiente());
+        if (eliminado == cola) {
+            cola = anterior;
+        }
+        tamaño--;
+        return true;
+    }
+
     /** Devuelve una lista nueva con los mismos datos (nodos nuevos). */
     public ListaOrdenes copiar() {
         ListaOrdenes copia = new ListaOrdenes();

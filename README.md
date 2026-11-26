@@ -24,13 +24,14 @@ Restricciones de la consigna: no se usa base de datos y no se usan colecciones d
 | RF-05 Buscar por fecha de ingreso | Búsqueda secuencial en `ListaOrdenes` |
 | RF-06 Buscar por mecánico | `ArbolIndice` por mecánico; si no hay coincidencia exacta, búsqueda secuencial por parte del nombre |
 | RF-07 Filtros (taller, tipo, servicio, estado, rango de fechas) | `FiltroBusqueda` + `ServicioFiltro`, con todos los criterios en un solo recorrido |
-| RF-08/09/10 Estadísticas A, B y C | `ServicioEstadistica` acumula cantidades e importes en una `ListaResumen` |
+| RF-08/09/10 Estadísticas A, B y C | `ServicioEstadistica`: vista en lista con subtotales (`ListaResumen`) o tabla cruzada (`MatrizEstadistica`, casilla "Ver como tabla cruzada") |
 | Servicios más solicitados | `ServicioEstadistica.rankingServicios` (ordenamiento por inserción, de mayor a menor) |
 | RN-04 Costo no negativo, datos obligatorios, fechas válidas | Validaciones de `LectorCSV`: la línea inválida se omite y se informa su número |
 | RN-05 Estadística después de los filtros | `FrmEstadisticas` filtra primero y calcula después |
 | RN-06 Importe de órdenes finalizadas | Resumen al pie de `FrmEstadisticas` |
 | Volver a la consulta anterior | `PilaHistorialFiltros` (botón "Consulta anterior") |
 | Ordenar resultados | `ListaOrdenes.ordenarPorInsercion`, por fecha, costo, estado o código |
+| Eliminar una orden (por ejemplo, una importada por error) | Botón "Eliminar orden seleccionada" en Búsquedas: `ServicioBusqueda.eliminarOrden` la quita de la lista, del AVL y de los dos ABB |
 
 ## Estructura del código
 
@@ -40,7 +41,7 @@ src/
 ├── modelo/       OrdenTrabajo, FiltroBusqueda, ConsultaBusqueda, ResumenEstadistico, Campo
 ├── estructuras/  NodoOrden, ListaOrdenes, ColaImportacion, PilaHistorialFiltros,
 │                 NodoArbol, ArbolOrdenCodigo (AVL), NodoIndice, ArbolIndice (ABB),
-│                 NodoResumen, ListaResumen
+│                 NodoResumen, ListaResumen, MatrizEstadistica
 ├── servicios/    LectorCSV, ResultadoCarga, ServicioBusqueda, ServicioFiltro, ServicioEstadistica
 ├── util/         ValidadorFecha
 └── vistas/       FrmPrincipal, FrmBusqueda, FrmEstadisticas, PnlFiltros
@@ -50,17 +51,18 @@ src/
 
 | Unidad | Tema | Dónde se aplica |
 |---|---|---|
-| 1 | Arreglos unidimensionales (inserción, copia, recorrido) | `LectorCSV.dividirLinea`, `ListaResumen.grupos`, filas de las tablas |
-| 1 | Arreglos bidimensionales | `ListaOrdenes.aFilasTabla` y las tablas de estadísticas (`Object[][]`) |
-| 2 | TAD y lista enlazada simple: inserción, recorrido, búsqueda, ordenamiento | `ListaOrdenes`, `ListaResumen` |
+| 1 | Arreglos unidimensionales: inserción ordenada con desplazamiento, búsqueda, copia, recorrido | `MatrizEstadistica` (etiquetas de filas y columnas), `LectorCSV.dividirLinea`, `ListaResumen.grupos` |
+| 1 | Arreglos paralelos y bidimensionales (recorrido por filas y por columnas, totales) | `MatrizEstadistica`: `etiquetasFila`/`etiquetasColumna` + `cantidades[][]` e `importes[][]` |
+| 2 | TAD y lista enlazada simple: inserción, eliminación, recorrido, búsqueda, ordenamiento | `ListaOrdenes` (`eliminar` cubre cabeza, medio y cola), `ListaResumen` |
 | 3 | Cola dinámica (enqueue/dequeue) | `ColaImportacion` |
 | 3 | Pila dinámica (push/pop) | `PilaHistorialFiltros` |
-| 4 | ABB: inserción y búsqueda | `ArbolIndice` (placa y mecánico) |
-| 4 | AVL: inserción con rotaciones; recorrido inorden | `ArbolOrdenCodigo` |
+| 4 | ABB: inserción, búsqueda y eliminación (hoja, un hijo, dos hijos con sucesor inorden) | `ArbolIndice` (placa y mecánico) |
+| 4 | AVL: inserción con rotaciones, borrado con rebalanceo, recorrido inorden | `ArbolOrdenCodigo` |
 
 ## Decisiones respecto a la primera entrega
 
 - **Árbol AVL para el código, en lugar de un ABB simple.** El CSV viene ordenado por código (OT-00001, OT-00002, ...). Con claves ordenadas, un ABB simple degenera en una lista. El AVL mantiene la altura en O(log n): con 1 500 órdenes, la altura es 11.
 - **`ArbolPlaca` y `ArbolMecanico` comparten una sola clase, `ArbolIndice`**, porque solo cambia la clave. Se crean dos instancias.
 - **La "ListaResultado" es una `ListaOrdenes`.** Los resultados de búsquedas y filtros son listas nuevas, así que la lista principal nunca se modifica.
+- **Temas del sílabo que no se usan:** lista doble, lista circular, pila y cola con arreglo, cola con prioridad, matrices poco densas (triangular, tridiagonal, simétrica) y recorridos preorden y postorden. El caso no tiene una operación que los necesite de forma natural.
 - **Autenticación y exportación a CSV o PDF** no están incluidas: el documento las deja para avances posteriores y el caso no las pide.

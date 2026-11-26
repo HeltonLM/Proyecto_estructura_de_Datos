@@ -2,6 +2,7 @@ package servicios;
 
 import estructuras.ListaOrdenes;
 import estructuras.ListaResumen;
+import estructuras.MatrizEstadistica;
 import estructuras.NodoOrden;
 import modelo.Campo;
 import modelo.ResumenEstadistico;
@@ -9,7 +10,8 @@ import modelo.ResumenEstadistico;
 /**
  * Genera las estadísticas del caso (RF-08 a RF-10). Cada una recorre la
  * lista de órdenes (ya filtrada, RN-05) una sola vez y acumula cantidades
- * e importes en una ListaResumen.
+ * e importes en una ListaResumen (vista en lista con subtotales) o en una
+ * MatrizEstadistica (vista como tabla cruzada).
  */
 public final class ServicioEstadistica {
 
@@ -29,6 +31,21 @@ public final class ServicioEstadistica {
     /** C. Cantidad de servicios e importe total por mes de ingreso y tipo de vehículo. */
     public static ListaResumen estadisticaMesTipoVehiculo(ListaOrdenes lista) {
         return agrupar(lista, Campo.MES_INGRESO, Campo.TIPO_VEHICULO);
+    }
+
+    /** A como tabla cruzada: filas = talleres, columnas = servicios. */
+    public static MatrizEstadistica matrizTallerServicio(ListaOrdenes lista) {
+        return MatrizEstadistica.construir(lista, Campo.TALLER, Campo.SERVICIO);
+    }
+
+    /** B como tabla cruzada: filas = mecánicos, columnas = estados. */
+    public static MatrizEstadistica matrizMecanicoEstado(ListaOrdenes lista) {
+        return MatrizEstadistica.construir(lista, Campo.MECANICO, Campo.ESTADO);
+    }
+
+    /** C como tabla cruzada: filas = meses de ingreso, columnas = tipos de vehículo. */
+    public static MatrizEstadistica matrizMesTipoVehiculo(ListaOrdenes lista) {
+        return MatrizEstadistica.construir(lista, Campo.MES_INGRESO, Campo.TIPO_VEHICULO);
     }
 
     /** Servicios ordenados del más al menos solicitado. */
